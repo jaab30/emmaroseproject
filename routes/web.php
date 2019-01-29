@@ -11,6 +11,25 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', 'ViewController@home')->name('landing');
+Route::get('/search', 'ViewController@index')->name('search');
+Route::get('/searchItem', 'ViewController@indexItem')->name('item');
+Route::get('/users/landingUser', 'UserController@home')->name('landingUser');
+Route::get('/home', 'ViewController@index')->name('home');
+Route::get('/saveditems/items', 'SaveditemController@index')->name('saved');
+Route::get('/saveditems/wishlist', 'SaveditemController@wishList')->name('whislist');
+Route::delete('/saveditems/{id}', 'SaveditemController@destroy')->name('itemdestroy');
+// Route::post('/saveditems/items', 'SaveditemController@store')->name('saveditems');
+
+Route::resource('products','ViewController');
+Route::resource('users','UserController');
+Route::resource('saveditems','SaveditemController');
+
+Auth::routes();
+
+
+
