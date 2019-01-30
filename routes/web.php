@@ -28,6 +28,7 @@ Route::delete('/saveditems/{id}', 'SaveditemController@destroy')->name('itemdest
 Route::resource('products','ViewController');
 Route::resource('users','UserController');
 Route::resource('saveditems','SaveditemController');
+Route::resource('cart','CartController');
 
 Auth::routes();
 

@@ -18,7 +18,7 @@
 <p><strong>Description:</strong> {{ $products->description }}</p>
 <img src="{{ $products->picture }}">
 <p>Price: ${{$products->price}}</p>
-<form action="">
+<form action="{{ route('cart.edit', $products->id) }}" method="get">
   Quantity:
   <select name="quantity">
     <option value="1">1</option>
@@ -39,6 +39,7 @@
   <br>
   <input type="submit" value="Add to cart">
 </form>
+<!-- <a href="{{ route('cart.edit', $products->id) }}">Cart</a> -->
 <button>Review</button>
       <form action="{{ $data['id'] === 'null' ? route('login') : '/saveditems' }}" method="{{ $data['id'] === 'null' ? 'get' : 'post' }}">
       <input class="test" type="hidden" value="{{ $products->id }}" name="product_id">

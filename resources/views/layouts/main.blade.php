@@ -151,7 +151,7 @@
                                 </li>
                             @endguest
                             
-                            <li><a class="cart" href="#">Cart</a></li><br>
+                            <li><a class="cart" href="{{route('cart.index')}}">Shopping Cart</a><span class="cartCounter">{{Cart::count()}}</span></li><br>
                         </ul>
                     </div>
                 </div>
