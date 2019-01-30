@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Gloudemans\Shoppingcart\Facades\Cart;
 use Auth;
 
 use App\Saveditem as Saveditem;
@@ -106,9 +107,14 @@ class SaveditemController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Request $request, $id)
     {
-        //
+        $saveditem = Saveditem::find($id);
+
+        Cart::add($id, $saveditem->name, $request->quantity, $saveditem->price, ['size' => $request->size ]);
+
+        return back();
+        // return redirect()->back();
     }
 
     /**

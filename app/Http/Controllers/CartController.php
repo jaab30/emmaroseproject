@@ -6,8 +6,6 @@ use Illuminate\Http\Request;
 
 use App\Products;
 
-
-
 class CartController extends Controller
 {
 

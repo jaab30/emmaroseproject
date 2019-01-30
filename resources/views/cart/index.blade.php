@@ -45,7 +45,9 @@
 		   </tr>
 
    	</tbody>
+	   
 </table>
+<button>Checkout</button>
 
 
 @endsection
