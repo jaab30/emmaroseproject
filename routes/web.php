@@ -30,6 +30,9 @@ Route::resource('users','UserController');
 Route::resource('saveditems','SaveditemController');
 Route::resource('cart','CartController');
 
+Route::get('pay-with-paypal','CheckoutController@paywithPaypal')->name('payment.paypal');
+Route::get('payment-done','CheckoutController@paymentDone')->name('payment.done');
+
 Auth::routes();
 
 

@@ -41,14 +41,14 @@
 		   <td>
 		   Sub Total: ${{Cart::subtotal()}}<br>
 		   Tax: ${{Cart::tax()}}<br>
-		   Total: ${{Cart::total()}}
+		   Total: ${{Cart::total()}}</td>
 		   </tr>
 
    	</tbody>
 	   
 </table>
-<button>Checkout</button>
-
+<!-- <button>Checkout</button> -->
+<a href="{{ route('payment.paypal') }}">Pay with Paypal</a>
 
 @endsection
 
