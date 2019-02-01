@@ -20,6 +20,7 @@ class CreateProductsTable extends Migration
             $table->text('summary');
             $table->text('tags');
             $table->string('picture');
+            $table->string('picture2');
             $table->string('category');
             $table->string('genre');
             $table->string('color');

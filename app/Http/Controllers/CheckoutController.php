@@ -42,6 +42,7 @@ class CheckoutController extends Controller
 
         $response = $provider->doExpressCheckoutPayment($data, $token, $PayerID);
 
+        Cart::destroy();
         // return "Payment Completed..!";
         return view('cart.checkout', compact('confirm'));
     }

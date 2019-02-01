@@ -8,6 +8,7 @@
 <p>{{ $saveditems->name }}</p>
 <p><strong>Description:</strong> {{ $saveditems->description }}</p>
 <img src="{{ $saveditems->picture }}">
+<img src="{{ $saveditems->picture2 }}">
 <p>Price: ${{$saveditems->price}}</p>
 <form action="{{ route('saveditems.edit', $saveditems->id) }}" method="get">
   Quantity:

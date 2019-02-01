@@ -78,6 +78,7 @@ class SaveditemController extends Controller
         $saveditem->summary = $request->summary;
         $saveditem->tags = $request->tags;
         $saveditem->picture = $request->picture;
+        $saveditem->picture2 = $request->picture2;
         $saveditem->category = $request->category;
         $saveditem->genre = $request->genre;
         $saveditem->color = $request->color;

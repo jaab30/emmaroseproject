@@ -69,8 +69,8 @@ class CartController extends Controller
 
         Cart::add($id, $products->name, $request->quantity, $products->price, ['size' => $request->size ]);
 
-        return back();
-        // return redirect()->back();
+        // return back();
+        return redirect()->back();
     }
 
     /**

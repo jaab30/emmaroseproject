@@ -8,7 +8,6 @@
 
 @foreach($products as $product)
 <p>{{ $product->name }}</p>
-<p>{{ $product->summary }}</p>
 <img src="{{ $product->picture }}">
 <p>Price: ${{$product->price}}</p>
 <a href="/products/{{ $product->id }}">View</a>

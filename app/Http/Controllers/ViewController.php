@@ -41,7 +41,7 @@ class ViewController extends Controller
         // $products = Products::find();
 
         $keyword = $request->search;
-        $products = Products::where('name', 'like', "%{$keyword}%")
+        $products = Products::where('tags', 'like', "%{$keyword}%")
         ->orderBy('name', 'desc')
         ->get();
         // $id = Auth::id();

@@ -2,21 +2,13 @@
 
 @section("page-title", "new Page")
 
-@section('header')
-
-<h2>this is the header</h2>
-<div class="headerNavContainer">
-  <a class="account" href="#">Account</a>  
-  <a class="cart" href="#">Cart</a></li><br>
-  </div>
-
-@endsection
 
 @section('content')
 
 <p>{{ $products->name }}</p>
 <p><strong>Description:</strong> {{ $products->description }}</p>
 <img src="{{ $products->picture }}">
+<img src="{{ $products->picture2 }}">
 <p>Price: ${{$products->price}}</p>
 <form action="{{ route('cart.edit', $products->id) }}" method="get">
   Quantity:
@@ -48,6 +40,7 @@
       <input type="hidden" value="{{ $products->summary }}" name="summary">
       <input type="hidden" value="{{ $products->tags }}" name="tags">
       <input type="hidden" value="{{ $products->picture }}" name="picture">
+      <input type="hidden" value="{{ $products->picture2 }}" name="picture2">
       <input type="hidden" value="{{ $products->category }}" name="category">
       <input type="hidden" value="{{ $products->genre }}" name="genre">
       <input type="hidden" value="{{ $products->color }}" name="color">
