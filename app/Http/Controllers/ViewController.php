@@ -47,7 +47,7 @@ class ViewController extends Controller
         // $id = Auth::id();
 
         // dd($products);
-        return view('searchView', compact('products'));
+        return view('searchViewItem', compact('products'));
     }
 
 

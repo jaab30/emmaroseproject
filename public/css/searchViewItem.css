@@ -1,0 +1,24 @@
+
+.searchViewItemContainer {
+    display: grid;
+    grid-template-columns: 5% 20% 70% 5%;
+}
+.searchViewItemContainer h1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.sideViewItemContainer {
+    grid-column-start: 2;
+}
+
+.searchResult {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+/* .searchItems {
+    float: left;
+
+} */
