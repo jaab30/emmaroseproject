@@ -114,6 +114,7 @@
 
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/searchViewItem.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/showItem.css') }}" rel="stylesheet">
 
     </head>
     <body>
@@ -169,24 +170,26 @@
             <img class="logoImg" alt="main log pic" src="{{ asset('images/logoMainfinal2A.png') }}">
         </div>
         <div class="menuContainer">
-            <form  class="skirtLink" action="{{route ('item')}}" method="get">
-                <button class="btnMenu" value="Skirt" name="search" type="submit">Skirts</button>
-            </form>
-            <form class="suspenderSkirtLink" action="{{route ('item')}}" method="get">
-                <button class="btnMenu" value="Suspender Skirt" name="search" type="submit">Suspender Skirts</button>
-            </form>
-            <form class="outfitLink" action="{{route ('item')}}" method="get">
-                <button class="btnMenu" value="outfit" name="search" type="submit">Outfits</button>
-            </form>
-            <form class="bloomerLink" action="{{route ('item')}}" method="get">
-                <button class="btnMenu" value="bloomer" name="search" type="submit">Bloomers</button>
-            </form>
-            <form class="girlShirtLink" action="{{route ('item')}}" method="get">
-                <button class="btnMenu" value="girl_shirt" name="search" type="submit">Girl Shirts</button>
-            </form>
-            <form class="boyShirtLink" action="{{route ('item')}}" method="get">
-                <button class="btnMenu" value="boy_shirt" name="search" type="submit">Boy Shirts - Onesies</button>
-            </form>
+            <div class="mainLinks">
+                <form  class="skirtLink" action="{{route ('item')}}" method="get">
+                    <button class="btnMenu" value="Skirt" name="search" type="submit">Skirts</button>
+                </form>
+                <form class="suspenderSkirtLink" action="{{route ('item')}}" method="get">
+                    <button class="btnMenu" value="Suspender Skirt" name="search" type="submit">Suspender Skirts</button>
+                </form>
+                <form class="outfitLink" action="{{route ('item')}}" method="get">
+                    <button class="btnMenu" value="outfit" name="search" type="submit">Outfits</button>
+                </form>
+                <form class="bloomerLink" action="{{route ('item')}}" method="get">
+                    <button class="btnMenu" value="bloomer" name="search" type="submit">Bloomers</button>
+                </form>
+                <form class="girlShirtLink" action="{{route ('item')}}" method="get">
+                    <button class="btnMenu" value="girl_shirt" name="search" type="submit">Girl Shirts</button>
+                </form>
+                <form class="boyShirtLink" action="{{route ('item')}}" method="get">
+                    <button class="btnMenu" value="boy_shirt" name="search" type="submit">Boy Shirts - Onesies</button>
+                </form>
+            </div>
     <!-- <form action="/search" method="get">
         <input type="text" placeholder="Search" name="search">
         <button class="searchBtn" type="submit">Search</button>
@@ -219,6 +222,22 @@
             function goBack() {
             window.history.back();
             }
+            // $(".btnMenu").click(function(){
+            //     let title = $(".btnMenu").val();
+            //     let titleDiv = $("<h2>"+title+"</h2>");
+            //     $(".searchItemTitle").append(title)
+            //     console.log(title)
+
+            // })
+            
+
+
+
+
+
+
+
+
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

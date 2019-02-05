@@ -174,36 +174,52 @@ header {
 
 .menuContainer {
     display:grid;
-    grid-template-columns: 10% 5% 10% 5% 6% 6% 10% 20% 20% 8%;
+    grid-template-columns: 5% 60% 30% 5%;
     /* padding: 2px 0 2px 0; */
 }
-
-.skirtLink {
+.mainLinks {
     grid-column-start: 2;
+
+}
+.skirtLink {
+    /* grid-column-start: 2;
+    grid-row-start: 1; */
+    float:left; 
     text-align:center;
 }
 .suspenderSkirtLink {
-    grid-column-start: 3;
+    /* grid-column-start: 2;
+    grid-row-start: 1; */
+    float:left; 
     text-align:center;
 }
 .outfitLink {
-    grid-column-start: 4;
+    /* grid-column-start: 2;
+    grid-row-start: 1; */
+    float:left; 
     text-align:center;
 }
 .bloomerLink {
-    grid-column-start: 5;
+    /* grid-column-start: 2;
+    grid-row-start: 1; */
+    float:left; 
     text-align:center;
 }
 .girlShirtLink {
-    grid-column-start: 6;
+    /* grid-column-start: 2;
+    grid-row-start: 1; */
+    float:left; 
     text-align:center;
 }
 .boyShirtLink {
-    grid-column-start: 7;
+    /* grid-column-start: 2;
+    grid-row-start: 2; */
+    float:left; 
     text-align:center;
 }
 .searchLink {
-    grid-column-start: 9;
+    /* grid-column-start: 3; */
+    float:left; 
     text-align:center;
 }
 
@@ -213,7 +229,7 @@ header {
     font-size: 1em;
     border: none;
     color: #ff8cb0;
-    padding-top: 10px;
+    padding: 10px 10px 0;
 
 }
 .btnMenu:hover{
@@ -221,15 +237,10 @@ header {
     color: rgb(255, 140, 176, .7);
 
 }
-
-
-
-.imgSearchView {
-
-    width: 300px;
-
-
+.btnMenu:focus{
+    outline:none;
 }
+
 
 .searchBtn {
     /* width: 60px;
@@ -248,7 +259,6 @@ header {
 }
 
 .searchBtn:focus{
-    cursor: pointer;
     outline:none;
 }
 
@@ -260,6 +270,9 @@ header {
     padding: 3px 10px;
     margin: 6px 0;
 
+}
+.searchText:focus{
+    outline:none;
 }
 
 /* //cards main page */
@@ -321,16 +334,17 @@ header {
 
 .footerContainer {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-column-gap: 20px;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    /* grid-column-gap: 10px; */
     margin-top: 50px;
     padding: 20px;
     background: lightgray;
+    text-align: justify;
 }
 
 .footerContainer h1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
     text-align: center;
     font-family: 'SmoothieShoppe';
     font-size: 2em;
@@ -340,8 +354,8 @@ header {
     
 }
 .footerContainer h3 {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
     text-align: center;
     font-family: 'Acme', sans-serif;
     font-size: 1em;
@@ -359,15 +373,15 @@ header {
 }
 
 .footerText1 {
-    grid-column-start: 1;
-
-}
-.footerText2 {
     grid-column-start: 2;
 
 }
-.footerText3 {
+.footerText2 {
     grid-column-start: 3;
+
+}
+.footerText3 {
+    grid-column-start: 4;
 
 }
 

@@ -45,9 +45,10 @@ class ViewController extends Controller
         ->orderBy('name', 'desc')
         ->get();
         // $id = Auth::id();
+        $data = $keyword;
 
         // dd($products);
-        return view('searchViewItem', compact('products'));
+        return view('searchViewItem', compact('products','data'));
     }
 
 
@@ -59,9 +60,10 @@ class ViewController extends Controller
         $products = Products::where('category', $request->search)
         ->orderBy('name', 'desc')
         ->get();
+        $data = $request->search;
 
         // dd($products);
-        return view('searchViewItem', compact('products'));
+        return view('searchViewItem', compact('products','data'));
     }
     /**
      * Show the form for creating a new resource.
@@ -99,7 +101,7 @@ class ViewController extends Controller
 
         if ($iditem === null){
             $data['status'] = '';
-            $data['title'] = 'Wish';
+            $data['title'] = "/images/fav_empty_75.png";
             $data['id'] = 'null';
 
             $products = Products::find($id);
@@ -112,7 +114,7 @@ class ViewController extends Controller
             if( sizeof($saveditems) == 0 ) 
             {
                 $data['status'] = '';
-                $data['title'] = 'Wish';
+                $data['title'] = "/images/fav_empty_75.png";
                 $products = Products::find($id);
                 $data['id'] = $iditem;
                 return view('products.show', compact('products','data'));
@@ -129,12 +131,12 @@ class ViewController extends Controller
                     if ( $saveditem->product_id === $products->id )
                     {
                         $data['status'] = 'disabled';
-                        $data['title'] = 'On My List';
+                        $data['title'] ="/images/fav_filled_75.png";
                         break;
                     } else 
                     {
                         $data['status'] = '';
-                        $data['title'] = 'Wish';
+                        $data['title'] = "/images/fav_empty_75.png";
                     }
                 }
         
