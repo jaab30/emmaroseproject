@@ -1,8 +1,5 @@
 @extends('layouts.main')
 
-@section("page-title", "new Page")
-
-
 @section('content')
 <div class="showItemContainer">
 
@@ -14,7 +11,8 @@
       </div>
   </div>
   <div class="showItemDescription">
-    <p> {{ $products->description }}</p>
+    <p class="showItemDescriptionTitle">{{ $products->name }} </p>
+    <p class="showItemDescriptionText"> {{ $products->description }}</p>
     
     <p class="showItemPrice"><strong>Price: </strong>${{$products->price}}</p>
     <form class="showItemForm" action="{{ route('cart.edit', $products->id) }}" method="get">
@@ -64,9 +62,4 @@
 
 @endsection
 
-@section('footer')
-
-<h3>this is the footer</h3>
-
-@endsection
 

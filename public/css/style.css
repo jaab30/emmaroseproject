@@ -113,6 +113,11 @@ header {
   .dropdownEmma:hover .dropdownEmma-content {
     display: block;
   }
+
+  .dropbtnEmma:focus {
+      outline:none;
+  }
+
   
   /* .dropdown:hover .dropbtn {
     background-color: #3e8e41;
@@ -386,6 +391,45 @@ header {
 }
 
 
+/* login page */
+
+.loginCard {
+    margin-top: 30px;
+}
+.loginCardTitle {
+    background: rgb(255, 140, 176, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    color:white;
+}
+
+.loginBtn {
+    background: rgb(255, 140, 176, 0.5);
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.loginBtn:hover {
+    background: rgb(255, 140, 176, 0.9);
+    border:none;
+
+}
+
+.loginBtnLink {
+    color: black;
+}
+
+.loginBtnLink:hover {
+    color: black;
+}
+
+/* .test:focus {
+    outline: none !important;
+  }  */
+  .form-control:focus {
+    border-color: rgb(255, 140, 176, 0.5);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5);
+  }
 
 
 /* logout page form */

@@ -115,6 +115,7 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/searchViewItem.css') }}" rel="stylesheet">
     <link href="{{ asset('css/showItem.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/wishList.css') }}" rel="stylesheet">
 
     </head>
     <body>

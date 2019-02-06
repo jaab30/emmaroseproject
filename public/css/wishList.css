@@ -1,0 +1,89 @@
+
+.wishListContainer {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}
+.wishListContainer h1{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    text-align: center;
+    font-family: 'SmoothieShoppe';
+    padding: 15px 0 10px 10px;
+    margin: 10px 0;
+    color: gray;
+}
+.wishListResult {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 20px;
+}
+ .wishListItems {
+     text-align: center;
+     background: rgb(255, 255, 255, .6);
+     border: rgb(255, 140, 176, .7) 1.5px solid;
+     border-radius: 10px;
+     box-shadow: 3px 3px 12px rgb(0, 0, 0, .3);
+
+}
+ .wishListItems p {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 1.3em;
+    padding: 5px 0;
+    margin: 0;
+    color: rgb(0, 0, 0, .6);
+    font-weight: 700;
+}
+.wishListImg {
+    width: 200px; 
+    border: rgb(255, 140, 176, .7) 1.5px solid;
+    border-radius: 20px 0;
+}
+.itemWishPrice {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 10px;
+}
+.itemWishPrice p {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: rgb(0, 0, 0, .5);
+    padding: 5px;
+}
+.wishInfo {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    border: none;
+    background: rgb(255, 140, 176, 0.8);
+    color: white;
+    text-decoration: none;
+}
+.wishInfo a {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+}
+.wishInfo:hover {
+    cursor: pointer;
+    background: rgb(255, 140, 176);
+ } 
+
+ .deleteBtn img {
+    width:30px;
+}
+.deleteBtn {
+    background: none;
+    border: none;
+    padding-bottom: 5px;
+}
+.deleteBtn:hover {
+    cursor: pointer;
+}
+.deleteBtn:focus {
+    outline:none;
+ }

@@ -45,7 +45,18 @@ class ViewController extends Controller
         ->orderBy('name', 'desc')
         ->get();
         // $id = Auth::id();
+
+        // dd($products);
+        
         $data = $keyword;
+        // if (!$products) {
+        //     dd('yes');
+        //     $data = "No Results found for " . $request->search;
+
+        // } else {
+        //     dd('no');
+        //     $data = $keyword;
+        // }
 
         // dd($products);
         return view('searchViewItem', compact('products','data'));
@@ -60,7 +71,21 @@ class ViewController extends Controller
         $products = Products::where('category', $request->search)
         ->orderBy('name', 'desc')
         ->get();
-        $data = $request->search;
+
+        if ( $request->search === "Skirt" ){
+            $data = "Skirts";
+        } else if ($request->search === "Suspender Skirt"){
+            $data = "Suspended Skirts";
+        } else if ($request->search === "outfit"){
+            $data = "Outfits";
+        } else if ($request->search === "bloomer"){
+            $data = "Bloomers";
+        } else if ($request->search === "girl_shirt"){
+            $data = "Girl Shirts";
+        } else if ($request->search === "boy_shirt"){
+            $data = "Boy Shirts";
+        }
+
 
         // dd($products);
         return view('searchViewItem', compact('products','data'));
