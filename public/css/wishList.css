@@ -11,7 +11,7 @@
     font-family: 'SmoothieShoppe';
     padding: 15px 0 10px 10px;
     margin: 10px 0;
-    color: gray;
+    color: rgb(255, 140, 176);
 }
 .wishListResult {
     grid-column-start: 2;
@@ -57,15 +57,14 @@
 .wishInfo {
     grid-column-start: 1;
     grid-row-start: 1;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 1.4em;
     border: none;
     background: rgb(255, 140, 176, 0.8);
     color: white;
-    text-decoration: none;
+    width: 100%;
 }
 .wishInfo a {
-    font-family: 'Homenaje', sans-serif;
-    font-size: 1.4em;
-    color: white;
     text-decoration: none;
 }
 .wishInfo:hover {

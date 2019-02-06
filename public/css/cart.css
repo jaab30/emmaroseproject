@@ -1,0 +1,192 @@
+
+.cartMain {
+    min-height: 60vh;
+
+
+}
+
+
+.cartContainer {
+    
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+}
+
+h1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    text-align: center;
+    margin: 30px 0 40px;
+}
+
+.cartMainTable {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: center; */
+    /* border: black 1px solid; */
+}
+.cartMainTable thead tr{
+    margin: 30px;
+
+}
+.cartMainTable thead th:nth-child(2){
+    text-align: center;
+    /* text-align: left; */
+    /* background:blue; */
+
+}
+.cartMainTable thead th:nth-child(3){
+    text-align: center;
+    /* text-align: left; */
+    /* background:blue; */
+
+}
+.cartMainTable thead th:nth-child(4){
+    text-align: center;
+    /* text-align: left; */
+    /* background:blue; */
+
+}
+.cartMainTable td:nth-child(2){
+    text-align: center;
+    /* background:red; */
+
+}
+.cartMainTable td:nth-child(3){
+    text-align: center;
+    /* background:red; */
+
+}
+.cartMainTable td:nth-child(4){
+    text-align: center;
+    /* background:red; */
+
+}
+
+.cartDelete {
+    text-align: left;
+
+}
+
+.delBtn {
+    background: white;
+    border: none;
+    font-size: 0.9em;
+    padding: 1px 3px;
+    margin-bottom: 5px;
+    color: rgb(255, 140, 176);
+    border: rgb(255, 140, 176) 2px solid;
+}
+.delBtn:hover {
+    cursor: pointer;
+    color: gray;
+
+}
+.delBtn:focus {
+    outline:none;
+}
+
+
+.continueShoppingDiv {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    text-align: right;
+    margin: 20px 10px 0 0;
+
+
+}
+.paymentPaypalDiv {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    text-align: left;
+    margin: 20px 0 0 10px;
+
+
+}
+
+.continueShoppingBtn, .paymentPaypalDivBtn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    font-weight: 700;
+    background:rgb(255, 140, 176);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.continueShoppingBtn:hover, .paymentPaypalDivBtn:hover {
+    cursor: pointer;
+    background: rgba(255, 95, 145, 0.8);
+
+}
+.continueShoppingBtn:focus, .paymentPaypalDivBtn:focus {
+    outline:none;
+}
+
+/* checkout */
+
+h3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.confirmationMainTable {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: center; */
+    /* border: black 1px solid; */
+}
+.confirmationClientInfo {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    margin: 0 0 10px 0;
+}
+
+.confirmationClientInfo p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin:0;
+}
+ .printBtn {
+    grid-column-start: 3;
+    grid-row-start: 5;
+    text-align: right;
+    margin-top: 20px;
+
+
+ }
+
+ .printBtnForm {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    font-weight: 700;
+    background:rgb(255, 140, 176);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.printBtnForm:hover{
+    cursor: pointer;
+    background: rgba(255, 95, 145, 0.8);
+
+}
+.printBtnForm:focus{
+    outline: none;
+
+}
+

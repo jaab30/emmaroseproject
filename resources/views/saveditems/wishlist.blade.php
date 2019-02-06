@@ -12,7 +12,7 @@
                     <img class="wishListImg"src="{{ $saveditem->picture }}">
                     <div class="itemWishPrice">
                         <p>Price: ${{$saveditem->price}}</p>
-                        <button class="wishInfo"><a class="wishInfo" href="/saveditems/{{ $saveditem->id }}">Details</a></button>
+                        <a href="/saveditems/{{ $saveditem->id }}"><button class="wishInfo">Details</button></a>
                     </div>
                     <form method="POST" action="{{ route('itemdestroy', [$saveditem->id]) }}">
                         {{ csrf_field() }}

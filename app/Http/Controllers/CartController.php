@@ -95,7 +95,8 @@ class CartController extends Controller
     {
         Cart::remove($id);
 
-        return back();
+        // return back();
+        return redirect()->back();
 
     }
 }

@@ -116,12 +116,14 @@
     <link href="{{ asset('css/searchViewItem.css') }}" rel="stylesheet">
     <link href="{{ asset('css/showItem.css') }}" rel="stylesheet">
     <link href="{{ asset('css/wishList.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/cart.css') }}" rel="stylesheet">
 
     </head>
-    <body>
+<body>
     <header>
         <div id="app" class="headerContainer">
             <nav class="navbarEmma">
+            <div class="horizontal_dotted_line"></div>
                 <h2><a href="/">Emma Rose Baby Boutique</a></h2>
                 <div class="navContainerEmma">
                     <div class="dropdownEmma">
@@ -165,11 +167,11 @@
                     <a class="cart" href="{{route('cart.index')}}"><img alt="shopping cart" src="{{ asset('images/cart2A.png') }}" width="30px" height="30px">
                     </a><span class="cartCounter">{{Cart::count()}}</span>
                 </div>
+                <div class="horizontal_dotted_line2"></div>
             </nav>
+            
         </div>
-        <div class="mainLogo">
-            <img class="logoImg" alt="main log pic" src="{{ asset('images/logoMainfinal2A.png') }}">
-        </div>
+      
         <div class="menuContainer">
             <div class="mainLinks">
                 <form  class="skirtLink" action="{{route ('item')}}" method="get">
@@ -191,15 +193,16 @@
                     <button class="btnMenu" value="boy_shirt" name="search" type="submit">Boy Shirts - Onesies</button>
                 </form>
             </div>
-    <!-- <form action="/search" method="get">
-        <input type="text" placeholder="Search" name="search">
-        <button class="searchBtn" type="submit">Search</button>
-    </form> -->
+            <!-- <form action="/search" method="get">
+                <input type="text" placeholder="Search" name="search">
+                <button class="searchBtn" type="submit">Search</button>
+            </form> -->
             <form class="searchLink" action="{{route ('search')}}" method="get">
                 <input class="searchText" type="text" placeholder="ex. skirts" name="search">
                 <button class="searchBtn" type="submit">Search</button>
             </form>
         </div>
+       
     </header>
 
     <main class="mainContainer">
@@ -214,11 +217,10 @@
             <p class="footerText2 footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet recusandae eveniet atque molestias, minima sequi praesentium fuga corrupti provident eum repudiandae tempore in asperiores nihil fugit explicabo tenetur, deleniti dolorum.</p>
             <p class="footerText3 footerItem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae distinctio cupiditate nemo consequatur nostrum facilis odio facere perferendis, ut temporibus consequuntur perspiciatis dolorum placeat corporis aliquam, unde at tempora assumenda.</p>
         </div>
-     </footer>   
-
+    </footer>
      
-         
-    
+
+
      <script>
             function goBack() {
             window.history.back();
@@ -230,20 +232,13 @@
             //     console.log(title)
 
             // })
-            
-
-
-
-
-
-
-
-
     </script>
+
+         
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
-     </body>
+</body>
    
 </html>

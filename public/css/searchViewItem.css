@@ -4,13 +4,13 @@
     grid-template-columns: 2% 23% 73% 2%;
 }
 .searchViewItemContainer h1{
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 5;
     text-align: center;
     font-family: 'SmoothieShoppe';
-    padding: 15px 0 10px 10px;
+    padding: 20px 0 25px 10px;
     margin: 0;
-    color: gray;
+    color: #ff8cb0;
 }
 
 .sideViewItemContainer {
@@ -125,6 +125,9 @@
     position: absolute;
     left:50px;
     top: 0; */
+    font-family: 'Homenaje', sans-serif;
+    font-size: 1.3em;
+    width: 100%;
     border: none;
     background: rgb(255, 140, 176, 0.8);
     color: white;
@@ -137,8 +140,6 @@
 }
 .itemInfo a {
     /* display: none; */
-    font-family: 'Homenaje', sans-serif;
-    font-size: 1.4em;
     /* font-weight: 700; */
     color: white;
     text-decoration: none;
@@ -148,8 +149,8 @@
     /* display: block; */
     cursor: pointer;
     background: rgb(255, 140, 176);
-    
-    /* top: 230px;
-    opacity:1; */
+ } 
+.itemInfo:focus {
+   outline: none;
 
  } 

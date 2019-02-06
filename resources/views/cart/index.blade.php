@@ -5,50 +5,71 @@
 
 @section('content')
 
-<table>
-   	<thead>
-       	<tr>
-           	<th>Name</th>
-           	<th>Size</th>
-            <th>Qty</th>
-            <th>Price</th>
-       	</tr>
-   	</thead>
+<div class="cartMain">
 
-   	<tbody>
+	<div class="cartContainer">
 
-   		@foreach($cartItems as $cartItem)
+		<h1> Shopping Cart </h1>
 
-       		<tr>
-           		<td>{{ $cartItem->name}}</td>
-           		<td>{{ $cartItem->options->has('size') ? $cartItem->options->size : ''}}</td>
-           		<td>{{ $cartItem->qty}}</td>
-           		<td>{{ $cartItem->price}}</td>
-				<td><form action="{{ route('cart.destroy', $cartItem->rowId) }}" method="post">
-				{{ csrf_field() }}
-				{{ method_field('delete') }}
-					<button class="searchBtn" type="submit">X</button>
-					</form>
-				</td>
-       		</tr>
+		<table class="cartMainTable">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Size</th>
+					<th>Qty</th>
+					<th>Unit Price</th>
+					<th>Price</th>
+				</tr>
+			</thead>
 
-	   	@endforeach;
+			<tbody>
 
-		   <tr>
-		   <td></td>
-		   <td></td>
-		   <td>Qty: {{Cart::count()}}</td>
-		   <td>
-		   Sub Total: ${{Cart::subtotal()}}<br>
-		   Tax: ${{Cart::tax()}}<br>
-		   Total: ${{Cart::total()}}</td>
-		   </tr>
+				@foreach($cartItems as $cartItem)
 
-   	</tbody>
-	   
-</table>
-<!-- <button>Checkout</button> -->
-<a href="{{ route('payment.paypal') }}">Pay with Paypal</a>
+					<tr>
+						<td>{{ $cartItem->name}}</td>
+						<td>{{ $cartItem->options->has('size') ? $cartItem->options->size : ''}}</td>
+						<td>{{ $cartItem->qty}}</td>
+						<td>$ {{ $cartItem->price}}</td>
+						<td>$ {{ number_format($cartItem->price * $cartItem->qty, 2)}}</td>
+						<td><form class="cartDelete" action="{{ route('cart.destroy', $cartItem->rowId) }}" method="post">
+						{{ csrf_field() }}
+						{{ method_field('delete') }}
+							<button class="delBtn" type="submit">remove</button>
+							</form>
+						</td>
+					</tr>
+
+				@endforeach;
+				<tr><td>.</td></tr>
+				<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<!-- <td>Qty: {{Cart::count()}}</td> -->
+				<td><strong>Total:</strong></td>
+				<td><strong>$ {{Cart::subtotal()}}</strong></td>
+				</tr>
+				<!-- Tax: ${{Cart::tax()}}<br>
+				Total: ${{Cart::total()}}</td> -->
+				
+
+			</tbody>
+			
+		</table>
+		<!-- <button>Checkout</button> -->
+		<div class="continueShoppingDiv">
+			<a href="{{ route('landing') }}"><button class="continueShoppingBtn">Continue Shopping</button></a>
+		
+		</div>
+		<div class="paymentPaypalDiv">
+			<a href="{{ route('payment.paypal') }}"><button class="paymentPaypalDivBtn">Checkout</button></a>
+			<!-- <a href="{{ route('payment.paypal') }}"><button class="paymentPaypalDivBtn">Pay with Paypal</button></a> -->
+
+		</div>
+
+	</div>
+</div>
 
 @endsection
 

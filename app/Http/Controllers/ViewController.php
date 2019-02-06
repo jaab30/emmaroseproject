@@ -46,17 +46,17 @@ class ViewController extends Controller
         ->get();
         // $id = Auth::id();
 
-        // dd($products);
+        // dd( sizeof($products));
         
         $data = $keyword;
-        // if (!$products) {
-        //     dd('yes');
-        //     $data = "No Results found for " . $request->search;
+        if ( sizeof($products) == 0 ) {
+            // dd('yes');
+            $data = "No Results found for " . $request->search;
 
-        // } else {
-        //     dd('no');
-        //     $data = $keyword;
-        // }
+        } else {
+            // dd('no');
+            $data = $keyword;
+        }
 
         // dd($products);
         return view('searchViewItem', compact('products','data'));
