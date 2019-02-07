@@ -15,13 +15,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="{{ asset('images/testcarousel2D.png') }}" alt="suspender skirts">
+      <img class="d-block w-100" src="{{ asset('images/testcarousel2G.png') }}" alt="suspender skirts">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{ asset('images/testcarousel2B.png') }}" alt="Second slide">
+      <img class="d-block w-100" src="{{ asset('images/testcarousel2H.png') }}" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{ asset('images/testcarousel2.png') }}" alt="Third slide">
+      <img class="d-block w-100" src="{{ asset('images/testcarousel2B.png') }}" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -37,7 +37,7 @@
 
   <div class="cardItem card1">
       <form  class="skirtCard" action="{{route ('item')}}" method="get">
-          <button class="btnCard" value="skirt" name="search" type="submit"><img class="imgCard" src="{{ asset('images/card1.png') }}" alt="skirts pic"></button>
+          <button class="btnCard" value="Skirt" name="search" type="submit"><img class="imgCard" src="{{ asset('images/card1.png') }}" alt="skirts pic"></button>
       </form>
     
   </div>
@@ -48,7 +48,7 @@
   </div>
   <div class="cardItem card3">
       <form  class="skirtCard" action="{{route ('item')}}" method="get">
-          <button class="btnCard" value="suspender skirt" name="search" type="submit"><img class="imgCard" src="{{ asset('images/card3.png') }}" alt="skirts pic"></button>
+          <button class="btnCard" value="Suspender Skirt" name="search" type="submit"><img class="imgCard" src="{{ asset('images/card3.png') }}" alt="skirts pic"></button>
       </form>
   </div>
 </div>

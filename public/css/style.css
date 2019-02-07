@@ -341,9 +341,9 @@ header {
 
 }
 .imgCard:hover {
-    opacity:0.8 ;
-    transition: .3s ease;
-    transition-timing-function: ease-in-out;
+    opacity:.8 ;
+    /* transition: .3s ease; */
+    /* transition-timing-function: ease-in; */
     cursor: pointer;
 
 }
@@ -427,9 +427,12 @@ header {
 
 
 /* login page */
+.loginContainer {
+    min-height: 350px
+}
 
 .loginCard {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .loginCardTitle {
     background: rgb(255, 140, 176);
@@ -437,6 +440,7 @@ header {
     font-size: 1.3em;
     color:white;
 }
+
 
 .loginBtn {
     background: rgb(255, 140, 176);

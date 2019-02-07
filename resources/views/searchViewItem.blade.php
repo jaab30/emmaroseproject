@@ -1,13 +1,11 @@
 @extends('layouts.main')
 
-@section("page-title", "new Page")
-
 @section('content') 
 
 <div class="searchViewItemContainer">
     <h1 class="searchItemTitle">{{ $data }}</h1>
     <div class="sideViewItemContainer">
-        <div class="sideCard1 sideCardItem"><img src="https://via.placeholder.com/300x200"></div>
+        <div class="sideCard1 sideCardItem"><img src="https://via.placeholder.com/200x300"></div>
         <div class="sideCard2 sideCardItem"><img src="https://via.placeholder.com/300x100"></div>
         <div class="sideCard3 sideCardItem"><img src="https://via.placeholder.com/300x200"></div>
 

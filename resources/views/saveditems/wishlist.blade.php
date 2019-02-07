@@ -9,7 +9,7 @@
             @foreach($saveditems as $saveditem)
                 <div class="wishListItems">
                     <p>{{ $saveditem->name }}</p>
-                    <img class="wishListImg"src="{{ $saveditem->picture }}">
+                    <a href="/saveditems/{{ $saveditem->id }}"><img class="wishListImg"src="{{ $saveditem->picture }}"></a>
                     <div class="itemWishPrice">
                         <p>Price: ${{$saveditem->price}}</p>
                         <a href="/saveditems/{{ $saveditem->id }}"><button class="wishInfo">Details</button></a>
