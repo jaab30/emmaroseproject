@@ -87,37 +87,106 @@
     color: rgb(0, 0, 0, .6);
     /* color: rgb(255, 140, 176, .7); */
     font-weight: 700;
-   
-
- 
-
 }
 
 .imgSearchView {
     width: 200px; 
     border: rgb(255, 140, 176, .7) 1.5px solid;
     border-radius: 20px 0;
+    margin: 0 0 30px;
+
+    
 }
 
+.searchItemsDiv {
+    position: relative;
+    width: 100%;
+  }
+
+.searchItems {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.overlay{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+    border: #ff8cb0 2px solid;
+    transition: .5s ease;
+    z-index:1;
+
+}
+/* .overlay:hover {
+    opacity: .6;
+    cursor: pointer;
+
+} */
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    z-index:3;
+  }
+
+  .searchItemsDiv:hover .overlay {
+    opacity: .9;
+    cursor: pointer;
+  }
+  
+  .searchItemsDiv:hover .middle {
+    opacity: 1;
+    top: 50%;
+  }
+  
+  
 .itemInfoPrice {
     /* grid-column-start: 2; */
     display: grid;
     grid-template-columns: 100%;
     margin-top: 10px;
-
-
+    width: 200px;
 }
-.itemInfoPrice p {
+.itemInfoPrice p:nth-child(1) {
     grid-column-start: 1;
-    grid-row-start: 2;
+    grid-row-start: 1;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    color: rgb(0, 0, 0, .5);
+    font-size: 1.2em;
+    color: gray;
+    font-weight: 700;
+    margin:0;
     /* font-weight: 700; */
     padding: 5px;
 
+}
+.itemInfoPrice p:nth-child(2) {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;   
+    color: gray;
+    margin:0;
+    /* font-weight: 700; */
+    padding: 5px;
 
 }
+
 /* .itemInfoPrice a {
     grid-column-start: 1;
     grid-row-start: 1;
@@ -130,13 +199,16 @@
     position: absolute;
     left:50px;
     top: 0; */
-    font-family: 'Homenaje', sans-serif;
-    font-size: 1.3em;
-    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    width: 50%;
     border: none;
-    background: rgb(255, 140, 176, 0.8);
-    color: white;
+    background: rgb(255, 255, 255, .9);
+    color: #ff8cb0;
+    border: #ff8cb0 2px solid;
     text-decoration: none;
+    border-radius: 8px;
+    /* text-decoration: underline;  */
     /* border-radius: 5px; */
     /* opacity:0;
     transition: opacity 5s; */
@@ -153,7 +225,8 @@
 .itemInfo:hover {
     /* display: block; */
     cursor: pointer;
-    background: rgb(255, 140, 176);
+    background: #ff8cb0;
+    color: white;
  } 
 .itemInfo:focus {
    outline: none;

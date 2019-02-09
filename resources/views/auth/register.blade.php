@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.mainLogo')
 
 @section("page-title", "new Page")
 

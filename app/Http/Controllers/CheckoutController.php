@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 use Gloudemans\Shoppingcart\Facades\Cart;
 use Srmklive\PayPal\Services\ExpressCheckout;
-
+use App\User as User;
 use Illuminate\Http\Request;
+use Auth;
 
 class CheckoutController extends Controller
 {
@@ -18,12 +19,25 @@ class CheckoutController extends Controller
 
         $response = $provider->getExpressCheckoutDetails($token);
 
+        $id = Auth::id();
+        $userInfoArray = User::where('id', $id )
+        ->get();;
+        $userInfo = $userInfoArray[0];
+
+
         // dd($response);
         $confirm = [];
         $confirm['invoiceId'] = $response['INVNUM'];
-        $confirm['buyerEmail'] = $response['EMAIL'];
-        $confirm['buyerFirst'] = $response['FIRSTNAME'];
-        $confirm['buyerLast'] = $response['LASTNAME'];
+        $confirm['buyerEmail'] = $userInfo['email'];
+        $confirm['buyerFirst'] = $userInfo['name'];
+        $confirm['buyerLast'] = $userInfo['lastname'];
+        $confirm['buyerPhone'] = $userInfo['phone_number'];
+        $confirm['shipping_1'] = $userInfo['shipping_1'];
+        $confirm['shipping_2'] = $userInfo['shipping_2'];
+        $confirm['shipping_city'] = $userInfo['shipping_city'];
+        $confirm['shipping_state'] = $userInfo['shipping_state'];
+        $confirm['shipping_zip_code'] = $userInfo['shipping_zip_code'];
+
         $confirm['items'] = [];
         foreach(Cart::content() as $key=>$cart){
             $itemDetail=[
@@ -35,36 +49,42 @@ class CheckoutController extends Controller
             $confirm['items'][] = $itemDetail;
         }
 
-        $confirm['total'] = $response['AMT'];
+        $confirm['subTotal'] = $response['PAYMENTREQUEST_0_ITEMAMT'];
+        $confirm['shipping_amt'] = $response['PAYMENTREQUEST_0_SHIPPINGAMT'];
+        $confirm['total'] = $response['PAYMENTREQUEST_0_AMT'];
         // dd($confirm);
         $invoiceId=$response['INVNUM']??uniqid();
-        $data=$this->cartData($invoiceId);
+        $data=$this->cartData($invoiceId, $request);
 
         $response = $provider->doExpressCheckoutPayment($data, $token, $PayerID);
 
+
         Cart::destroy();
         // return "Payment Completed..!";
-        return view('cart.checkout', compact('confirm'));
+        return view('cart.confirm', compact('confirm'));
     }
 
 
 
-    public function paywithPaypal(){
-
+    public function paywithPaypal(Request $request){
+       
         $provider = new ExpressCheckout; 
         $invoiceId=uniqid();
-        $data=$this->cartData($invoiceId);
+        $data=$this->cartData($invoiceId, $request);
+        $options = [
+            'BRANDNAME' => 'Emma Rose Baby Boutique'  
 
-        // $data['total'] = Cart::total();
+        ];
+        
 
-        $response = $provider->setExpressCheckout($data);
+        $response = $provider->addOptions($options)->setExpressCheckout($data);
 
         // This will redirect user to PayPal
         return redirect($response['paypal_link']);
 
     }
 
-    protected function cartData($invoiceId){
+    protected function cartData($invoiceId, $request){
         
         $data = [];
         $data['items'] = [];
@@ -86,12 +106,15 @@ class CheckoutController extends Controller
         $data['cancel_url'] = url('/test');
 
         // $data['total'] = Cart::total();
-
+        
         $total = 0;
         foreach($data['items'] as $item) {
         $total += $item['price']*$item['qty'];
         }
-        $data['total'] = $total;
+        $data['subtotal'] = $total;
+        $data['shipping'] = $request->shippingInfo;
+        $data['total'] = $total + $data['shipping'];
+
         return $data;
 
     }

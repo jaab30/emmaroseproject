@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.mainLogo')
 
 @section('content')
 <div class="container loginContainer">

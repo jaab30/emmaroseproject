@@ -25,10 +25,17 @@ Route::get('/saveditems/wishlist', 'SaveditemController@wishList')->name('whisli
 Route::delete('/saveditems/{id}', 'SaveditemController@destroy')->name('itemdestroy');
 // Route::post('/saveditems/items', 'SaveditemController@store')->name('saveditems');
 
+Route::get('/users/account', 'AccountController@index')->name('accountInfo');
+Route::get('/users/updateAccount', 'AccountController@updateInfo')->name('accountForm');
+Route::get('/cart/checkout', 'AccountController@checkout')->name('checkout');
+Route::post('/users/account', 'AccountController@update')->name('accountUpdate');
+Route::post('/cart/checkoutFinal', 'AccountController@checkoutUpdate')->name('checkoutUpdate');
+
 Route::resource('products','ViewController');
 Route::resource('users','UserController');
 Route::resource('saveditems','SaveditemController');
 Route::resource('cart','CartController');
+Route::resource('account','AccountController');
 
 Route::get('pay-with-paypal','CheckoutController@paywithPaypal')->name('payment.paypal');
 Route::get('payment-done','CheckoutController@paymentDone')->name('payment.done');

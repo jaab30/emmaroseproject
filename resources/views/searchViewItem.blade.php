@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.mainLogo')
 
 @section('content') 
 
@@ -10,17 +10,32 @@
         <div class="sideCard3 sideCardItem"><img src="https://via.placeholder.com/300x200"></div>
 
     </div>
+
+    
     <div class="searchResult">
         <!-- <p></p> -->
         
             @foreach($products as $product)
-            <div class="searchItems">
-                <p>{{ $product->name }}</p>
-                <a href="/products/{{ $product->id }}"><img class="imgSearchView" src="{{ $product->picture }}"></a>
-                <div class="itemInfoPrice">
-                    <p>${{$product->price}}</p>
-                    <a href="/products/{{ $product->id }}"><button class="itemInfo">Details</button></a>
+            <div class="searchItemsDiv">
+                
+                <div class="searchItems">
+                    <p>{{ $product->name }}</p>
+                    <!-- <div class="itemInfoPrice">
+                        <p>${{$product->price}}</p>
+                        <a href="/products/{{ $product->id }}"><button class="itemInfo">Details</button></a>
+                    </div> -->
+                    <a href="/products/{{ $product->id }}"><img class="imgSearchView" src="{{ $product->picture }}"></a>
+                    
+                    
                 </div>
+                <div class="middle">
+                    <div class="itemInfoPrice">
+                    <p>{{ $product->name }}</p>
+                    <p>${{$product->price}}</p>
+                    <a href="/products/{{ $product->id }}"><button class="itemInfo">More Info</button></a>
+                </div>
+                </div>
+                <a href="/products/{{ $product->id }}"><div class="overlay"></div></a>
             </div>
             @endforeach
         

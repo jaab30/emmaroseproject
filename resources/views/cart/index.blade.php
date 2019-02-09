@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.mainLogo')
 
 @section("page-title", "new Page")
 
@@ -63,7 +63,7 @@
 		
 		</div>
 		<div class="paymentPaypalDiv">
-			<a href="{{ route('payment.paypal') }}"><button class="paymentPaypalDivBtn">Checkout</button></a>
+			<a href="{{ route('checkout') }}"><button class="paymentPaypalDivBtn">Checkout</button></a>
 			<!-- <a href="{{ route('payment.paypal') }}"><button class="paymentPaypalDivBtn">Pay with Paypal</button></a> -->
 
 		</div>

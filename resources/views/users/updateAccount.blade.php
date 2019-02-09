@@ -4,14 +4,12 @@
 @section('content')
 
 <div class="accountInfoContainer">
-    <h1> Checkout</h1>
+    <h1> Update Account Info </h1>
 
-        <div class="customerInfoContainerCheckout">
-            
-            <form class="updateFormCheckout" action="{{ route('checkoutUpdate') }}" method="post">
-                <div class="contactInfoCheckout">
-                <p class="shippingTextInst"><span class="circleNumber">1</span>Billing & Shipping Information</p>
-                    <div class="labelTop">
+        <div class="customerInfoContainer">
+            <form class="updateForm" action="{{ route('accountUpdate') }}" method="post">
+                <div class="contactInfo">
+                    <div>
                         <label><strong>Name: </strong></label>
                         <input value="{{ $userInfo->name }}" name="name" type="text">
                     </div>
@@ -28,7 +26,7 @@
                         <input value="{{ $userInfo->phone_number }}" name="phone_number" type="text">
                     </div>
                 </div>
-                <div class="mailingAddressContainerCheckout">
+                <div class="mailingAddressContainer">
                     <h2> Mailing Address </h2>
                     <div>
                         <label><strong>Address: </strong></label>
@@ -51,7 +49,7 @@
                         <input id="mailingZip" value="{{ $userInfo->zip_code }}" name="zip_code" type="text">
                     </div>
                 </div>
-                <div class="shippingAddressContainerCheckout">
+                <div class="shippingAddressContainer">
                     <h2> Shipping Address </h2>
                     <div class="shippingCheckBox"><input type="checkbox" onclick="SetShippingAddress(this.checked);"/> Same as Mailing </div>
                     <div>
@@ -75,39 +73,11 @@
                         <input id="shippingZip" value="{{ $userInfo->shipping_zip_code }}" name="shipping_zip_code" type="text">
                     </div>
                 </div>
-                
-                <div class="shippingInfoContainer">
-                <p class="checkoutTextInst"><span class="circleNumber">2</span>Select Shipping Service</p>
-                    <!-- <h2> Shipping </h2> -->
-                    
-                    <div class="shippingOptions">
-                        
-                        <p>
-                        <input class="radioBtn" type="radio" name="shipping" value="8.95" checked>
-                        <label>Standard (3-5 days): {{$standardShipping}}</label></p>
-                        <p>
-                        <input class="radioBtn" type="radio" name="shipping" value="19.95">
-                        <label>Express (2-3 days): {{$expressShipping}}</label></p>
-                        <p> **Shipping only available within the US** </p>
-                    </div>
+                <div  class="updateBtn">
+                    <input value="Submit" class="button success hollow" type="submit">
                 </div>
-
-                <div  class="continueCheckoutBtn">
-                    <input value="Continue to Checkout" class="button success hollow" type="submit">
-                </div>
-
-
-
-
             {{ csrf_field() }}
             </form>
-            
-
-
-
-
-
-            
         </div>
 
 </div>

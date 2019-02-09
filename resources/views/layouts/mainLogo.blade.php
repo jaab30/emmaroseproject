@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Emma Rose Baby Boutique</title>
+        <title>Emma Rose B B</title>
 
         <!-- Fonts -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css"> -->
@@ -126,10 +126,13 @@
             <nav class="navbarEmma">
             <div class="horizontal_dotted_line"></div>
                 <!-- <h2><a href="/">Emma Rose Baby Boutique</a></h2> -->
-                <div class="navContainerEmma">
-                    <div class="dropdownEmma">
-                    <img class="logginIconImg" src="/images/loggin2.png" alt="account icon"><button class="dropbtnEmma">{{ Auth::user() ? Auth::user()->name : 'Account' }}</button>
-                        <div class="dropdownEmma-content">
+                <div class="logoImg2Div">
+                    <a href="/"><img class="logoImg2" src="{{ asset('images/logoMainfinal2onlyB.png') }}" alt="Logo img">
+                </div>
+                <div class="navContainerEmma"></a>
+                    <div class="dropdownEmma2"><img class="logginIconImg" src="/images/loggin2.png" alt="account icon">
+                        <button class="dropbtnEmma2">{{ Auth::user() ? Auth::user()->name : 'Account' }}</button>
+                        <div class="dropdownEmma-content2">
                         @guest
                                     <a href="{{ route('login') }}">{{ __('Login') }}</a>
                                 @if (Route::has('register'))
@@ -157,19 +160,18 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="cartDiv">
-                    <!-- <a class="cart" href="{{route('cart.index')}}">Shopping Cart</a><span class="cartCounter">{{Cart::count()}}</span> -->
-                    <a class="cart" href="{{route('cart.index')}}"><img alt="shopping cart" src="{{ asset('images/cart2A.png') }}" width="30px" height="30px">
-                    </a><span class="cartCounter">{{Cart::count()}}</span>
-                </div>
                 @auth
-                <div class="wishList">
+                <div class="wishList2">
                     <a class="cart" href="/saveditems/wishlist"><img alt="wish list icon" src="{{ asset('images/wish1.png') }}" width="40px" height="35px"></a>
                 </div>
                 @endauth
 
-                <div class="horizontal_dotted_line2"></div>
+                <div class="cartDiv2">
+                    <!-- <a class="cart" href="{{route('cart.index')}}">Shopping Cart</a><span class="cartCounter">{{Cart::count()}}</span> -->
+                    <a class="cart" href="{{route('cart.index')}}"><img alt="shopping cart" src="{{ asset('images/cart2A.png') }}" width="30px" height="30px">
+                    </a><span class="cartCounter2">{{Cart::count()}}</span>
+                </div>
+                <div class="horizontal_dotted_line2A"></div>
             </nav>
             
         </div>
