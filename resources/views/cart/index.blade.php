@@ -41,7 +41,7 @@
 					</tr>
 
 				@endforeach;
-				<tr><td>.</td></tr>
+				<tr class="blankRow"></tr>
 				<tr>
 				<td></td>
 				<td></td>

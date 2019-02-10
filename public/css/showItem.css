@@ -1,13 +1,14 @@
 
 .showItemContainer {
     display: grid;
-    grid-template-columns: 5% 40% 50% 5%;
+    grid-template-columns: 10% 40% 40% 10%;
     
 }
 
 .showItemTitle {
     grid-column-start: 1;
     grid-column-end: 5;
+    grid-row-start: 1;
     font-family: 'SmoothieShoppe';
     margin: 20px 0 30px 0;
     font-size: 2.5em;
@@ -21,71 +22,158 @@
 
 .showItemImg {
     grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 75% auto;
+    margin: 0 20px 0 0;
     /* background: white; */
-    margin:0 auto;
-    
 }
 
-.showImgDiv {
-    width: 440px;
+
+
+
+.insideImgContainer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    height: 500px;
     background: white;
     padding: 10px 20px;
     border: rgb(255, 140, 176, 0.5) 1.5px solid;
-    box-shadow: 3px 3px 12px rgb(0, 0, 0, .3);
+    /* box-shadow: 3px 3px 12px rgb(0, 0, 0, .2); */
+    text-align: center;
    
-
 }
-.showItemImg  img {
-    width: 400px;
+.showThumbnail1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    text-align: right;
+    margin: 10px 5px 0 0;
+}
+.showThumbnail2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    text-align: left;
+    margin: 10px 0 0 5px;
+}
+
+.showImgDiv  img {
+    width: 100%;
+    height: auto;
     margin: 10px 0;
     border-radius: 10px;
-    /* border: lightgray 30px solid; */
+}
+.thumbnail {
+    width: 100px;
+    /* margin-left: 10px; */
+    border: rgb(255, 140, 176) 2px solid;
+    border-radius: 10px;
+}
+.thumbnail:hover {
+    cursor:pointer;
+    opacity:.8;
+}
+
+.showImgDiv {
+    position: relative;
+    width: 80%;
+    height:auto;
+    /* background: red; */
+    margin: 0 auto;
+
 
 }
+
+img.picture1 {
+    position: absolute; 
+    left: 0;
+
+
+}
+img.picture2 {
+    position: absolute; 
+    left: 0;
+
+}
+
+img.hidden {
+    visibility: hidden;
+}
+
 .showItemDescription {
     grid-column-start: 3;
+    display: grid;
+    grid-template-columns: 5% 45% 45% 5%;
+    grid-template-rows: 10% 10% 10% 20% 50%;
     background: rgb(255, 255, 255, 0.7);
     /* background: rgb(255, 140, 176, 0.2); */
     border: rgb(255, 140, 176, 0.5) 1.5px solid;
-    box-shadow: 3px 3px 12px rgb(0, 0, 0, .2);
+    /* box-shadow: 3px 3px 12px rgb(0, 0, 0, .2); */
     padding: 20px;
+    width: 100%;
+    height: 500px;
 
 
 }
 
 .showItemDescriptionTitle {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: 700;   
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;   
     /* margin-top: 30px; */
-    padding: 30px 30px 0;
+    /* padding: 30px 30px 0; */
     /* background: white; */
-    color: gray;
+    color: rgb(71, 71, 71);
     margin: 0;
 
 }
+
+ul, li {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    margin: 0;
+    padding: 0;
+    color: rgb(71, 71, 71);
+}
+
+.reviewStars {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    width:80px;
+}
+
 .showItemDescriptionText {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    text-align: justify;
+    font-size: .9em;
+    /* text-align: justify; */
     /* margin-top: 30px; */
-    padding: 30px 30px 20px;
+    /* padding: 30px 30px 20px; */
     /* background: white; */
-    color: gray;
+    color: rgb(71, 71, 71);;
 
 
 }
 
 .showItemPrice{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
 
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
-    text-align: center;
-    padding: 0 20px 20px 0;
-    color: gray;
-
-
+    text-align: left;
+    /* padding: 0 20px 20px 0; */
+    color: rgb(71, 71, 71);;
+    margin:0;
 
 }
 /* form {
@@ -93,92 +181,114 @@
 } */
 
 .showItemForm {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
     display:grid;
     grid-template-columns: 5% 45% 45% 5%;
-    background: white;
+    grid-template-rows: 15% 15% 15% 15% 40% ;
+    margin: 20px 0 0 0;
+    /* background: white;
     padding: 20px;
     text-align: center;
     width: 400px;
     border: rgb(255, 140, 176, 0.5) 1.5px solid;
     box-shadow: 3px 3px 12px rgb(0, 0, 0, .2);
-    border-radius: 10px;
+    border-radius: 10px; */
+    width: 100%;;
+    height: 100%;
 
 
 }
 .showItemText1 {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    margin: 0;
-    padding:10px 10px;
-    text-align: right;
-    color: gray;
+    margin: 0 0 20px;
+    padding: 10px 0;
+    text-align: left;
+    color: rgb(71, 71, 71);;
 
 }
 .showItemText2 {
-    grid-column-start: 2;   
-    grid-column-end: 2;
-    grid-row-start: 2;
+    grid-column-start: 1;   
+    grid-column-end: 3;
+    grid-row-start: 1;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    margin: 0;
-    padding: 10px 10px;
-    text-align: right;
-    color:gray;
+    margin: 0 0 20px;
+    padding: 10px 0;
+    text-align: left;
+    color:rgb(71, 71, 71);  
 
 }
 
 .showItemSelectQty {
-    grid-column-start: 3;
-    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-start: 4;
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
-    margin: 5px;
+    /* margin: 5px; */
     width: 60px;
     height: 30px;
+    border: rgb(255, 140, 176) 1px solid;
     border-radius: 4px;
-    color:gray;
-
-
+    color:rgb(71, 71, 71);
+    padding-left: 15px;
 }
 .showItemSelectSize {
-    grid-column-start: 3;
+    grid-column-start: 1;
     grid-row-start: 2;
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
-    margin: 5px;
+    /* margin: 5px; */
     width: 120px;
     height: 30px;
+    border: rgb(255, 140, 176) 1px solid;
     border-radius: 4px;
-    color:gray;
+    color:rgb(71, 71, 71);;
+    padding-left: 5px;
+}
 
-
+.showItemSelectQty:focus {
+    outline: none;
+}
+.showItemSelectSize:focus {
+    outline: none;
 }
 
 .showItemForm input {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
     font-family: 'Homenaje', sans-serif;
     font-size: 1.5em;
     border: none;
-    background: rgb(255, 140, 176, 0.8);
-    color: white;
+    background: white;
+    border: rgb(255, 140, 176) 3px solid;
+    color: rgb(255, 140, 176);
     text-decoration: none;
-    margin: 10px 0;
+    margin: 20px 0;
     border-radius: 4px;
+    height: 50px;
+    transition: .3s;
 
 
 }
-
 .showItemForm input:hover {
     cursor: pointer;
     background: rgb(255, 140, 176);
-
-
+    color: white;
  } 
+ .itemFullDescription {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+
+
+ }
 
  .showBtns {
     display: grid;
@@ -189,7 +299,7 @@
  }
 
  .reviewBtn {
-    grid-column-start: 4;
+    grid-column-start: 1;
     grid-row-start: 1;
     /* font-family: 'Homenaje', sans-serif;
     font-size: 1.3em; */
@@ -203,12 +313,13 @@
  }
 
  .reviewBtn img {
-    width: 50px;
+    width: 70px;
     height: auto;
  }
  .wishlistForm {
      grid-column-start: 3;
      grid-row-start: 1;
+     text-align: right;
 
  }
  .wishlistBtn {
@@ -223,7 +334,7 @@
  }
 
  .wishlistImg {
-     width:40px;
+     width:30px;
  }
  .goBackBtn {
     grid-column-start: 2;
@@ -234,6 +345,7 @@
     background:none;
     /* color: white; */
     text-decoration: none;
+    text-align: left;
 
 
  }
@@ -261,4 +373,36 @@
  .goBackBtn:focus {
     outline:none;
  } 
+
+ .itemFullDescription {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    background: white;
+    margin: 20px 0 0;
+    padding: 0 20px 20px 20px;
+    border: rgb(255, 140, 176, 0.5) 1.5px solid;
+    
+ }
+ .itemReviews {
+     margin: 20px 0;
+     border-top: rgb(255, 140, 176, 0.5) 1.5px solid;
+
+ }
+
+ .itemFullDescription h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 0 10px;
+
+ }
+
+ .reviewImg {
+
+    width:50px; 
+ }
 

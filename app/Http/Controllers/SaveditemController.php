@@ -99,7 +99,11 @@ class SaveditemController extends Controller
     public function show($id)
     {
         $saveditems = Saveditem::find($id);
-        return view('saveditems.wishitem', compact('saveditems'));
+        $data = [];
+        $data['summary'] = explode("." , $saveditems->summary);
+
+
+        return view('saveditems.wishitem', compact('saveditems','data'));
     }
 
     /**

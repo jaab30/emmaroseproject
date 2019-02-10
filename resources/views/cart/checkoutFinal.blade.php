@@ -87,7 +87,7 @@
 
             <form action="{{ route('payment.paypal') }}" method="get">
             <input value="{{ $shippingAmt }}" name="shippingInfo" type="hidden">
-            <button type=submit><img src="/images/paypal2.png" alt="paypal icon"></button>
+            <button type=submit><img src="/images/paypal3.png" alt="paypal icon"></button>
             </form> 
 
 			<!-- <a href="{{ route('payment.paypal') }}"><img src="/images/paypal2.png" alt="paypal icon"></a> -->

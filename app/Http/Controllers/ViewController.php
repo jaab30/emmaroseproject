@@ -121,8 +121,10 @@ class ViewController extends Controller
     {
         $iditem = Auth::id();
         $data = [];
+        $products = Products::find($id);
+        $data['summary'] = explode("." , $products->summary);
 
-        // dd($iditem)
+        // dd($data['summary']);
 
         if ($iditem === null){
             $data['status'] = '';

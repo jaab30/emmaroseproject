@@ -229,6 +229,15 @@
             function goBack() {
             window.history.back();
             }
+
+            $(".thumb1").click(function(){
+                $(".picture2").addClass("hidden")
+                $(".picture1").removeClass("hidden")
+            })
+            $(".thumb2").click(function(){
+                $(".picture1").addClass("hidden")
+                $(".picture2").removeClass("hidden")
+            })
             
 
             // When the user scrolls down 50px from the top of the document, resize the header's font size
