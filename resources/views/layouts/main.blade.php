@@ -178,10 +178,10 @@
         <div class="menuContainer">
             <div class="mainLinks">
                 <form  class="skirtLink" action="{{route ('item')}}" method="get">
-                    <button class="btnMenu" value="Skirt" name="search" type="submit">Skirts</button>
+                    <button class="btnMenu" value="skirt" name="search" type="submit">Skirts</button>
                 </form>
                 <form class="suspenderSkirtLink" action="{{route ('item')}}" method="get">
-                    <button class="btnMenu" value="Suspender Skirt" name="search" type="submit">Suspender Skirts</button>
+                    <button class="btnMenu" value="suspenderskirt" name="search" type="submit">Suspender Skirts</button>
                 </form>
                 <form class="outfitLink" action="{{route ('item')}}" method="get">
                     <button class="btnMenu" value="outfit" name="search" type="submit">Outfits</button>
