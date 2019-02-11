@@ -17,7 +17,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Bloomer will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Bloomer. Bloomer Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Bloomer is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'bloomer baby toddler girl Coral floral Bloomer',
 
@@ -36,7 +36,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Bloomer will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Bloomer. Bloomer Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Bloomer is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'bloomer baby toddler girl Coral floral Bloomer',
 
@@ -55,7 +55,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Bloomer will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Bloomer. Bloomer Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Bloomer is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'bloomer baby toddler girl Llama Bloomer',
 
@@ -75,7 +75,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Bloomer will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Bloomer. Bloomer Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Bloomer is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'bloomer baby toddler girl Navy Blue Pink Bloomer',
 
@@ -94,7 +94,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Black Hunk Shirt',
 
@@ -113,7 +113,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Black Romeo Shirt',
 
@@ -132,7 +132,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Blue Bunny Hop Shirt',
 
@@ -151,7 +151,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Buffalo Plaid Romeo Shirt',
 
@@ -170,7 +170,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Green Easter Bunny Name Shirt',
 
@@ -189,7 +189,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Mint Coral Gold One Year Boy Shirt Onesie',
 
@@ -208,7 +208,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Mint Coral Gold Three Years Shirt Onesie',
 
@@ -227,7 +227,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Mint Coral Gold Two Years Old Boy Shirt Onesie',
 
@@ -246,7 +246,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Red Valentine Boy Shirt',
 
@@ -265,7 +265,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Red Hunk Boy Shirt Onesie',
 
@@ -284,7 +284,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Red Romeo Boy Shirt',
 
@@ -303,7 +303,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Red Hunk Gray Boy Shirt',
 
@@ -322,7 +322,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby boy onesie onesies toddler boy Red Romeo & Gray Shirt',
 
@@ -342,7 +342,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Girl Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Girl Shirt. Shirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Shirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby toddler girl Coral Two Birthday Shirt',
 
@@ -361,7 +361,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Girl Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Girl Shirt. Shirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Shirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby toddler girl Spring Owl Girl Shirt',
 
@@ -380,7 +380,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Girl Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Girl Shirt. Shirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Shirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby toddler girl White Red Love Valentine Outfit',
 
@@ -399,7 +399,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Girl Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Girl Shirt. Shirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Shirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby toddler girl Pink One Birthday Girl Shirt Onesie',
 
@@ -418,7 +418,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Girl Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Girl Shirt. Shirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Shirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'shirt shirts baby toddler girl Pink Bunny Hop Girl Shirt Onesie',
 
@@ -438,7 +438,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Red Hearts Valentines Day Outfit',
 
@@ -457,7 +457,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Black Love Outfit',
 
@@ -476,7 +476,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Buffalo Plaid Skirt outfit',
 
@@ -495,7 +495,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Coral Floral Border Skirt Outfit',
 
@@ -514,7 +514,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Coral Floral Two Birthday Outfit',
 
@@ -533,7 +533,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Coral Floral One Birthday Skirt Outfit',
 
@@ -552,7 +552,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Geo Print Heart Initial Outfit',
 
@@ -571,7 +571,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Green Easter Bunny Outfit',
 
@@ -590,7 +590,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Heart Bouquet High Waisted Skirt Outfit',
 
@@ -609,7 +609,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Heart Bouquet Red Border Skirt Outfit',
 
@@ -628,7 +628,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Mint Coral Gold Two Skirt Outfit',
 
@@ -647,7 +647,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Pink Triangle Two Birthday Outfit',
 
@@ -666,7 +666,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Pink 1 Birthday Outfit',
 
@@ -685,7 +685,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Pink Easter Bunny Outfit',
 
@@ -704,7 +704,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Purple Polka Dot Easter Bunny Outfit',
 
@@ -723,7 +723,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Rainbow Easter Bunny Outfit',
 
@@ -742,7 +742,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Red Border Skirt Valentine Outfit',
 
@@ -761,7 +761,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Shirt Red Love Skirt Outfit',
 
@@ -780,7 +780,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Spring Owl Skirt and Shirt Set',
 
@@ -799,7 +799,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This outfit will make a perfect gift for the sweet little girl in your life.  Each heart fabric applique is hand cut and then sewn around the edge with matching thread.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Red Hearts, Valentines Day Outfit Baby Girl, Pink Valentines Skirt, Toddler Skirt, Baby Girl Pink Skirt, Newborn Valentines, Baby Love Shirt',
+            'summary' => 'Cute and Modern Handmade Outfit for babies and Toddlers. Outfit Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Outfit is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Baby Girl Toddler Skirt Baby Girl Newborn Yellow Easter Bunny Outfit',
 
@@ -819,7 +819,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This red faux button skirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl',
 
-            'summary' => 'Red Valentines Outfit Toddler Girl Red Faux Button Toddler Skirts Toddler Red Dress Valentines Skirt Baby Red Dress High Waisted Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Red Valentines Outfit Toddler Girl Red Faux Button Toddler Skirts Toddler Red Dress Valentines Skirt Baby Red Dress High Waisted Skirt',
 
@@ -838,7 +838,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This floral skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.  ',
 
-            'summary' => 'Pink Red Valentines Day skirt Baby Girl Pink Toddler Skirts Pink Red skirt Pink Valentines Skirt Valentine Dress Baby Girl Pink Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Pink Red Valentines Day skirt Baby Girl Pink Toddler Skirts Pink Red skirt Pink Valentines Skirt Valentine Dress Baby Girl Pink Skirt',
 
@@ -857,7 +857,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This Heart Bouquet High Waisted skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl.',
 
-            'summary' => 'Pink Valentines Day Outfit Toddler Girl Red Hearts Newborn Valentines Skirt Pink Valentines Dress Baby Girl Pink Skirt Heart Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Pink Valentines Day Outfit Toddler Girl Red Hearts Newborn Valentines Skirt Pink Valentines Dress Baby Girl Pink Skirt Heart Skirt',
 
@@ -877,7 +877,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This Heart Bouquet Red Border skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'Pink Valentines Outfit, Toddler Red Hearts Outfit, Newborn Valentines, Pink Toddler Skirts, Baby Girl Pink Skirt, Newborn Valentines Outfit',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Gold Chevron High Waist Skirt',
 
@@ -896,7 +896,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'blue Valentines Outfit Toddler Red Hearts Outfit Newborn Valentines Pink Toddler Skirts Baby Girl Pink Skirt Newborn Valentines Outfit',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'blue skirt skirts Toddler Newborn Baby Girl',
 
@@ -915,7 +915,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'blue Valentines Outfit Toddler Red Hearts Outfit Newborn Valentines Pink Toddler Skirts Baby Girl Pink Skirt Newborn Valentines Outfit',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Girl Black and White Stripe Skirt with Gold Dots',
 
@@ -934,7 +934,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Black and White Stripe Skirt with Gold Dots',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Girl Buffalo Plaid Skirt',
 
@@ -953,7 +953,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Girl Buffalo Plaid Skirt',
 
@@ -972,7 +972,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Girl Geo Print Heart',
 
@@ -991,7 +991,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Girl Green Easter Bunny',
 
@@ -1010,7 +1010,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Girl Heart Conversation Skirt',
 
@@ -1029,7 +1029,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Girl Light Pink Polka Dot Skirt',
 
@@ -1048,7 +1048,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Girl Light Pink Skirt',
 
@@ -1067,7 +1067,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Mermaid Skirt',
 
@@ -1086,7 +1086,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Mint Coral Gold Floral Black Stripe Skirt',
 
@@ -1105,7 +1105,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Micheal Miller Unicorn Skirt',
 
@@ -1124,7 +1124,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Floral Skirt Blue Border with White Dots',
 
@@ -1143,7 +1143,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Mint Coral Gold Floral Skirt Pink Border',
 
@@ -1162,7 +1162,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Triangle Print Skirt',
 
@@ -1181,7 +1181,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Navy Mustard Burgundy Floral Skirt',
 
@@ -1200,7 +1200,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Green High Waisted Skirt',
 
@@ -1219,7 +1219,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Mustard Floral High Waist Skirt',
 
@@ -1238,7 +1238,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Peppa Pig Border Skirt',
 
@@ -1257,7 +1257,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Pink Llama Cactus Skirt',
 
@@ -1276,7 +1276,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Plaid High Waisted Skirt',
 
@@ -1295,7 +1295,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Puppies Riding Bicycles Skirt',
 
@@ -1314,7 +1314,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Purple Polka Dot Skirt',
 
@@ -1333,7 +1333,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Rainbow Easter Bunny Skirt',
 
@@ -1352,7 +1352,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Red Floral High Waisted Skirt',
 
@@ -1371,7 +1371,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Spring Easter Skirts Set of 4',
 
@@ -1390,7 +1390,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Spring Owl Skirt',
 
@@ -1409,7 +1409,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Black Aztec Arrow Skirt',
 
@@ -1428,7 +1428,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Black White Stripe Skirt with Pink Border',
 
@@ -1447,7 +1447,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Black White Stripe Skirt with Red Border',
 
@@ -1466,7 +1466,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Tribal Fox Woodland Skirt',
 
@@ -1485,7 +1485,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby White Floral High Waisted Skirt',
 
@@ -1504,7 +1504,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Yellow Easter Bunny Skirt',
 
@@ -1523,7 +1523,7 @@ class ProductTableSeeder extends Seeder
 
             'description' => 'This skirt will make a perfect gift for the sweet little girl in your life.  The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth.  All skirt seams are serged and top stitched for a professional long lasting finish. This skirt outfit is so pretty and is a must have for you little girl. ',
 
-            'summary' => 'skirt skirts Toddler Newborn Baby Girl Dinosaur Skirt',
+            'summary' => 'Cute and Modern Handmade Skirt. Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'skirt skirts Toddler Newborn Baby Yellow Polka Dot Skirt',
 
@@ -1542,7 +1542,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Suspender Skirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Suspender Skirt. Suspender Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Suspended Skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Suspender Skirt Toddler Girl Dress Buffalo Plaid Suspender Skirt Dress',
 
@@ -1561,7 +1561,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Suspender Skirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Suspender Skirt. Suspender Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Suspended Skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Suspender Skirt Toddler Girl Dress Coral Floral Suspender Skirt',
 
@@ -1580,7 +1580,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Suspender Skirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Suspender Skirt. Suspender Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Suspended Skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Suspender Skirt Toddler Girl Dress Coral Peach Blush Dot Suspender Skirt',
 
@@ -1599,7 +1599,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Suspender Skirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Suspender Skirt. Suspender Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Suspended Skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Suspender Skirt Toddler Girl Dress Heart Bouquet Suspender Skirt',
 
@@ -1618,7 +1618,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Suspender Skirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Suspender Skirt. Suspender Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Suspended Skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Suspender Skirt Toddler Girl Dress Mint Dot Suspender Skirt',
 
@@ -1637,7 +1637,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Suspender Skirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Suspender Skirt. Suspender Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Suspended Skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Suspender Skirt Toddler Girl Dress Red Black White Plaid Suspender Skirt',
 
@@ -1656,7 +1656,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Suspender Skirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Suspender Skirt. Suspender Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Suspended Skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Suspender Skirt Toddler Girl Dress Red Suspender Skirt',
 
@@ -1676,7 +1676,7 @@ class ProductTableSeeder extends Seeder
             
             'description' => 'This Suspender Skirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
 
-            'summary' => 'Suspender Skirt, Pink Valentines Outfit Toddler Girl, Toddler Red Heart Outfit, Toddler Pink Dress, Pink Suspender Dress, Newborn Valentines',
+            'summary' => 'Cute and Modern Handmade Suspender Skirt. Suspender Skirt Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Suspended Skirt is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
 
             'tags' => 'Suspender Skirt Toddler Girl Dress Peppa Pig Suspender Skirt',
 
