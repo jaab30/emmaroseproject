@@ -83,10 +83,10 @@
                     <div class="shippingOptions">
                         
                         <p>
-                        <input class="radioBtn" type="radio" name="shipping" value="8.95" checked>
+                        <input class="radioBtn" type="radio" name="shipping" value="{{$standardShipping}}" checked>
                         <label>Standard (3-5 days): {{$standardShipping}}</label></p>
                         <p>
-                        <input class="radioBtn" type="radio" name="shipping" value="19.95">
+                        <input class="radioBtn" type="radio" name="shipping" value="{{$expressShipping}}">
                         <label>Express (2-3 days): {{$expressShipping}}</label></p>
                         <p> **Shipping only available within the US** </p>
                     </div>
