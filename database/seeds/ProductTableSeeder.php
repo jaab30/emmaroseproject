@@ -14,6 +14,25 @@ class ProductTableSeeder extends Seeder
        
         DB::table('products')->insert(
             [
+            'name' => 'Coral Floral Bloomer',
+            
+            'description' => 'This Bloomer will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
+
+            'summary' => 'Cute and Modern Handmade Bloomer. Bloomer Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Bloomer is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
+
+            'tags' => 'bloomer baby toddler girl Coral floral Bloomer',
+
+            'picture' => 'http://www.emmarosebabyboutique.com/emmarose/Coral-Floral-One-Birthday-Bloomer-Outfit10.jpg',
+            'picture2' => 'http://www.emmarosebabyboutique.com/emmarose/Coral-Floral-One-Birthday-Bloomer-Outfit12.jpg',
+            'category' => 'bloomer',
+            'genre' => 'girl',
+            'color' => 'coral',
+            'price' => '19.95',
+            'review' => 'ABC'
+            ]
+        );
+        DB::table('products')->insert(
+            [
             'name' => 'Coral Triangle Bloomer',
             
             'description' => 'This Bloomer will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
@@ -27,6 +46,64 @@ class ProductTableSeeder extends Seeder
             'category' => 'bloomer',
             'genre' => 'girl',
             'color' => 'pink',
+            'price' => '19.95',
+            'review' => 'ABC'
+            ]
+        );
+        DB::table('products')->insert(
+            [
+            'name' => 'Llama Bloomer',
+            
+            'description' => 'This Bloomer will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
+
+            'summary' => 'Cute and Modern Handmade Bloomer. Bloomer Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Bloomer is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
+
+            'tags' => 'bloomer baby toddler girl Llama Bloomer',
+
+            'picture' => 'http://www.emmarosebabyboutique.com/emmarose/Llama-One-Birthday-Bloomer-Outfit9.jpg',
+            'picture2' => 'http://www.emmarosebabyboutique.com/emmarose/Llama-One-Birthday-Bloomer-Outfit10.jpg',
+            'category' => 'bloomer',
+            'genre' => 'girl',
+            'color' => 'blue',
+            'price' => '19.95',
+            'review' => 'ABC'
+            ]
+        );
+
+        DB::table('products')->insert(
+            [
+            'name' => 'Navy Blue & Pink Bloomer',
+            
+            'description' => 'This Bloomer will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
+
+            'summary' => 'Cute and Modern Handmade Bloomer. Bloomer Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Bloomer is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
+
+            'tags' => 'bloomer baby toddler girl Navy Blue Pink Bloomer',
+
+            'picture' => 'http://www.emmarosebabyboutique.com/emmarose/Navy-Blue-Pink-One-Birthday-Bloomert-Outfit5.jpg',
+            'picture2' => 'http://www.emmarosebabyboutique.com/emmarose/Navy-Blue-Pink-One-Birthday-Bloomert-Outfit6.jpg',
+            'category' => 'bloomer',
+            'genre' => 'girl',
+            'color' => 'blue',
+            'price' => '19.95',
+            'review' => 'ABC'
+            ]
+        );
+        DB::table('products')->insert(
+            [
+            'name' => 'Black Hunk Boy Shirt Onesie',
+            
+            'description' => 'This Boy Shirt will make a perfect gift for the sweet little girl in your life. The skirt is made out of 100% high quality cotton fabric and has an elastic waistband for added comfort that provides extra stretch for growth. There are 2 straps sewn onto the front of the skirt. In the back of the skirt there are two loops for the straps to go through in order to tie into a bow. All skirt seams are serged and top stitched for a professional long lasting finish. This skirt is so pretty and is a must have for your little girl.',
+
+            'summary' => 'Cute and Modern Handmade Boy Shirt / Onesie. Sizes: 6M, 12M, 18M, 2T, 3T, 4T. The Boy Shirt / Onesie is made out of 100% high quality cotton fabric. All items are made to order and one of a kind',
+
+            'tags' => 'shirt shirts baby boy onesie onesies toddler boy Black Hunk Shirt',
+
+            'picture' => 'http://www.emmarosebabyboutique.com/emmarose/BlackHunkShirt2.jpg',
+            'picture2' => 'http://www.emmarosebabyboutique.com/emmarose/BlackHunkShirt4.jpg',
+            'category' => 'boy_shirt',
+            'genre' => 'boy',
+            'color' => 'coral',
             'price' => '19.95',
             'review' => 'ABC'
             ]
