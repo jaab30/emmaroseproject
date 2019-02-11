@@ -72,9 +72,9 @@ class ViewController extends Controller
         ->orderBy('name', 'desc')
         ->get();
 
-        if ( $request->search === "Skirt" ){
+        if ( $request->search === "skirt" ){
             $data = "Skirts";
-        } else if ($request->search === "Suspender Skirt"){
+        } else if ($request->search === "suspenderskirt"){
             $data = "Suspended Skirts";
         } else if ($request->search === "outfit"){
             $data = "Outfits";
