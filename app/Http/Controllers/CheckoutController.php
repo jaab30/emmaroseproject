@@ -78,7 +78,7 @@ class CheckoutController extends Controller
         
 
         $response = $provider->addOptions($options)->setExpressCheckout($data);
-
+        dd($response['paypal_link']);
         // This will redirect user to PayPal
         return redirect($response['paypal_link']);
 
