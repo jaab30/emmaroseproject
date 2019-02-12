@@ -67,7 +67,7 @@ class CheckoutController extends Controller
 
 
     public function paywithPaypal(Request $request){
-       
+        dd('yes');
         $provider = new ExpressCheckout; 
         $invoiceId=uniqid();
         $data=$this->cartData($invoiceId, $request);
@@ -78,7 +78,7 @@ class CheckoutController extends Controller
         
 
         $response = $provider->addOptions($options)->setExpressCheckout($data);
-        dd($response['paypal_link']);
+        // dd($response['paypal_link']);
         // This will redirect user to PayPal
         return redirect($response['paypal_link']);
 
