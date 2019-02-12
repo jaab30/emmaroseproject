@@ -113,7 +113,7 @@ class CheckoutController extends Controller
         $total += $item['price']*$item['qty'];
         }
         $data['subtotal'] = $total;
-        $data['shipping'] = 5;
+        $data['shipping'] = $request->shippingInfo;
         $data['total'] = $total + $data['shipping'];
 
         return $data;
