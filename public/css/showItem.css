@@ -38,7 +38,7 @@
     grid-row-start: 1;
     grid-row-end: 3;
     width: 100%;
-    height: 500px;
+    height: 550px;
     background: white;
     padding: 10px 20px;
     border: rgb(255, 140, 176, 0.5) 1.5px solid;
@@ -80,7 +80,7 @@
 
 .showImgDiv {
     position: relative;
-    width: 80%;
+    width: 400px;
     height:auto;
     /* background: red; */
     margin: 0 auto;
@@ -91,17 +91,28 @@
 img.picture1 {
     position: absolute; 
     left: 0;
-
+    transition: transform .3s;
 
 }
 img.picture2 {
     position: absolute; 
     left: 0;
+    transition: transform .3s;
 
 }
 
 img.hidden {
     visibility: hidden;
+}
+img.picture1:hover {
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(2); 
+}
+img.picture2:hover {
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(2); 
 }
 
 .showItemDescription {
@@ -115,7 +126,7 @@ img.hidden {
     /* box-shadow: 3px 3px 12px rgb(0, 0, 0, .2); */
     padding: 20px;
     width: 100%;
-    height: 500px;
+    height: 550px;
 
 
 }

@@ -28,7 +28,7 @@
 }
 .sideCardItem {
     padding: 10px 5px;
-    background: #ff8cb0;
+    /* background: #ff8cb0; */
     margin: 0 0 10px 0;
 
 
@@ -38,6 +38,8 @@
 .sideCardItem img {
     width: 100%;
     height: auto;
+    border: rgb(255, 255, 255) 10px solid;
+    box-shadow: 3px 3px 12px rgb(0, 0, 0, .3);
 }
 
 /* .sideCard1 {
@@ -75,12 +77,12 @@
      background: rgb(255, 255, 255, .6);
      border: rgb(255, 140, 176, .7) 1.5px solid;
      border-radius: 10px;
-     box-shadow: 3px 3px 12px rgb(0, 0, 0, .3);
+     /* box-shadow: 3px 3px 12px rgb(0, 0, 0, .3); */
 
 }
  .searchItems p {
     font-family: 'Homenaje', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
     /* font-weight: 700; */
     padding: 5px 0;
     margin: 0;

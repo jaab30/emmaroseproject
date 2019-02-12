@@ -217,10 +217,29 @@
     <footer>
         <div class="footerContainer">
             <h1>Emma Rose Baby Boutique</h1>
+            <div class="iconDiv">
+                <h3> Follow Us</h3>
+                <a href="http://www.facebook.com/EmmaRoseBabyBoutique" target="_blank"><img class="iconImg" src="/images/facebook.png" alt="facebbok icon"></a>
+
+                <a href="http://www.instagram.com/emmarosebabyboutique" target="_blank"><img class="iconImg" src="/images/instagram.png" alt="instagram icon"></a>
+
+                <a href="http://www.pinterest.com/emmarosebaby" target="_blank"><img class="iconImg" src="/images/pinterest.png" alt="pinterest icon"></a>
+
+                <a href="http://www.twitter.com/emma_rose_baby" target="_blank"><img class="iconImg" src="/images/twitter.png" alt="twitter icon"></a>
+            </div>
+
+           
+            <div class="footerText2 footerItem">
             <h3> Contact Us </h3>
-            <p class="footerText1 footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate corporis odio fugiat vel veritatis molestiae magnam autem facilis assumenda minus, ea pariatur, mollitia id molestias a praesentium libero reiciendis optio?</p>
-            <p class="footerText2 footerItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet recusandae eveniet atque molestias, minima sequi praesentium fuga corrupti provident eum repudiandae tempore in asperiores nihil fugit explicabo tenetur, deleniti dolorum.</p>
-            <p class="footerText3 footerItem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae distinctio cupiditate nemo consequatur nostrum facilis odio facere perferendis, ut temporibus consequuntur perspiciatis dolorum placeat corporis aliquam, unde at tempora assumenda.</p>
+                <p>PO Box 679556</p>
+                <p>Orlando, FL 32835</p>
+                <p>Ph#: 407.690.2222</p>
+                <p>email: <a href="mailto:contact@emmarosebabyboutique.com" target="_blank">contact@emmarosebabyboutique.com</a> </p>
+                
+            
+            
+            </div>
+            
         </div>
     </footer>
      

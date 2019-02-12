@@ -27,7 +27,7 @@
     <p class="showItemDescriptionTitle">{{ $products->name }} </p>
     <p class="showItemPrice">${{$products->price}}</p>
     
-    <button class="reviewBtn" title="Review"><img src="{{ asset('images/5starC.png') }}" alt="Review Icon"></button>
+    <a href="#review"><button class="reviewBtn" title="Review"><img src="{{ asset('images/5starC.png') }}" alt="Review Icon"></button></a>
     <!-- <img class="reviewStars" src="{{ asset('images/5star.png') }}" alt="review icon"> -->
     <ul>
       <li class="showItemDescriptionText"> {{ $data['summary'][0] }}.</li>
@@ -81,7 +81,7 @@
   <div class="itemFullDescription">
     <h3> Item Description </h3>
     <p> {{$products->description}} </p>
-    <div class="itemReviews">
+    <div id="review" class="itemReviews">
     <h3> Reviews <img class="reviewImg" src="{{ asset('images/5starC.png') }}" alt="Review Icon"></h3>
     <p> </p>
   </div>
