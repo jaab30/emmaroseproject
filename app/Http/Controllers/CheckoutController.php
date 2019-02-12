@@ -64,17 +64,11 @@ class CheckoutController extends Controller
         return view('cart.confirm', compact('confirm'));
     }
 
-    protected $provider;
-    public function __construct()
-    {
-        $this->provider = new ExpressCheckout();
-    }
-
 
 
     public function paywithPaypal(Request $request){
         
-        // $this->$provider = new ExpressCheckout; 
+        $provider = new ExpressCheckout; 
         $invoiceId=uniqid();
         $data=$this->cartData($invoiceId, $request);
         $options = [
@@ -83,10 +77,10 @@ class CheckoutController extends Controller
         ];
         
         
-        // $response = $provider->setExpressCheckout($data);
+        $response = $provider->setExpressCheckout($data);
         
-        $response = $this->provider->setExpressCheckout($data);
-        dd($response);
+        // $response = $this->provider->setExpressCheckout($data);
+        // dd($response);
         // $response = $provider->addOptions($options)->setExpressCheckout($data);
         // dd($response['paypal_link']);
         // This will redirect user to PayPal
