@@ -71,15 +71,15 @@ class CheckoutController extends Controller
         $provider = new ExpressCheckout; 
         $invoiceId=uniqid();
         $data=$this->cartData($invoiceId, $request);
-        $options = [
-            'BRANDNAME' => 'Emma Rose Baby Boutique'  
+        // $options = [
+        //     'BRANDNAME' => 'Emma Rose Baby Boutique'  
 
-        ];
+        // ];
         
         
-        // $response = $provider->setExpressCheckout($data);
+        $response = $provider->setExpressCheckout($data);
       
-        $response = $provider->addOptions($options)->setExpressCheckout($data);
+        // $response = $provider->addOptions($options)->setExpressCheckout($data);
       
         return redirect($response['paypal_link']);
 
@@ -113,7 +113,7 @@ class CheckoutController extends Controller
         $total += $item['price']*$item['qty'];
         }
         $data['subtotal'] = $total;
-        $data['shipping'] = $request->shippingInfo;
+        $data['shipping'] = 5;
         $data['total'] = $total + $data['shipping'];
 
         return $data;
