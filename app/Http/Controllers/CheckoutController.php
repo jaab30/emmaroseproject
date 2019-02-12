@@ -77,7 +77,7 @@ class CheckoutController extends Controller
         ];
         
         
-        $response = $provider->setExpressCheckout($data);
+        // $response = $provider->setExpressCheckout($data);
         
         // $response = $this->provider->setExpressCheckout($data);
         // dd($response);
