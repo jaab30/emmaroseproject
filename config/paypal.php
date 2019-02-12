@@ -14,9 +14,9 @@ return [
         'app_id'      => 'APP-80W284485P519543T', // Used for testing Adaptive Payments API in sandbox mode
     ],
     'live' => [
-        'username'    => 'jaab30_api1.yahoo.com',
-        'password'    => 'L2BY4CQWBDMFYGD4',
-        'secret'      => 'AoT8A-SDahtNjab7LpVj8f-nG1YnAs3XsfGNMOVXxOizYN6CYFWL1QFt',
+        'username'    => env('PAYPAL_LIVE_API_USERNAME', ''),
+        'password'    => env('PAYPAL_LIVE_API_PASSWORD', ''),
+        'secret'      => env('PAYPAL_LIVE_API_SECRET', ''),
         'certificate' => env('PAYPAL_LIVE_API_CERTIFICATE', ''),
         'app_id'      => '', // Used for Adaptive Payments API
     ],
