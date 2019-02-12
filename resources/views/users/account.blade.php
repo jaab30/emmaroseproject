@@ -30,7 +30,7 @@
             <p><strong>Zip Code: </strong>{{ $userInfo->shipping_zip_code }}</p>
         </div>
         <div class="updateBtn">
-            <a href="{{ route('accountForm') }}"> <button>Update</button><a>
+            <a href="{{ route('accountForm') }}"> <button>Update</button></a>
         <div>
     </div>
 

@@ -105,14 +105,22 @@ img.hidden {
     visibility: hidden;
 }
 img.picture1:hover {
--ms-transform: scale(1.5); /* IE 9 */
--webkit-transform: scale(1.5); /* Safari 3-8 */
-transform: scale(2); 
+    cursor: zoom-in;
+}
+img.picture1:active {
+    cursor: zoom-out;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }
 img.picture2:hover {
--ms-transform: scale(1.5); /* IE 9 */
--webkit-transform: scale(1.5); /* Safari 3-8 */
-transform: scale(2); 
+    cursor: zoom-in;
+}
+img.picture2:active {
+    cursor: zoom-out;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }
 
 .showItemDescription {
@@ -156,11 +164,23 @@ ul, li {
     color: rgb(71, 71, 71);
 }
 
-.reviewStars {
+.starReviewDiv {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    padding: 10px 0;
+}
+.starReviewDiv a{
+   text-decoration: none;
+}
+.checked {
+    color: orange;
+  }
+/* .reviewStars {
     grid-column-start: 2;
     grid-row-start: 3;
     width:80px;
-}
+} */
 
 .showItemDescriptionText {
     font-family: 'Montserrat', sans-serif;
@@ -416,4 +436,59 @@ ul, li {
 
     width:50px; 
  }
+
+ .reviewFormDiv {
+     width: 100%;
+ }
+
+ .reviewForm {
+     display: grid;
+     grid-template-columns: 50% 50%;
+ }
+
+form p:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    background:red;
+ }
+.reviewName {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+ }
+
+ form p:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+ }
+ .reviewTitle {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+ }
+ form p:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    background:red;
+    
+ }
+.reviewText {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    
+ }
+.reviewSubBtn {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+ }
+
+
+
+
+
 

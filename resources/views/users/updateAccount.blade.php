@@ -11,15 +11,15 @@
                 <div class="contactInfo">
                     <div>
                         <label><strong>Name: </strong></label>
-                        <input value="{{ $userInfo->name }}" name="name" type="text">
+                        <input value="{{ $userInfo->name }}" name="name" type="text" required>
                     </div>
                     <div>
                         <label><strong>Last Name: </strong></label>
-                        <input value="{{ $userInfo->lastname }}" name="lastname" type="text">
+                        <input value="{{ $userInfo->lastname }}" name="lastname" type="text" required>
                     </div>
                     <div>
                         <label><strong>email: </strong></label>
-                        <input value="{{ $userInfo->email }}" name="email" type="text">
+                        <input value="{{ $userInfo->email }}" name="email" type="text" required>
                     </div>
                     <div>
                         <label><strong>Phone Number: </strong></label>
@@ -51,10 +51,10 @@
                 </div>
                 <div class="shippingAddressContainer">
                     <h2> Shipping Address </h2>
-                    <div class="shippingCheckBox"><input type="checkbox" onclick="SetShippingAddress(this.checked);"/> Same as Mailing </div>
+                    <div class="shippingCheckBox"><input type="checkbox" onclick="SetShippingAddress(this.checked)"/> Same as Mailing </div>
                     <div>
                         <label><strong>Address: </strong></label>
-                        <input  id="shippingAddress" value="{{ $userInfo->shipping_1 }}" name="shipping_1" type="text">
+                        <input  id="shippingAddress" value="{{ $userInfo->shipping_1 }}" name="shipping_1" type="text" required>
                     </div>
                     <div>
                         <label><strong>Suite / Apt#: </strong></label>
@@ -62,15 +62,15 @@
                     </div>
                     <div>
                         <label><strong>City: </strong></label>
-                        <input id="shippingCity" value="{{ $userInfo->shipping_city }}" name="shipping_city" type="text">
+                        <input id="shippingCity" value="{{ $userInfo->shipping_city }}" name="shipping_city" type="text" required>
                     </div>
                     <div>
                         <label><strong>State: </strong></label>
-                        <input id="shippingState" value="{{ $userInfo->shipping_state }}" name="shipping_state" type="text">
+                        <input id="shippingState" value="{{ $userInfo->shipping_state }}" name="shipping_state" type="text" required>
                     </div>
                     <div>
                         <label><strong>Zip Code: </strong></label>
-                        <input id="shippingZip" value="{{ $userInfo->shipping_zip_code }}" name="shipping_zip_code" type="text">
+                        <input id="shippingZip" value="{{ $userInfo->shipping_zip_code }}" name="shipping_zip_code" type="text" required>
                     </div>
                 </div>
                 <div  class="updateBtn">

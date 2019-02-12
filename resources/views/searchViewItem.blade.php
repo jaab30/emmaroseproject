@@ -5,9 +5,21 @@
 <div class="searchViewItemContainer">
     <h1 class="searchItemTitle">{{ $data }}</h1>
     <div class="sideViewItemContainer">
-        <div class="sideCard1 sideCardItem"><img src="/images/skirts.png"></div>
-        <div class="sideCard2 sideCardItem"><img src="/images/easter.png"></div>
-        <div class="sideCard3 sideCardItem"><img src="/images/valentines.png"></div>
+        <!-- <div class="sideCard1 sideCardItem"><img src="/images/skirts.png"></div> -->
+
+        <form  class="sideCard2 sideCardItem" action="{{route ('item')}}" method="get">
+          <button class="btnCard" value="skirt" name="search" type="submit"><img class="carouselImg" src="{{ asset('images/skirts.png') }}" alt="skirt"></button>
+        </form>
+
+        <form  class="sideCard2 sideCardItem" action="{{route ('search')}}" method="get">
+          <button class="btnCard" value="easter" name="search" type="submit"><img class="carouselImg" src="{{ asset('images/easter.png') }}" alt="easter"></button>
+        </form>
+
+        <form  class="sideCard2 sideCardItem" action="{{route ('search')}}" method="get">
+          <button class="btnCard" value="valentine" name="search" type="submit"><img class="carouselImg" src="{{ asset('images/valentines.png') }}" alt="valentines"></button>
+        </form>
+        <!-- <div class="sideCard2 sideCardItem"><img src="/images/easter.png"></div> -->
+        <!-- <div class="sideCard3 sideCardItem"><img src="/images/valentines.png"></div> -->
 
     </div>
 

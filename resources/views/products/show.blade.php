@@ -27,7 +27,16 @@
     <p class="showItemDescriptionTitle">{{ $products->name }} </p>
     <p class="showItemPrice">${{$products->price}}</p>
     
-    <a href="#review"><button class="reviewBtn" title="Review"><img src="{{ asset('images/5starC.png') }}" alt="Review Icon"></button></a>
+    <!-- <a href="#review"><button class="reviewBtn" title="Review"><img src="{{ asset('images/5starC.png') }}" alt="Review Icon"></button></a> -->
+   <div class="starReviewDiv">
+      <a href="#review">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      </a>
+    </div>
     <!-- <img class="reviewStars" src="{{ asset('images/5star.png') }}" alt="review icon"> -->
     <ul>
       <li class="showItemDescriptionText"> {{ $data['summary'][0] }}.</li>
@@ -84,7 +93,20 @@
     <div id="review" class="itemReviews">
     <h3> Reviews <img class="reviewImg" src="{{ asset('images/5starC.png') }}" alt="Review Icon"></h3>
     <p> </p>
-  </div>
+      <div class="reviewFormDiv">
+
+        <form class="reviewForm" action="/action_page.php">
+            <p>Name</p>
+            <input class="reviewName"type="text" name="firstname" placeholder="Your name..">
+            <p>Title</p>
+            <textarea class="reviewTitle" name="title" placeholder="Review Title.."></textarea>
+            <p>Review</p>
+            <textarea class="reviewText" name="review" placeholder="Write a review.."></textarea>
+            <input class="reviewSubBtn" type="submit" value="Submit">
+        </form>
+      </div>
+
+    </div>
   </div>
   
         

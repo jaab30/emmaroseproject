@@ -4,10 +4,13 @@
 @section('content')
 
 <div class="accountInfoContainer">
+
+    <button class="goBackBtn chkoutBack" title="Go Back" onclick="goBack()"><img src="{{ asset('images/back2B.png') }}" alt="Back Icon"></button>
     <h1> Checkout </h1>
 
     <div class="customerInfoContainer">
         <div class="contactInfo shippingTo">
+            
             <h2 class="shippingTextInst2"><span class="circleNumber">3</span>Review & make your payment</h2>
             <p> <strong> Shipping to:</strong></p>
             <p>{{ $userInfo->name }} {{ $userInfo->lastname }}</p>

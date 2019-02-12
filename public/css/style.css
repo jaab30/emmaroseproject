@@ -457,6 +457,10 @@ header {
 
 }
 
+.carouselImg:hover {
+    cursor:pointer;
+}
+
 
 /* //cards main page */
 
@@ -531,6 +535,7 @@ header {
 .footerContainer h1 {
     grid-column-start: 2;
     grid-column-end: 2;
+    grid-row-start:1;
     text-align: center;
     font-family: 'SmoothieShoppe';
     font-size: 2em;
@@ -610,11 +615,14 @@ header {
 
 .footerText2 {
     grid-column-start: 2;
+    grid-row-start:3;
+
 
 }
 .footerText2 h3 {
     grid-column-start: 2;
     grid-column-end: 2;
+    grid-row-start:3;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;

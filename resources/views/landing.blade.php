@@ -15,13 +15,22 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="{{ asset('images/testcarousel2K.png') }}" alt="suspender skirts">
+      <form  class="skirtCard" action="{{route ('item')}}" method="get">
+          <button class="btnCard" value="suspenderskirt" name="search" type="submit"><img class="d-block w-100 carouselImg" src="{{ asset('images/testcarousel2L.png') }}" alt="suspender skirts"></button>
+      </form>
+      <!-- <img class="d-block w-100" src="{{ asset('images/testcarousel2K.png') }}" alt="suspender skirts"> -->
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{ asset('images/testcarousel2G.png') }}" alt="Second slide">
+      <form  class="skirtCard" action="{{route ('item')}}" method="get">
+          <button class="btnCard" value="suspenderskirt" name="search" type="submit"><img class="d-block w-100 carouselImg" src="{{ asset('images/testcarousel2G.png') }}" alt="suspender skirts"></button>
+      </form>
+      <!-- <img class="d-block w-100" src="{{ asset('images/testcarousel2G.png') }}" alt="Second slide"> -->
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{ asset('images/testcarousel2H.png') }}" alt="Third slide">
+      <form  class="skirtCard" action="{{route ('search')}}" method="get">
+          <button class="btnCard" value="valentine" name="search" type="submit"><img class="d-block w-100 carouselImg" src="{{ asset('images/testcarousel2H.png') }}" alt="outfits"></button>
+      </form>
+      <!-- <img class="d-block w-100" src="{{ asset('images/testcarousel2H.png') }}" alt="Third slide"> -->
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
