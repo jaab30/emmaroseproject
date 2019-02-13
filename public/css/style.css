@@ -452,13 +452,19 @@ header {
 
 .carouselContainer {
     border-top: rgb(255, 140, 176) 5px solid;
-    border-bottom: rgb(255, 140, 176) 5px solid;
+    /* border-bottom: rgb(255, 140, 176) 5px solid; */
+    background: #ff8cb0;
 
 
 }
 
 .carouselImg:hover {
     cursor:pointer;
+}
+
+.carouselForm {
+    margin:0;
+    padding:0;
 }
 
 
@@ -529,7 +535,7 @@ header {
     padding: 10px 0 20px;
     background: rgb(255, 140, 176, .4);
     text-align: justify;
-    border-top: rgb(128, 128, 128, .8) 1px solid;
+    border-top: rgba(128, 128, 128, 0.8) 1px solid;
 }
 
 .footerContainer h1 {
@@ -554,7 +560,7 @@ header {
 }
 
 .footerItem a {
-    color:gray;
+    color:#808080;
 
 }
 .footerItem a:active {

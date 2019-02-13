@@ -28,13 +28,10 @@
     <!-- <button class="reviewBtn" title="Review"><img src="{{ asset('images/5starC.png') }}" alt="Review Icon"></button> -->
     <div class="starReviewDiv">
       <a href="#review">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
+      <img class="reviewImgTop" src="{{$starImg}}" alt="Review Icon">
       </a>
     </div>
+
     <ul>
       <li class="showItemDescriptionText"> {{ $data['summary'][0] }}.</li>
       <li class="showItemDescriptionText"> {{ $data['summary'][1] }}.</li>
@@ -71,13 +68,69 @@
   <div class="itemFullDescription">
     <h3> Item Description </h3>
     <p> {{$saveditems->description}} </p>
-    <div class="itemReviews">
-    <h3> Reviews <img class="reviewImg" src="{{ asset('images/5starC.png') }}" alt="Review Icon"></h3>
-    <p> </p>
-    </div>
+      <div id="review" class="itemReviews">
+        <h3> Reviews <img class="reviewImg" src="{{$starImg}}" alt="Review Icon"><button onclick="showReviewDiv('reviewForm')" class="reviewItemBtn">Review This Item</button></h3>
+      
+        <div id="reviewForm" class="reviewFormDiv">
+
+          <form class="reviewForm" action="{{route('reviewStore')}}" method="post">
+              <div id="starReview" class="starReviewEntry">
+
+                  <input id="rating-1" type="radio" name="rating" value="1" required>
+                  <label for="rating-1"><span class="fa fa-star starIcon starSelect1"></span></label>
+
+                  <input id="rating-2" type="radio" name="rating" value="2">
+                  <label for="rating-2"><span class="fa fa-star starIcon starSelect2"></span></label>
+
+                  <input id="rating-3" type="radio" name="rating" value="3">
+                  <label for="rating-3"><span class="fa fa-star starIcon starSelect3"></span></label>
+
+                  <input id="rating-4" type="radio" name="rating" value="4">
+                  <label for="rating-4"><span class="fa fa-star starIcon starSelect4"></span></label>
+
+                  <input id="rating-5" type="radio" name="rating" value="5">
+                  <label for="rating-5"><span class="fa fa-star starIcon starSelect5"></span></label>
+                  <p id="requiredMessage"></p>
+
+              </div>
+              <p class="reviewNameP">Name: </p>
+              <input class="reviewName"type="text" name="review_user_name" placeholder="Your name.." required>
+              <p class="reviewTitleP">Title: </p>
+              <input class="reviewTitle" name="review_title" placeholder="Review Title.." required></textarea>
+              <p class="reviewTextP">Review: </p>
+              <textarea class="reviewText" name="review_text" placeholder="Write a review.."></textarea>
+              <input type="hidden" value="{{ $saveditems->product_id }}" name="product_id">
+              <input class="reviewSubBtn" onclick="checkRequired()" type="submit" value="Submit">
+              {{ csrf_field() }}
+          </form>
+        </div>
+        <div class="reviewContainer">
+          @foreach($reviews as $review)
+              <div class="reviewItem">
+                  @if ($review->rating === 1)
+                  <img class="ratingStarImg" src="{{ asset('images/star1.png') }}">
+                  @elseif ($review->rating === 2)
+                  <img class="ratingStarImg" src="{{ asset('images/star2.png') }}">
+                  @elseif ($review->rating === 3)
+                  <img class="ratingStarImg" src="{{ asset('images/star3.png') }}">
+                  @elseif ($review->rating === 4)
+                  <img class="ratingStarImg" src="{{ asset('images/star4.png') }}">
+                  @elseif ($review->rating === 5)
+                  <img class="ratingStarImg" src="{{ asset('images/star5.png') }}">
+                  @endif
+                  <h3>{{$review->review_title}}</h3>
+                  <p><strong>User Name: </strong>{{$review->review_user_name}}</p>
+                  <p><strong>Comments: </strong>{{$review->review_text}}</p>
+              </div>
+          @endforeach
+        </div>
+
+      </div>
+
   </div>
 
 </div>
+
 
 @endsection
 

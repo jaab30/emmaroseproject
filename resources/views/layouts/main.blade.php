@@ -14,98 +14,6 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        <!-- Styles -->
-        <style>
-            /* html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            } */
-            /* img {
-                width: 200px;
-                height: 200px;
-            }
-            a {
-                float: left;
-
-            }
-            .headerNavContainer{
-                display:grid;
-                grid-template-columns: 80% 10% 10%;
-            }
-            .account {
-                grid-column-start: 2;
-
-            }
-            .cart {
-                grid-column-start: 3;
-
-            }
-            .searchBtn {
-                width: 60px;
-                height: 25px;
-            }
-            .searchBtnMenu {
-                width: 150px;
-                height: 25px;
-                background-color: white;
-                border: none;
-            }
-
-            .searchBtnMenu:hover{
-                cursor: pointer;
-            } */
-            /* .searchBtnMenu:focus{
-                cursor: pointer;
-            } */
-
-           
-        </style>
          <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Acme|Cherry+Cream+Soda|Homenaje|Montserrat:300,400,500,900|Mukta+Malar:200,300,400,500,700|Patua+One|Londrina+Solid:100,300,400,900|Oregano|Roboto:300,400,500"
     rel="stylesheet">
@@ -252,36 +160,7 @@
             
         </div>
     </footer>
-     
 
-
-     <script>
-            function goBack() {
-            window.history.back();
-            }
-            
-
-            // When the user scrolls down 50px from the top of the document, resize the header's font size
-            // window.onscroll = function() {scrollFunction()};
-
-            // function scrollFunction() {
-            // if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            //     document.getElementById("header").style.height = "100px";
-                
-            // } else {
-            //     document.getElementById("header").style.height = "50px";
-            // }
-            // }   
-
-           
-            // $(".btnMenu").click(function(){
-            //     let title = $(".btnMenu").val();
-            //     let titleDiv = $("<h2>"+title+"</h2>");
-            //     $(".searchItemTitle").append(title)
-            //     console.log(title)
-
-            // })
-    </script>
 
          
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

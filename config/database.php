@@ -41,7 +41,7 @@ return [
             'prefix' => '',
         ],
 
-        'mysql' => [
+        'mysqlOLD' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
@@ -56,7 +56,7 @@ return [
             'engine' => null,
         ],
 
-        'mysqlOLD' => [
+        'mysql' => [
             'driver' => 'mysql',
             'host' => isset($dbUrl["host"]) ? $dbUrl["host"] : env("DB_HOST"),
             'port' => isset($dbUrl["port"]) ? $dbUrl["port"] : env("DB_PORT"),

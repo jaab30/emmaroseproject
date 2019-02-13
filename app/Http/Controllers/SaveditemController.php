@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Gloudemans\Shoppingcart\Facades\Cart;
+use App\Review as Review;
+
 use Auth;
 
 use App\Saveditem as Saveditem;
@@ -103,9 +105,35 @@ class SaveditemController extends Controller
         $saveditems = Saveditem::find($id);
         $data = [];
         $data['summary'] = explode("." , $saveditems->summary);
+        $product_id = $saveditems->product_id;
+        $reviews = Review::where('product_id', $product_id)
+        ->get();
+
+        $avgRating = $reviews->avg('rating');
+
+        $round = round($avgRating,0);
+        // $starImg = '';
+        // dd($round);
+
+            if ($round == 1) {
+                $starImg = '/images/star1.png';
+            } else if ($round == 2){
+                $starImg = '/images/star2.png';
+            } else if ($round == 3){
+                $starImg = '/images/star3.png';
+            } else if ($round == 4){
+                $starImg = '/images/star4.png';
+            } else if ($round == 5){
+                $starImg = '/images/star5.png';
+            } else {
+                $starImg = '/images/star0.png';
+            };
 
 
-        return view('saveditems.wishitem', compact('saveditems','data'));
+
+
+
+        return view('saveditems.wishitem', compact('saveditems','data','reviews','starImg'));
     }
 
     /**

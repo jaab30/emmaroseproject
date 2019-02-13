@@ -30,7 +30,7 @@
     <!-- <a href="#review"><button class="reviewBtn" title="Review"><img src="{{ asset('images/5starC.png') }}" alt="Review Icon"></button></a> -->
    <div class="starReviewDiv">
       <a href="#review">
-      <img class="reviewImgTop" src="{{$starImg}}" alt="Review Icon">
+      <img class="reviewImgTop" src="{{$starImg}}" alt="Review Icon" title="Reviews">
       </a>
     </div>
     <!-- <img class="reviewStars" src="{{ asset('images/5star.png') }}" alt="review icon"> -->
@@ -94,20 +94,21 @@
         <form class="reviewForm" action="{{route('reviewStore')}}" method="post">
             <div id="starReview" class="starReviewEntry">
 
-                <input id="rating-1" type="radio" name="rating" value="1"/>
+                <input id="rating-1" type="radio" name="rating" value="1" required>
                 <label for="rating-1"><span class="fa fa-star starIcon starSelect1"></span></label>
 
-                <input id="rating-2" type="radio" name="rating" value="2"/>
+                <input id="rating-2" type="radio" name="rating" value="2">
                 <label for="rating-2"><span class="fa fa-star starIcon starSelect2"></span></label>
 
-                <input id="rating-3" type="radio" name="rating" value="3"/>
+                <input id="rating-3" type="radio" name="rating" value="3">
                 <label for="rating-3"><span class="fa fa-star starIcon starSelect3"></span></label>
 
-                <input id="rating-4" type="radio" name="rating" value="4"/>
+                <input id="rating-4" type="radio" name="rating" value="4">
                 <label for="rating-4"><span class="fa fa-star starIcon starSelect4"></span></label>
 
-                <input id="rating-5" type="radio" name="rating" value="5"/>
+                <input id="rating-5" type="radio" name="rating" value="5">
                 <label for="rating-5"><span class="fa fa-star starIcon starSelect5"></span></label>
+                <p id="requiredMessage"></p>
 
             </div>
             <p class="reviewNameP">Name: </p>
@@ -115,9 +116,9 @@
             <p class="reviewTitleP">Title: </p>
             <input class="reviewTitle" name="review_title" placeholder="Review Title.." required></textarea>
             <p class="reviewTextP">Review: </p>
-            <textarea class="reviewText" name="review_text" placeholder="Write a review.." required></textarea>
-            <input type="hidden" value="{{ $products->id }}" name="product_id" required>
-            <input class="reviewSubBtn" type="submit" value="Submit">
+            <textarea class="reviewText" name="review_text" placeholder="Write a review.."></textarea>
+            <input type="hidden" value="{{ $products->id }}" name="product_id">
+            <input class="reviewSubBtn" onclick="checkRequired()" type="submit" value="Submit">
             {{ csrf_field() }}
         </form>
       </div>
@@ -151,83 +152,6 @@
     <!-- </div> -->
   <!-- </div> -->
 </div>
-
-<script>
-
-function showReviewDiv(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
-
-
-
-
-
-
-
-// function toggle_display() {
-
-
-
-
-//   alert('yes')
-//       //  var reviewDiv = $('.reviewFormDiv')
-//        if($('.reviewFormDiv').style.display == 'block')
-//        {
-//         $('.reviewFormDiv').style.display = 'none';
-//        } else {
-//         $('.reviewFormDiv').style.display = 'block';
-//       }
-//     }
-
-//     $('.reviewItemBtn').click(function(){
-//       toggle_display()
-//     })
-
-
-$('#starReview input:radio').addClass('input_hidden');
-$('#starReview label').click(function(){
-    $(this).addClass('selected').siblings().removeClass('selected');
-});
-
-$("#rating-1").click(function(){
-  $(".starSelect1").addClass('checked')
-  $(".starSelect2").removeClass('checked')
-  $(".starSelect3").removeClass('checked');
-  $(".starSelect4").removeClass('checked');
-  $(".starSelect5").removeClass('checked');
-})
-$("#rating-2").click(function(){
-  $(".starSelect1").addClass('checked');
-  $(".starSelect2").addClass('checked');
-  $(".starSelect3").removeClass('checked');
-  $(".starSelect4").removeClass('checked');
-  $(".starSelect5").removeClass('checked');
-})
-$("#rating-3").click(function(){
-  $(".starSelect1").addClass('checked');
-  $(".starSelect2").addClass('checked');
-  $(".starSelect3").addClass('checked');
-  $(".starSelect4").removeClass('checked');
-  $(".starSelect5").removeClass('checked');
-})
-$("#rating-4").click(function(){
-  $(".starSelect1").addClass('checked');
-  $(".starSelect2").addClass('checked');
-  $(".starSelect3").addClass('checked');
-  $(".starSelect4").addClass('checked');
-  $(".starSelect5").removeClass('checked');
-})
-
-
-$("#rating-5").click(function(){
-  $(".starIcon").addClass('checked')
-})
-
-</script>
 
 
 @endsection

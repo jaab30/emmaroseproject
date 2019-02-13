@@ -262,27 +262,68 @@
                 $(".picture2").removeClass("hidden")
             })
             
+            function showReviewDiv(id) {
+                var reviewDiv = document.getElementById(id);
+                if(reviewDiv.style.display == 'block')
+                    reviewDiv.style.display = 'none';
+                else
+                    reviewDiv.style.display = 'block';
+                }
 
-            // When the user scrolls down 50px from the top of the document, resize the header's font size
-            // window.onscroll = function() {scrollFunction()};
+        $('#starReview input:radio').addClass('input_hidden');
+        $('#starReview label').click(function(){
+            $(this).addClass('selected').siblings().removeClass('selected');
+        });
 
-            // function scrollFunction() {
-            // if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            //     document.getElementById("header").style.height = "100px";
-                
-            // } else {
-            //     document.getElementById("header").style.height = "50px";
-            // }
-            // }   
+        $("#rating-1").click(function(){
+        $(".starSelect1").addClass('checked')
+        $(".starSelect2").removeClass('checked')
+        $(".starSelect3").removeClass('checked');
+        $(".starSelect4").removeClass('checked');
+        $(".starSelect5").removeClass('checked');
+        })
+        $("#rating-2").click(function(){
+        $(".starSelect1").addClass('checked');
+        $(".starSelect2").addClass('checked');
+        $(".starSelect3").removeClass('checked');
+        $(".starSelect4").removeClass('checked');
+        $(".starSelect5").removeClass('checked');
+        })
+        $("#rating-3").click(function(){
+        $(".starSelect1").addClass('checked');
+        $(".starSelect2").addClass('checked');
+        $(".starSelect3").addClass('checked');
+        $(".starSelect4").removeClass('checked');
+        $(".starSelect5").removeClass('checked');
+        })
+        $("#rating-4").click(function(){
+        $(".starSelect1").addClass('checked');
+        $(".starSelect2").addClass('checked');
+        $(".starSelect3").addClass('checked');
+        $(".starSelect4").addClass('checked');
+        $(".starSelect5").removeClass('checked');
+        })
 
-           
-            // $(".btnMenu").click(function(){
-            //     let title = $(".btnMenu").val();
-            //     let titleDiv = $("<h2>"+title+"</h2>");
-            //     $(".searchItemTitle").append(title)
-            //     console.log(title)
 
-            // })
+        $("#rating-5").click(function(){
+        $(".starIcon").addClass('checked')
+        })
+
+        function checkRequired() {
+            if (document.getElementById("requiredMessage").textContent){
+                $("#requiredMessage").empty();
+            }
+            var x = document.getElementById("rating-1").required;
+            if (x === true){
+                var paragraph = document.getElementById("requiredMessage");
+                var text = document.createTextNode("Please enter your Rating");
+                paragraph.appendChild(text); 
+            }
+
+          
+            }
+
+        
     </script>
 
          
