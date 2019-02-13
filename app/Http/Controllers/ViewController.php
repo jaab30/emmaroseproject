@@ -132,9 +132,9 @@ class ViewController extends Controller
 
         $avgRating = $reviews->avg('rating');
 
-        $round = round($avgRating,0);
-        // $starImg = '';
-        // dd($round);
+        $round = round($avgRating);
+        $starImg = '';
+        // dd($avgRating);
 
             if ($round == 1) {
                 $starImg = '/images/star1.png';
@@ -146,8 +146,6 @@ class ViewController extends Controller
                 $starImg = '/images/star4.png';
             } else if ($round == 5){
                 $starImg = '/images/star5.png';
-            } else if ($round == "0.0"){
-                $starImg = '/images/star0.png';
             } else {
                 $starImg = '/images/star0.png';
             };
