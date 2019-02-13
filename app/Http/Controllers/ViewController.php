@@ -133,8 +133,8 @@ class ViewController extends Controller
         $avgRating = $reviews->avg('rating');
 
         $round = round($avgRating);
-        // $starImg = 1;
-        // dd($avgRating);
+       
+        // dd($round);
 
             if ($round == 1) {
                 $starImg = '/images/star1.png';
@@ -143,6 +143,7 @@ class ViewController extends Controller
             } else if ($round == 3){
                 $starImg = '/images/star3.png';
             } else if ($round == 4){
+                dd('no');
                 $starImg = '/images/star4.png';
             } else if ($round == 5){
                 $starImg = '/images/star5.png';
@@ -150,20 +151,18 @@ class ViewController extends Controller
                 $starImg = '/images/star0.png';
             };
 
-        
-
-            
-       
-
-
-
         if ($iditem === null){
             $data['status'] = '';
             $data['title'] = "/images/fav_empty_75.png";
             $data['id'] = 'null';
 
+            $reviews = Review::where('product_id', $id)
+            ->get();
+
+            // dd($data['review']);
             $products = Products::find($id);
-            return view('products.show', compact('products','data'));
+            return view('products.show', compact('products','data','reviews','starImg'));
+           
         } else
         {
             $saveditems = Saveditem::where('user_id', $iditem)
@@ -175,7 +174,7 @@ class ViewController extends Controller
                 $data['title'] = "/images/fav_empty_75.png";
                 $products = Products::find($id);
                 $data['id'] = $iditem;
-                return view('products.show', compact('products','data'));
+                return view('products.show', compact('products','data','starImg'));
 
             } else
             {
@@ -197,6 +196,7 @@ class ViewController extends Controller
                         $data['title'] = "/images/fav_empty_75.png";
                     }
                 }
+                
         
                 return view('products.show', compact('products','saveditems','data','reviews','starImg'));
             }
