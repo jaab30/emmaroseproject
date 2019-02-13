@@ -133,22 +133,22 @@ class ViewController extends Controller
         $avgRating = $reviews->avg('rating');
 
         $round = round($avgRating);
-        $starImg = 1;
+        // $starImg = 1;
         // dd($avgRating);
 
-            // if ($round == 1) {
-            //     $starImg = '/images/star1.png';
-            // } else if ($round == 2){
-            //     $starImg = '/images/star2.png';
-            // } else if ($round == 3){
-            //     $starImg = '/images/star3.png';
-            // } else if ($round == 4){
-            //     $starImg = '/images/star4.png';
-            // } else if ($round == 5){
-            //     $starImg = '/images/star5.png';
-            // } else {
-            //     $starImg = '/images/star0.png';
-            // };
+            if ($round == 1) {
+                $starImg = '/images/star1.png';
+            } else if ($round == 2){
+                $starImg = '/images/star2.png';
+            } else if ($round == 3){
+                $starImg = '/images/star3.png';
+            } else if ($round == 4){
+                $starImg = '/images/star4.png';
+            } else if ($round == 5){
+                $starImg = '/images/star5.png';
+            } else {
+                $starImg = '/images/star0.png';
+            };
 
         
 
