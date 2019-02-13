@@ -16,7 +16,9 @@ class SaveditemController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
+    
     {
+        dd('yes');
         return view('saveditems/items');
     }
 

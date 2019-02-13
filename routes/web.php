@@ -31,11 +31,14 @@ Route::get('/cart/checkout', 'AccountController@checkout')->name('checkout');
 Route::post('/users/account', 'AccountController@update')->name('accountUpdate');
 Route::post('/cart/checkoutFinal', 'AccountController@checkoutUpdate')->name('checkoutUpdate');
 
+Route::post('/saveditems/wishlist', 'ReviewController@store')->name('reviewStore');
+
 Route::resource('products','ViewController');
 Route::resource('users','UserController');
 Route::resource('saveditems','SaveditemController');
 Route::resource('cart','CartController');
 Route::resource('account','AccountController');
+Route::resource('reviews','ReviewController');
 
 Route::get('pay-with-paypal','CheckoutController@paywithPaypal')->name('payment.paypal');
 Route::get('payment-done','CheckoutController@paymentDone')->name('payment.done');

@@ -170,12 +170,19 @@ ul, li {
     grid-row-start: 1;
     padding: 10px 0;
 }
-.starReviewDiv a{
-   text-decoration: none;
+
+.reviewImgTop {
+    width: 100px;
 }
+
 .checked {
     color: orange;
   }
+
+.starReviewDiv a{
+   text-decoration: none;
+}
+
 /* .reviewStars {
     grid-column-start: 2;
     grid-row-start: 3;
@@ -313,6 +320,13 @@ ul, li {
     background: rgb(255, 140, 176);
     color: white;
  } 
+.showItemForm input:focus {
+   outline: none;
+ } 
+.showItemForm input:active {
+    background: rgb(253, 67, 126);
+ } 
+
  .itemFullDescription {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -431,59 +445,200 @@ ul, li {
     margin: 20px 0 10px;
 
  }
+ .reviewItemBtn {
+     width: 150px;
+     height: 40px;
+     font-size: .8em;
+     border: none;
+     color: gray;
+     background: white;
+     text-decoration: underline;
+
+ }
+ .reviewItemBtn:hover {
+    cursor: pointer;
+
+ }
+ .reviewItemBtn:focus {
+    outline:none;
+
+ }
 
  .reviewImg {
-
-    width:50px; 
+    width:60px; 
  }
 
  .reviewFormDiv {
-     width: 100%;
+    display: none;
+    width: 100%;
  }
 
  .reviewForm {
      display: grid;
      grid-template-columns: 50% 50%;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1em;
+     text-align: left;
+
  }
 
-form p:nth-child(1) {
+ .starReviewEntry {
     grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-end: 3;
     grid-row-start: 1;
- }
-.reviewName {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
+    margin: 0 0 10px 0;
+
  }
 
- form p:nth-child(2) {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
+ .starBtn {
+     background: none;
+     border: none;
+     padding:0;
+     margin:0;
+
  }
- .reviewTitle {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
- }
- form p:nth-child(3) {
+.reviewNameP {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
+    margin: 5px 0;
+ }
+.reviewName {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    width: 300px;
+    height: 30px;
+    margin: 0 0 5px 60px;
+    border-radius: 5px;
+}
+.reviewName:focus{
+    outline:none;
+}
+
+.reviewTitleP {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    margin: 5px 0;
+ }
+ .reviewTitle {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    width: 400px;
+    height: 30px;
+    margin: 0 0 5px 60px;
+    border-radius: 5px;
+ }
+ .reviewTitle:focus{
+     outline:none;
+ }
+ .reviewTextP {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    margin: 5px 0;
     
  }
 .reviewText {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 2;
+    grid-row-start: 5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
     
  }
+ .reviewText:focus{
+    outline:none;
+}
+
+ 
 .reviewSubBtn {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 3;
+    grid-row-start: 6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 10px 0;
+    width: 100px;
+    border-radius: 5px;
+    padding: 3px 0 0 0;
+    background: white;
+    border: rgb(255, 140, 176) 2px solid;
  }
+ .reviewSubBtn:hover {
+    cursor:pointer;
+    background: rgb(255, 140, 176);
+    color: white;
+ }
+ .reviewSubBtn:focus {
+    outline:none;
+ }
+ 
+ .reviewSubBtn:active {
+   background: rgb(250, 83, 136);
+   color: white;
+ }
+ 
+
+
+.input_hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+.selected {
+    background-color: none;
+}
+
+#starReview label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#starReview label img {
+    padding: 3px;
+}
+
+.starIcon {
+    font-size: 1.2em; 
+}
+
+
+.reviewItem {
+    /* background: lightgrey; */
+    border-bottom: lightgray 1.5px solid;
+    margin: 5px 0;
+    padding-bottom: 5px;
+}
+
+.ratingStarImg {
+    width: 80px;
+}
+
+
+.reviewItem p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin:0;
+    padding:0;
+}
+.reviewItem h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin:5px 0;
+    padding:0;
+}
+
+
 
 
 

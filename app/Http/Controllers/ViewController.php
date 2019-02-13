@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Products as Products;
 use App\Saveditem as Saveditem;
+use App\Review as Review;
+
 use Auth;
 
 class ViewController extends Controller
@@ -124,7 +126,36 @@ class ViewController extends Controller
         $products = Products::find($id);
         $data['summary'] = explode("." , $products->summary);
 
-        // dd($data['summary']);
+
+        $reviews = Review::where('product_id', $id)
+        ->get();
+
+        $avgRating = $reviews->avg('rating');
+
+        $round = round($avgRating,0);
+        // $starImg = '';
+        // dd($round);
+
+            if ($round == 1) {
+                $starImg = '/images/star1.png';
+            } else if ($round == 2){
+                $starImg = '/images/star2.png';
+            } else if ($round == 3){
+                $starImg = '/images/star3.png';
+            } else if ($round == 4){
+                $starImg = '/images/star4.png';
+            } else if ($round == 5){
+                $starImg = '/images/star5.png';
+            } else {
+                $starImg = '/images/star0.png';
+            };
+
+        
+
+            
+       
+
+
 
         if ($iditem === null){
             $data['status'] = '';
@@ -136,7 +167,7 @@ class ViewController extends Controller
         } else
         {
             $saveditems = Saveditem::where('user_id', $iditem)
-            ->get();;
+            ->get();
             
             if( sizeof($saveditems) == 0 ) 
             {
@@ -167,7 +198,7 @@ class ViewController extends Controller
                     }
                 }
         
-                return view('products.show', compact('products','saveditems','data'));
+                return view('products.show', compact('products','saveditems','data','reviews','starImg'));
             }
         }
     }

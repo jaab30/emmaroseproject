@@ -30,11 +30,7 @@
     <!-- <a href="#review"><button class="reviewBtn" title="Review"><img src="{{ asset('images/5starC.png') }}" alt="Review Icon"></button></a> -->
    <div class="starReviewDiv">
       <a href="#review">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
+      <img class="reviewImgTop" src="{{$starImg}}" alt="Review Icon">
       </a>
     </div>
     <!-- <img class="reviewStars" src="{{ asset('images/5star.png') }}" alt="review icon"> -->
@@ -91,19 +87,59 @@
     <h3> Item Description </h3>
     <p> {{$products->description}} </p>
     <div id="review" class="itemReviews">
-    <h3> Reviews <img class="reviewImg" src="{{ asset('images/5starC.png') }}" alt="Review Icon"></h3>
-    <p> </p>
-      <div class="reviewFormDiv">
+    <h3> Reviews <img class="reviewImg" src="{{$starImg}}" alt="Review Icon"><button onclick="showReviewDiv('reviewForm')" class="reviewItemBtn">Review This Item</button></h3>
+    
+      <div id="reviewForm" class="reviewFormDiv">
 
-        <form class="reviewForm" action="/action_page.php">
-            <p>Name</p>
-            <input class="reviewName"type="text" name="firstname" placeholder="Your name..">
-            <p>Title</p>
-            <textarea class="reviewTitle" name="title" placeholder="Review Title.."></textarea>
-            <p>Review</p>
-            <textarea class="reviewText" name="review" placeholder="Write a review.."></textarea>
+        <form class="reviewForm" action="{{route('reviewStore')}}" method="post">
+            <div id="starReview" class="starReviewEntry">
+
+                <input id="rating-1" type="radio" name="rating" value="1"/>
+                <label for="rating-1"><span class="fa fa-star starIcon starSelect1"></span></label>
+
+                <input id="rating-2" type="radio" name="rating" value="2"/>
+                <label for="rating-2"><span class="fa fa-star starIcon starSelect2"></span></label>
+
+                <input id="rating-3" type="radio" name="rating" value="3"/>
+                <label for="rating-3"><span class="fa fa-star starIcon starSelect3"></span></label>
+
+                <input id="rating-4" type="radio" name="rating" value="4"/>
+                <label for="rating-4"><span class="fa fa-star starIcon starSelect4"></span></label>
+
+                <input id="rating-5" type="radio" name="rating" value="5"/>
+                <label for="rating-5"><span class="fa fa-star starIcon starSelect5"></span></label>
+
+            </div>
+            <p class="reviewNameP">Name: </p>
+            <input class="reviewName"type="text" name="review_user_name" placeholder="Your name.." required>
+            <p class="reviewTitleP">Title: </p>
+            <input class="reviewTitle" name="review_title" placeholder="Review Title.." required></textarea>
+            <p class="reviewTextP">Review: </p>
+            <textarea class="reviewText" name="review_text" placeholder="Write a review.." required></textarea>
+            <input type="hidden" value="{{ $products->id }}" name="product_id" required>
             <input class="reviewSubBtn" type="submit" value="Submit">
+            {{ csrf_field() }}
         </form>
+      </div>
+      <div class="reviewContainer">
+        @foreach($reviews as $review)
+            <div class="reviewItem">
+                @if ($review->rating === 1)
+                <img class="ratingStarImg" src="{{ asset('images/star1.png') }}">
+                @elseif ($review->rating === 2)
+                <img class="ratingStarImg" src="{{ asset('images/star2.png') }}">
+                @elseif ($review->rating === 3)
+                <img class="ratingStarImg" src="{{ asset('images/star3.png') }}">
+                @elseif ($review->rating === 4)
+                <img class="ratingStarImg" src="{{ asset('images/star4.png') }}">
+                @elseif ($review->rating === 5)
+                <img class="ratingStarImg" src="{{ asset('images/star5.png') }}">
+                @endif
+                <h3>{{$review->review_title}}</h3>
+                <p><strong>User Name: </strong>{{$review->review_user_name}}</p>
+                <p><strong>Comments: </strong>{{$review->review_text}}</p>
+            </div>
+        @endforeach
       </div>
 
     </div>
@@ -118,7 +154,78 @@
 
 <script>
 
+function showReviewDiv(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
 
+
+
+
+
+
+
+// function toggle_display() {
+
+
+
+
+//   alert('yes')
+//       //  var reviewDiv = $('.reviewFormDiv')
+//        if($('.reviewFormDiv').style.display == 'block')
+//        {
+//         $('.reviewFormDiv').style.display = 'none';
+//        } else {
+//         $('.reviewFormDiv').style.display = 'block';
+//       }
+//     }
+
+//     $('.reviewItemBtn').click(function(){
+//       toggle_display()
+//     })
+
+
+$('#starReview input:radio').addClass('input_hidden');
+$('#starReview label').click(function(){
+    $(this).addClass('selected').siblings().removeClass('selected');
+});
+
+$("#rating-1").click(function(){
+  $(".starSelect1").addClass('checked')
+  $(".starSelect2").removeClass('checked')
+  $(".starSelect3").removeClass('checked');
+  $(".starSelect4").removeClass('checked');
+  $(".starSelect5").removeClass('checked');
+})
+$("#rating-2").click(function(){
+  $(".starSelect1").addClass('checked');
+  $(".starSelect2").addClass('checked');
+  $(".starSelect3").removeClass('checked');
+  $(".starSelect4").removeClass('checked');
+  $(".starSelect5").removeClass('checked');
+})
+$("#rating-3").click(function(){
+  $(".starSelect1").addClass('checked');
+  $(".starSelect2").addClass('checked');
+  $(".starSelect3").addClass('checked');
+  $(".starSelect4").removeClass('checked');
+  $(".starSelect5").removeClass('checked');
+})
+$("#rating-4").click(function(){
+  $(".starSelect1").addClass('checked');
+  $(".starSelect2").addClass('checked');
+  $(".starSelect3").addClass('checked');
+  $(".starSelect4").addClass('checked');
+  $(".starSelect5").removeClass('checked');
+})
+
+
+$("#rating-5").click(function(){
+  $(".starIcon").addClass('checked')
+})
 
 </script>
 
