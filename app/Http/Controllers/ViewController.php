@@ -134,7 +134,7 @@ class ViewController extends Controller
 
         $round = round($avgRating,0);
         // $starImg = '';
-        // dd($round);
+        dd($round);
 
             if ($round == 1) {
                 $starImg = '/images/star1.png';
