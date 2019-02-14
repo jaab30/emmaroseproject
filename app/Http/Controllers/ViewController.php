@@ -143,7 +143,6 @@ class ViewController extends Controller
             } else if ($round == 3){
                 $starImg = '/images/star3.png';
             } else if ($round == 4){
-                dd('no');
                 $starImg = '/images/star4.png';
             } else if ($round == 5){
                 $starImg = '/images/star5.png';
