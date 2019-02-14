@@ -174,7 +174,7 @@ class ViewController extends Controller
                 $data['title'] = "/images/fav_empty_75.png";
                 $products = Products::find($id);
                 $data['id'] = $iditem;
-                return view('products.show', compact('products','data','starImg'));
+                return view('products.show', compact('products','data','reviews','starImg'));
 
             } else
             {
