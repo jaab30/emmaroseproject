@@ -52,27 +52,6 @@ class SaveditemController extends Controller
     public function store( Request $request )
     {
 
-        // $data = []; 
-
-        // $data['name'] = $request->input('name');
-        // $data['description'] = $request->input('description');
-        // $data['summary'] = $request->input('summary');
-        // $data['picture'] = $request->input('picture');
-        // $data['category'] = $request->input('category');
-        // $data['genre'] = $request->input('genre');
-        // $data['color'] = $request->input('color');
-        // $data['price'] = $request->input('price');
-        // $data['user_id'] = $request->input('user_id');
-      
-        // // if ( $request->isMethod('post') )
-        // // {
-        // //     dd($data);
-        // //     return redire('saved');
-
-        // // }
-        // $saveditem->insert($data);
-        // return redirect('saveditems/items');
-       
        
         $saveditem = new Saveditem(); 
 
@@ -88,9 +67,9 @@ class SaveditemController extends Controller
         $saveditem->color = $request->color;
         $saveditem->price = $request->price;
         $saveditem->user_id = $request->user_id;
-        // dd($saveditem);
+        
         $saveditem->save();
-        // return redirect('saveditems/items');
+        
         return redirect()->back();
     }
 

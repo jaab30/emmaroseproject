@@ -14,10 +14,7 @@
     font-size: 2.5em;
     color:  rgb(255, 140, 176);
     text-align: center;
-    /* background: rgb(255, 140, 176, 0.7); */
     padding:5px;
-
-
 }
 
 .showItemImg {
@@ -26,11 +23,7 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 75% auto;
     margin: 0 20px 0 0;
-    /* background: white; */
 }
-
-
-
 
 .insideImgContainer {
     grid-column-start: 1;
@@ -42,7 +35,6 @@
     background: white;
     padding: 10px 20px;
     border: rgb(255, 140, 176, 0.5) 1.5px solid;
-    /* box-shadow: 3px 3px 12px rgb(0, 0, 0, .2); */
     text-align: center;
    
 }
@@ -69,7 +61,6 @@
 }
 .thumbnail {
     width: 100px;
-    /* margin-left: 10px; */
     border: rgb(255, 140, 176) 2px solid;
     border-radius: 10px;
 }
@@ -82,10 +73,7 @@
     position: relative;
     width: 400px;
     height:auto;
-    /* background: red; */
     margin: 0 auto;
-
-
 }
 
 img.picture1 {
@@ -129,9 +117,7 @@ img.picture2:active {
     grid-template-columns: 5% 45% 45% 5%;
     grid-template-rows: 10% 10% 10% 20% 50%;
     background: rgb(255, 255, 255, 0.7);
-    /* background: rgb(255, 140, 176, 0.2); */
     border: rgb(255, 140, 176, 0.5) 1.5px solid;
-    /* box-shadow: 3px 3px 12px rgb(0, 0, 0, .2); */
     padding: 20px;
     width: 100%;
     height: 550px;
@@ -147,12 +133,8 @@ img.picture2:active {
     font-size: 1.4em;
     text-align: left;
     font-weight: 500;   
-    /* margin-top: 30px; */
-    /* padding: 30px 30px 0; */
-    /* background: white; */
     color: rgb(71, 71, 71);
     margin: 0;
-
 }
 
 ul, li {
@@ -183,40 +165,22 @@ ul, li {
    text-decoration: none;
 }
 
-/* .reviewStars {
-    grid-column-start: 2;
-    grid-row-start: 3;
-    width:80px;
-} */
-
 .showItemDescriptionText {
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
-    /* text-align: justify; */
-    /* margin-top: 30px; */
-    /* padding: 30px 30px 20px; */
-    /* background: white; */
     color: rgb(71, 71, 71);;
-
-
 }
 
 .showItemPrice{
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 3;
-
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     text-align: left;
-    /* padding: 0 20px 20px 0; */
     color: rgb(71, 71, 71);;
     margin:0;
-
 }
-/* form {
-   margin: 0 auto;
-} */
 
 .showItemForm {
     grid-column-start: 1;
@@ -226,13 +190,6 @@ ul, li {
     grid-template-columns: 5% 45% 45% 5%;
     grid-template-rows: 15% 15% 15% 15% 40% ;
     margin: 20px 0 0 0;
-    /* background: white;
-    padding: 20px;
-    text-align: center;
-    width: 400px;
-    border: rgb(255, 140, 176, 0.5) 1.5px solid;
-    box-shadow: 3px 3px 12px rgb(0, 0, 0, .2);
-    border-radius: 10px; */
     width: 100%;;
     height: 100%;
 
@@ -268,7 +225,6 @@ ul, li {
     grid-row-start: 4;
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
-    /* margin: 5px; */
     width: 60px;
     height: 30px;
     border: rgb(255, 140, 176) 1px solid;
@@ -281,7 +237,6 @@ ul, li {
     grid-row-start: 2;
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
-    /* margin: 5px; */
     width: 120px;
     height: 30px;
     border: rgb(255, 140, 176) 1px solid;
@@ -346,15 +301,9 @@ ul, li {
  .reviewBtn {
     grid-column-start: 1;
     grid-row-start: 1;
-    /* font-family: 'Homenaje', sans-serif;
-    font-size: 1.3em; */
     border: none;
     background: none;
-    /* color: white; */
     text-decoration: none;
-    /* width: 100px;
-    height: 30px;
-    padding-bottom: 20px; */
  }
 
  .reviewBtn img {
@@ -374,8 +323,6 @@ ul, li {
     background: none;
     color: white;
     text-decoration: none;
-
-
  }
 
  .wishlistImg {
@@ -384,15 +331,10 @@ ul, li {
  .goBackBtn {
     grid-column-start: 2;
     grid-row-start: 1;
-    /* font-family: 'Homenaje', sans-serif;
-    font-size: 1.5em; */
     border: none;
     background:none;
-    /* color: white; */
     text-decoration: none;
     text-align: left;
-
-
  }
 
  .goBackBtn img {
@@ -457,11 +399,9 @@ ul, li {
  }
  .reviewItemBtn:hover {
     cursor: pointer;
-
  }
  .reviewItemBtn:focus {
     outline:none;
-
  }
 
  .reviewImg {
@@ -479,7 +419,6 @@ ul, li {
      font-family: 'Montserrat', sans-serif;
      font-size: 1em;
      text-align: left;
-
  }
 
  .starReviewEntry {
@@ -487,7 +426,6 @@ ul, li {
     grid-column-end: 3;
     grid-row-start: 1;
     margin: 0 0 10px 0;
-
  }
 
  .starBtn {
@@ -495,7 +433,6 @@ ul, li {
      border: none;
      padding:0;
      margin:0;
-
  }
 .reviewNameP {
     grid-column-start: 1;
@@ -587,8 +524,6 @@ ul, li {
    color: white;
  }
  
-
-
 .input_hidden {
     position: absolute;
     left: -9999px;
@@ -613,7 +548,6 @@ ul, li {
 
 
 .reviewItem {
-    /* background: lightgrey; */
     border-bottom: lightgray 1.5px solid;
     margin: 5px 0;
     padding-bottom: 5px;
@@ -622,7 +556,6 @@ ul, li {
 .ratingStarImg {
     width: 80px;
 }
-
 
 .reviewItem p {
     font-family: 'Montserrat', sans-serif;

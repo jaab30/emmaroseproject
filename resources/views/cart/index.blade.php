@@ -46,25 +46,19 @@
 				<td></td>
 				<td></td>
 				<td></td>
-				<!-- <td>Qty: {{Cart::count()}}</td> -->
 				<td><strong>Total:</strong></td>
 				<td><strong>$ {{Cart::subtotal()}}</strong></td>
 				</tr>
-				<!-- Tax: ${{Cart::tax()}}<br>
-				Total: ${{Cart::total()}}</td> -->
-				
 
 			</tbody>
 			
 		</table>
-		<!-- <button>Checkout</button> -->
 		<div class="continueShoppingDiv">
 			<a href="{{ route('landing') }}"><button class="continueShoppingBtn">Continue Shopping</button></a>
 		
 		</div>
 		<div class="paymentPaypalDiv">
 			<a href="{{ route('checkout') }}"><button class="paymentPaypalDivBtn">Checkout</button></a>
-			<!-- <a href="{{ route('payment.paypal') }}"><button class="paymentPaypalDivBtn">Pay with Paypal</button></a> -->
 
 		</div>
 

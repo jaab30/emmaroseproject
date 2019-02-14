@@ -1,17 +1,12 @@
 
 .cartMain {
     min-height: 60vh;
-
-
 }
 
-
 .cartContainer {
-    
    display: grid;
    grid-template-columns: 25% 25% 25% 25%;
 }
-
 
 h1 {
     grid-column-start: 2;
@@ -27,18 +22,12 @@ h1 {
     font-size: 1.2em;
     color: rgba(255, 95, 145);
     text-align: center;
-    
-
  }
 
 .cartMainTable {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
-    
-    /* font-family: 'Montserrat', sans-serif; */
-    /* text-align: center; */
-    /* border: black 1px solid; */
 }
 .cartMainTable thead tr th{
     font-size: .8em;
@@ -47,62 +36,39 @@ h1 {
 }
 .cartMainTable thead th:nth-child(2){
     text-align: center;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .cartMainTable thead th:nth-child(3){
     text-align: center;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .cartMainTable thead th:nth-child(4){
     text-align: right;
     width: 80px;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .cartMainTable thead th:nth-child(5){
     text-align: right;
     width: 80px;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .cartMainTable td:nth-child(2){
     text-align: center;
-    /* background:red; */
-
 }
 .cartMainTable td:nth-child(3){
     text-align: center;
-    /* background:red; */
-
 }
 .cartMainTable td:nth-child(4){
     text-align: right;
-    /* background:red; */
-
 }
 .cartMainTable td:nth-child(5){
     text-align: right;
-    /* background:red; */
-
 }
 
 .cartMainTable tr:last-child {
     text-align: left;
     font-size: 1.2em;
     padding-top: 30px;
-    /* background: red; */
-
 }
 
 .cartDelete {
     text-align: left;
-
 }
 
 .delBtn {
@@ -113,42 +79,31 @@ h1 {
     margin-bottom: 5px;
     color: gray;
     border: none;
-    /* border-radius: 4px;
-    transition: .3s; */
     text-decoration: underline;
 }
 .delBtn:hover {
-    /* background:  white; */
     cursor: pointer;
     color: rgba(255, 95, 145);
-
 }
 .delBtn:focus {
     outline:none;
 }
-
-
 .continueShoppingDiv {
     grid-column-start: 2;
     grid-row-start: 3;
     text-align: right;
     margin: 20px 10px 0 0;
-
-
 }
 .paymentPaypalDiv {
     grid-column-start: 3;
     grid-row-start: 3;
     text-align: left;
     margin: 20px 0 0 10px;
-
-
 }
 
 .continueShoppingBtn, .paymentPaypalDivBtn {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    /* font-weight: 700; */
     background:white;
     color: rgba(255, 95, 145);
     border: none;
@@ -162,7 +117,6 @@ h1 {
     cursor: pointer;
     background:rgba(255, 95, 145);
     color:white;
-
 }
 
 .continueShoppingBtn:active, .paymentPaypalDivBtn:active {
@@ -189,8 +143,6 @@ h3 {
     grid-column-end: 4;
     grid-row-start: 4;
     font-family: 'Montserrat', sans-serif;
-    /* text-align: center; */
-    /* border: black 1px solid; */
 }
 .confirmationClientInfo {
     grid-column-start: 2;
@@ -200,86 +152,58 @@ h3 {
 }
 
 .confirmationClientInfo p{
-    /* font-family: 'Montserrat', sans-serif; */
     color: black;
     margin:0;
 }
 .confirmationClientInfo p:nth-child(1){
-    /* font-family: 'Montserrat', sans-serif; */
     text-align: right;
 }
-
 
 .confirmationMainTable thead tr th{
     font-size: .8em;
     margin: 30px;
-
 }
 .confirmationMainTable thead th:nth-child(2){
     text-align: center;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .confirmationMainTable thead th:nth-child(3){
     text-align: center;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .confirmationMainTable thead th:nth-child(4){
     text-align: right;
     width: 80px;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .confirmationMainTable thead th:nth-child(5){
     text-align: right;
     width: 80px;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .confirmationMainTable td:nth-child(2){
     text-align: center;
     font-size: .9em;
-    /* background:red; */
-
 }
 .confirmationMainTable td:nth-child(3){
     text-align: center;
     font-size: .9em;
-    /* background:red; */
-
 }
 .confirmationMainTable td:nth-child(4){
     text-align: right;
     font-size: .9em;
-    /* background:red; */
-
 }
 .confirmationMainTable td:nth-child(5){
     text-align: right;
     font-size: .9em;
-    /* background:red; */
-
 }
 
 .confirmationMainTable tr:last-child {
     text-align: left;
     font-size: 1.2em;
     padding-top: 30px;
-    /* background: red; */
-
 }
  .printBtn {
     grid-column-start: 3;
     grid-row-start: 5;
     text-align: right;
     margin-top: 20px;
-
-
  }
 
  .printBtnForm {

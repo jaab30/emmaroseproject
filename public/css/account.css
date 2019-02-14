@@ -1,7 +1,6 @@
 .accountInfoContainer {
     display: grid;
     grid-template-columns: 10% 10% 30% 30% 10% 10%;
-    
 }
 
 .accountInfoContainer h1 {
@@ -102,20 +101,18 @@ input {
 }
 
 label {
-    /* font-family: 'Montserrat', sans-serif; */
     font-size: .9em;
     margin:0;   
-
-
 }
+
 .updateBtn {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
     text-align: center;
     margin: 30px 0 0 0;
-    
 }
+
 .updateBtn button {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
@@ -127,15 +124,12 @@ label {
     border: rgba(255, 95, 145) 2px solid;
     border-radius: 5px;
     transition: 0.3s;
-    
 }
 .updateBtn button:hover {
     cursor: pointer;
     background:rgba(255, 95, 145);
     color:white;
-
 }
-
 .updateBtn button:active {
     background-color: rgba(255, 95, 145, 0.5);
     color: white;
@@ -143,25 +137,21 @@ label {
 .updateBtn button:focus {
     outline:none;
 }
-
 .updateBtn input {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    /* font-weight: 700; */
     background:white;
     color: rgba(255, 95, 145);
     border: none;
     padding: 5px 10px;
     border: rgba(255, 95, 145) 2px solid;
     border-radius: 5px;
-    transition: 0.3s;
-    
+    transition: 0.3s; 
 }
 .updateBtn input:hover {
     cursor: pointer;
     background:rgba(255, 95, 145);
     color:white;
-
 }
 .updateBtn input:active {
     background-color: rgba(255, 95, 145, 0.5);
@@ -171,9 +161,6 @@ label {
 .updateBtn input:focus {
     outline:none;
 }
-
-
-
 
 .contactInfo p {
     margin: 0;
@@ -266,9 +253,6 @@ label {
     grid-row-start: 1;
     grid-row-end: 2;
     margin-left: 30px;
-   
-    /* background: pink; */
-
 }
 .customerInfoContainerCheckout h2 {
     font-size: 1.2em;
@@ -284,10 +268,6 @@ label {
     color: black;
     font-size: 1em;
     padding: 20px;
-    /* background: rgb(255, 192, 203, .4);
-    border: rgb(255, 140, 176) 3px solid; */
-
-
 }
 .shippingOptions p {
     margin: 0 0 15px;   
@@ -298,8 +278,6 @@ label {
 .shippingOptions p:nth-child(3) {
     font-size: .8em;
 }
-
-
 
 .continueCheckoutBtn {
     grid-column-start: 3;
@@ -312,7 +290,6 @@ label {
 .continueCheckoutBtn input {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    /* font-weight: 700; */
     background:white;
     color: rgba(255, 95, 145);
     border: none;
@@ -326,7 +303,6 @@ label {
     cursor: pointer;
     background:rgba(255, 95, 145);
     color:white;
-
 }
 .continueCheckoutBtn input:active {
     background-color: rgba(255, 95, 145, 0.5);
@@ -344,18 +320,11 @@ label {
     grid-column-end: 3;
     grid-row-start: 2;
     padding: 0 20px;
-    /* display: grid;
-    grid-template-columns:  */
-
-
 }
 .cartMainTableCheckout {
     width: 100%;
     height: auto;
     font-size: .9em;
-    
-
-
 }
 .cartMainTableCheckout thead tr{
     margin: 30px;
@@ -363,75 +332,45 @@ label {
 }
 .cartMainTableCheckout thead th:nth-child(2){
     text-align: center;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .cartMainTableCheckout thead th:nth-child(3){
     text-align: center;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .cartMainTableCheckout thead th:nth-child(4){
     text-align: right;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .cartMainTableCheckout thead th:nth-child(5){
     text-align: right;
-    /* text-align: left; */
-    /* background:blue; */
-
 }
 .cartMainTableCheckout td:nth-child(2){
     text-align: center;
-    /* background:red; */
-
 }
 .cartMainTableCheckout td:nth-child(3){
     width:10px;
     text-align: center;
-    /* background:red; */
-
 }
 .cartMainTableCheckout td:nth-child(4){
     width: 90px;
     text-align: right;
-    /* background:red; */
-
 }
 .cartMainTableCheckout td:nth-child(5){
     width: 80px;
     text-align: right;
-    /* background:red; */
 
 }
-/* .cartMainTableCheckout tr:nth-child(6){
-    text-align: left;
-    font-size: 1.5em;
-    padding-top: 30px;
-    /* background: red; */
 
 .cartMainTableCheckout tr:last-child {
     text-align: left;
     font-size: 1.2em;
     padding-top: 30px;
-    /* background: red; */
-
 }
 
 .blankRow {
     height: 20px;
-
-
 }
 
 .shippingTo {
     font-size: .8em;
-
-
 }
 
 .paymentPaypalDivCheckout {
@@ -440,13 +379,10 @@ label {
     text-align: right;
     margin: 20px 0 0 0;
     padding: 0 10px 0 0;
-
-
 }
 .paymentPaypalDivCheckout img {
     width: 250px;
-    text-align: right;
-    
+    text-align: right;  
 }
 .paymentPaypalDivCheckout img:hover {
     opacity: 0.6;
@@ -468,7 +404,6 @@ label {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     color: gray;
-
 }
 .shippingTextInst2 {
     font-family: 'Montserrat', sans-serif;
@@ -476,5 +411,4 @@ label {
     font-size: 1.5em;
     margin: 0 0 20px;
     color: gray;
-
 }

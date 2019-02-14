@@ -8,9 +8,7 @@ html {
 
 body {
     background-image: url("/images/lightgray.jpg");
-    /* background-size: cover; */
     background-attachment: fixed;
-    /* background: rgb(235, 235, 235); */
     margin: 0;
 }
 
@@ -35,9 +33,6 @@ header {
     grid-template-columns: 5% 60% 15% 20%;
     margin: 0;
     padding:0;
-    /* z-index: 2; */
-    /* border-bottom: rgb(0, 0, 0, 0.7) 1px solid; */
-
 }
 
 .horizontal_dotted_line{
@@ -47,7 +42,6 @@ header {
     top: 3px;
     border-bottom: 2px dashed white;
     width: 100%;
-    /* padding-bottom: 40px; */
   } 
 .horizontal_dotted_line2 {
     grid-column-start: 1;
@@ -56,7 +50,6 @@ header {
     top: 44px;  
     border-bottom: 1.5px dashed white;
     width: 100%;   
-    /* padding-bottom: 40px ; */
   }     
 .horizontal_dotted_line2A { 
     grid-column-start: 1;
@@ -65,7 +58,6 @@ header {
     top: 88px;
     border-bottom: 1.5px dashed white;
     width: 100%;
-    /* padding-bottom: 40px; */
   } 
 
 .logginIconImg {
@@ -75,10 +67,6 @@ header {
 
 .navbarEmma h2 {
     grid-column-start: 2;
-    /* font-family: 'SmoothieShoppe';
-    font-size: 2em;
-    color: white;
-    text-shadow: 1px 1px black; */
     margin: 0;
     padding: 15px 20px 20px;
     font-weight: 500;
@@ -91,8 +79,6 @@ header {
     font-size: 1.1em;
     color: white;
     text-shadow: 1px 1px black;
-    
-
 }
 
 .navContainerEmma {
@@ -132,12 +118,10 @@ header {
   .dropdownEmma {
     grid-column-start: 1;
     position: relative;
-    /* display: inline-block; */
   }
   .dropdownEmma2 {
     grid-column-start: 1;
     position: relative;
-    /* display: inline-block; */
   }
   
   .dropdownEmma-content {
@@ -210,22 +194,15 @@ header {
       outline:none;
   }
 
-  
-  /* .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-  } */
-
 .cartDiv {
     grid-column-start: 4;
     grid-row-start: 1;
-    /* background-color: rgb(255, 140, 176, .7.3); */
     color: white;
     padding: 12px 25px 0 10px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     text-align: left; 
-    /* margin: 0 105px 0 0; */
 }
 
 .cartDiv img {
@@ -235,14 +212,12 @@ header {
 .cartDiv2 {
     grid-column-start: 4;
     grid-row-start: 1;
-    /* background-color: rgb(255, 140, 176, .7.3); */
     color: white;
     padding: 52px 25px 0 10px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     text-align: left; 
-    /* margin: 0 105px 0 0; */
 }
 
 .cartDiv2 img {
@@ -250,10 +225,6 @@ header {
     height: auto;
 }
 .cartCounter {
-    /* grid-column-start: 4; */
-    /* float: right; */
-    /* padding-right: 0;
-    padding-bottom: 0; */
     position: absolute;
     margin: 0 30px 0 0;
     padding: 0 5px;
@@ -266,10 +237,6 @@ header {
 
 }
 .cartCounter2 {
-    /* grid-column-start: 4; */
-    /* float: right; */
-    /* padding-right: 0;
-    padding-bottom: 0; */
     position: absolute;
     margin: 0 30px 0 0;
     padding: 0 5px;
@@ -336,7 +303,6 @@ header {
     height: auto;
     margin: 10px 0;
     padding:0;
-    /* opacity: 0.9; */
 }
 .navbarEmma a {
     grid-column-start: 3;
@@ -346,51 +312,36 @@ header {
     display:grid;
     grid-template-columns: 5% 60% 25% 10%;
     margin: 0 0 0 0;
-    /* padding: 2px 0 2px 0; */
 }
 .mainLinks {
     grid-column-start: 2;
 
 }
 .skirtLink {
-    /* grid-column-start: 2;
-    grid-row-start: 1; */
     float:left; 
     text-align:center;
 }
 .suspenderSkirtLink {
-    /* grid-column-start: 2;
-    grid-row-start: 1; */
     float:left; 
     text-align:center;
 }
 .outfitLink {
-    /* grid-column-start: 2;
-    grid-row-start: 1; */
     float:left; 
     text-align:center;
 }
 .bloomerLink {
-    /* grid-column-start: 2;
-    grid-row-start: 1; */
     float:left; 
     text-align:center;
 }
 .girlShirtLink {
-    /* grid-column-start: 2;
-    grid-row-start: 1; */
     float:left; 
     text-align:center;
 }
 .boyShirtLink {
-    /* grid-column-start: 2;
-    grid-row-start: 2; */
     float:left; 
     text-align:center;
 }
 .searchLink {
-    /* grid-column-start: 3; */
-    /* float:left;  */
     text-align:right;
 }
 
@@ -412,16 +363,12 @@ header {
     outline:none;
 }
 
-
 .searchBtn {
-    /* width: 60px;
-    height: 25px; */
     background-color: white;
     border: none;
     font-family: 'Acme', sans-serif;
     color: #ff8cb0;
     font-size: 1.2em;
-    /* padding:5px 0; */
 }
 
 .searchBtn:hover{
@@ -492,21 +439,22 @@ header {
 .imgCard {
     width: 100%;
     height: 100%;
-
 }
 .imgCard:hover {
     opacity:.8 ;
-    /* transition: .3s ease; */
-    /* transition-timing-function: ease-in; */
     cursor: pointer;
-
+}
+.imgCard:focus {
+    outline: none;
+}
+.imgCard:active {
+    width: 99%;
+    height: 99%;
 }
 .skirtCard, .btnCard{
     margin: 0;
     padding: 0;
     border: none;
-
-
 }
 
 .card1 {
@@ -529,8 +477,6 @@ header {
 
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    /* background-image:url("/images/wood.png"); */
-    /* grid-column-gap: 10px; */
     margin-top: 50px;
     padding: 10px 0 20px;
     background: rgb(255, 140, 176, .4);
@@ -547,8 +493,6 @@ header {
     font-size: 2em;
     color: white;
     text-shadow: 1px 1px black;
-
-    
 }
 
 .iconDiv {
@@ -575,7 +519,6 @@ header {
     width: 35px;
     margin: 0 8px;
     opacity: .8;
-    /* transition: .3s; */
 }
 .iconImg:hover {
     opacity: 1;
@@ -685,35 +628,11 @@ header {
     color: black;
 }
 
-/* .test:focus {
-    outline: none !important;
-  }  */
-  .form-control:focus {
-    border-color: rgb(255, 140, 176, 0.5);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5);
-  }
-
-
-/* logout page form */
-
-/* 
-.searchBtn {
-    width: 60px;
-    height: 25px;
-}
-.searchBtn {
-    width: 60px;
-    height: 25px;
-    background-color: white;
-    border: none;
+.form-control:focus {
+border-color: rgb(255, 140, 176, 0.5);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5);
 }
 
-.searchBtn:hover{
-    cursor: pointer;
-} */
-/* .searchBtnMenu:focus{
-    cursor: pointer;
-} */
 
 
 

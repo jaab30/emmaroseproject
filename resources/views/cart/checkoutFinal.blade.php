@@ -42,12 +42,6 @@
                             <td>{{ $cartItem->qty}}</td>
                             <td>$ {{ $cartItem->price}}</td>
                             <td>$ {{ number_format($cartItem->price * $cartItem->qty, 2)}}</td>
-                            <!-- <td><form class="cartDelete" action="{{ route('cart.destroy', $cartItem->rowId) }}" method="post">
-                            {{ csrf_field() }}
-                            {{ method_field('delete') }}
-                                <button class="delBtn" type="submit">remove</button>
-                                </form>
-                            </td> -->
                         </tr>
 
                     @endforeach
@@ -76,9 +70,6 @@
                     <td><strong>$ {{number_format(Cart::subtotal() + $shippingAmt, 2)}}</strong></td> 
                     </tr>
                     
-                    <!-- Tax: ${{Cart::tax()}}<br>
-                    Total: ${{Cart::total()}}</td> -->
-                    
 
                 </tbody>
                 
@@ -92,9 +83,6 @@
             <input value="{{ $shippingAmt }}" name="shippingInfo" type="hidden">
             <button type=submit><img src="/images/paypal3.png" alt="paypal icon"></button>
             </form> 
-
-			<!-- <a href="{{ route('payment.paypal') }}"><img src="/images/paypal2.png" alt="paypal icon"></a> -->
-			<!-- <a href="{{ route('payment.paypal') }}"><button class="paymentPaypalDivBtnCheckout">Pay with Paypal</button></a> -->
 
 		</div>
     </div>

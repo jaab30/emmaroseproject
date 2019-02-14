@@ -78,7 +78,6 @@
                 
                 <div class="shippingInfoContainer">
                 <p class="checkoutTextInst"><span class="circleNumber">2</span>Select Shipping Service</p>
-                    <!-- <h2> Shipping </h2> -->
                     
                     <div class="shippingOptions">
                         

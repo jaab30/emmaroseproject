@@ -24,8 +24,6 @@
   <div class="showItemDescription">
     <p class="showItemDescriptionTitle">{{ $saveditems->name }} </p>
     <p class="showItemPrice">${{$saveditems->price}}</p>
-    
-    <!-- <button class="reviewBtn" title="Review"><img src="{{ asset('images/5starC.png') }}" alt="Review Icon"></button> -->
     <div class="starReviewDiv">
       <a href="#review">
       <img class="reviewImgTop" src="{{$starImg}}" alt="Review Icon">

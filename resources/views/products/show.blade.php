@@ -26,14 +26,12 @@
   <div class="showItemDescription">
     <p class="showItemDescriptionTitle">{{ $products->name }} </p>
     <p class="showItemPrice">${{$products->price}}</p>
-    
-    <!-- <a href="#review"><button class="reviewBtn" title="Review"><img src="{{ asset('images/5starC.png') }}" alt="Review Icon"></button></a> -->
+
    <div class="starReviewDiv">
       <a href="#review">
       <img class="reviewImgTop" src="{{$starImg}}" alt="Review Icon" title="Reviews">
       </a>
     </div>
-    <!-- <img class="reviewStars" src="{{ asset('images/5star.png') }}" alt="review icon"> -->
     <ul>
       <li class="showItemDescriptionText"> {{ $data['summary'][0] }}.</li>
       <li class="showItemDescriptionText"> {{ $data['summary'][1] }}.</li>
@@ -63,8 +61,6 @@
       
       <input type="submit" value="Add to cart">
     </form>
-    <!-- <a href="{{ route('cart.edit', $products->id) }}">Cart</a> -->
-    <!-- <div class="showBtns"> -->
           
             <form class="wishlistForm" action="{{ $data['id'] === 'null' ? route('login') : '/saveditems' }}" method="{{ $data['id'] === 'null' ? 'get' : 'post' }}">
               <input class="test" type="hidden" value="{{ $products->id }}" name="product_id">
@@ -146,11 +142,6 @@
     </div>
   </div>
   
-        
-        
-      
-    <!-- </div> -->
-  <!-- </div> -->
 </div>
 
 

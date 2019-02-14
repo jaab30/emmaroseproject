@@ -7,106 +7,9 @@
 
         <title>Emma Rose Baby Boutique</title>
 
-        <!-- Fonts -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css"> -->
-
-        
-        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        <!-- Styles -->
-        <style>
-            /* html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            } */
-            /* img {
-                width: 200px;
-                height: 200px;
-            }
-            a {
-                float: left;
-
-            }
-            .headerNavContainer{
-                display:grid;
-                grid-template-columns: 80% 10% 10%;
-            }
-            .account {
-                grid-column-start: 2;
-
-            }
-            .cart {
-                grid-column-start: 3;
-
-            }
-            .searchBtn {
-                width: 60px;
-                height: 25px;
-            }
-            .searchBtnMenu {
-                width: 150px;
-                height: 25px;
-                background-color: white;
-                border: none;
-            }
-
-            .searchBtnMenu:hover{
-                cursor: pointer;
-            } */
-            /* .searchBtnMenu:focus{
-                cursor: pointer;
-            } */
-
-           
-        </style>
-         <!-- Styles -->
+         <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Acme|Cherry+Cream+Soda|Homenaje|Montserrat:300,400,500,900|Mukta+Malar:200,300,400,500,700|Patua+One|Londrina+Solid:100,300,400,900|Oregano|Roboto:300,400,500"
     rel="stylesheet">
     
@@ -129,7 +32,6 @@
         <div id="app" class="headerContainer">
             <nav class="navbarEmma">
             <div class="horizontal_dotted_line"></div>
-                <!-- <h2><a href="/">Emma Rose Baby Boutique</a></h2> -->
                 <div class="logoImg2Div">
                     <a href="/"><img class="logoImg2" src="{{ asset('images/logoMainfinal2onlyB.png') }}" alt="Logo img">
                 </div>
@@ -171,7 +73,6 @@
                 @endauth
 
                 <div class="cartDiv2">
-                    <!-- <a class="cart" href="{{route('cart.index')}}">Shopping Cart</a><span class="cartCounter">{{Cart::count()}}</span> -->
                     <a class="cart" href="{{route('cart.index')}}"><img alt="shopping cart" src="{{ asset('images/cart2A.png') }}" width="30px" height="30px">
                     </a><span class="cartCounter2">{{Cart::count()}}</span>
                 </div>
@@ -201,10 +102,6 @@
                     <button class="btnMenu" value="boy_shirt" name="search" type="submit">Boy Shirts - Onesies</button>
                 </form>
             </div>
-            <!-- <form action="/search" method="get">
-                <input type="text" placeholder="Search" name="search">
-                <button class="searchBtn" type="submit">Search</button>
-            </form> -->
             <form class="searchLink" action="{{route ('search')}}" method="get">
                 <input class="searchText" type="text" placeholder="ex. skirts" name="search">
                 <button class="searchBtn" type="submit">Search</button>

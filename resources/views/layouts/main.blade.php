@@ -7,14 +7,9 @@
 
         <title>Emma Rose Baby Boutique</title>
 
-        <!-- Fonts -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css"> -->
-
-        
-        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-         <!-- Styles -->
+         <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Acme|Cherry+Cream+Soda|Homenaje|Montserrat:300,400,500,900|Mukta+Malar:200,300,400,500,700|Patua+One|Londrina+Solid:100,300,400,900|Oregano|Roboto:300,400,500"
     rel="stylesheet">
     
@@ -37,7 +32,7 @@
         <div id="app" class="headerContainer">
             <nav class="navbarEmma">
             <div class="horizontal_dotted_line"></div>
-                <!-- <h2><a href="/">Emma Rose Baby Boutique</a></h2> -->
+                
                 <div class="navContainerEmma">
                     <div class="dropdownEmma">
                     <img class="logginIconImg" src="/images/loggin2.png" alt="account icon"><button class="dropbtnEmma">{{ Auth::user() ? Auth::user()->name : 'Account' }}</button>
@@ -71,7 +66,6 @@
                 </div>
                 
                 <div class="cartDiv">
-                    <!-- <a class="cart" href="{{route('cart.index')}}">Shopping Cart</a><span class="cartCounter">{{Cart::count()}}</span> -->
                     <a class="cart" href="{{route('cart.index')}}"><img alt="shopping cart" src="{{ asset('images/cart2A.png') }}" width="30px" height="30px">
                     </a><span class="cartCounter">{{Cart::count()}}</span>
                 </div>
@@ -116,10 +110,7 @@
                     <button class="btnMenu" value="boy_shirt" name="search" type="submit">Boy Shirts - Onesies</button>
                 </form>
             </div>
-            <!-- <form action="/search" method="get">
-                <input type="text" placeholder="Search" name="search">
-                <button class="searchBtn" type="submit">Search</button>
-            </form> -->
+        
             <form class="searchLink" action="{{route ('search')}}" method="get">
                 <input class="searchText" type="text" placeholder="ex. skirts" name="search">
                 <button class="searchBtn" type="submit">Search</button>
