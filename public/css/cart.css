@@ -240,7 +240,7 @@ h3 {
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 650px) and (max-width: 900px) {
 
     .cartContainer {
         display: grid;
@@ -251,5 +251,51 @@ h3 {
         margin-top: 30px;
     
     }
+
+}
+@media screen and (max-width: 650px) {
+
+    .cartContainer {
+        display: grid;
+        grid-template-columns: 3% 47% 47% 3%;
+        
+     }
+     .cartMainTable {
+        margin-top: 30px;
+    
+    }
+    .cartContainer h1 {
+        font-size: 1.2em;
+        margin: 20px 0 10px;
+     }
+    .cartMainTable {
+        font-size: .8em;
+    }
+    .cartMainTable thead th:nth-child(3){
+        width: 30px;
+        text-align: right;
+    }
+    .cartMainTable td:nth-child(3){
+        text-align: right;
+    }
+    .cartMainTable thead th:nth-child(4){
+        text-align: right;
+        width: 80px;
+    }
+    .cartMainTable thead th:nth-child(5){
+        text-align: right;
+        width: 50px;
+    }
+    .cartMainTable tr:last-child {
+        text-align: left;
+        font-size: 1em;
+        padding-top: 10px;
+    }
+
+    .continueShoppingBtn, .paymentPaypalDivBtn {
+        font-size: .7em;
+        border: rgba(255, 95, 145) 1.5px solid;
+    }
+   
 
 }

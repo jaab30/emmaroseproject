@@ -150,3 +150,11 @@
 
 
  }
+ @media screen and (max-width: 600px) {
+
+    .wishListResult {
+        display: grid;
+        grid-template-columns:100%;
+    }
+
+ }

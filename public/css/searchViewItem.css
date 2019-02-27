@@ -204,6 +204,8 @@
     }
 
   }
+
+
   @media screen and (min-width: 600px) and (max-width: 900px) {
 
     .sideViewItemContainer {
@@ -236,5 +238,33 @@
         border-radius: 20px 0;
         margin: 0 0 30px;
     }
+
+  }
+
+  @media screen and (max-width: 650px) {
+
+    .searchViewItemContainer h1{
+       font-size: 1.8em;
+       padding: 10px 0;
+    }
+    
+    .sideViewItemContainer {
+        margin: 0 10px;
+    }
+
+    .sideCardItem img {
+        width: 100%;
+        height: auto;
+        border: rgb(255, 255, 255) 3px solid;
+        box-shadow: 1px 1px 12px rgb(0, 0, 0, .3);
+    }
+    .searchResult {
+        display: grid;
+        grid-template-columns: 100%;
+        /* grid-gap: 20px; */
+    }
+
+
+
 
   }

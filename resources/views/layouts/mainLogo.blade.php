@@ -46,7 +46,7 @@
                     <input class="searchText" type="text" placeholder="ex. skirts" name="search">
                     
                 </form>
-                <div class="navContainerEmma">
+                <div class="navContainerEmma navContainerEmma2">
                     <div class="dropdownEmma2"><img class="logginIconImg" src="/images/loggin2.png" alt="account icon">
                         <button class="dropbtnEmma2">{{ Auth::user() ? Auth::user()->name : 'Account' }}</button>
                         <div class="dropdownEmma-content2">

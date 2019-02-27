@@ -630,7 +630,7 @@ ul, li {
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 650px) and (max-width: 900px) {
 
     .showItemContainer {
         display: grid;
@@ -666,3 +666,106 @@ ul, li {
 
     }
 
+
+    @media screen and (max-width: 650px) {
+      
+        .showItemContainer {
+            display: grid;
+            grid-template-columns: 2% 48% 48% 2%;
+            
+        }
+        .showItemImg {
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 2;
+    
+        }
+    
+        .showItemDescription {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-template-rows: 12% 12% 13% 30% 35%;
+            margin-top: 20px;
+        }
+        .itemFullDescription {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 4;
+    
+         }
+         .showItemTitle {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            margin: 10px 0 5px;
+            font-size: 1.2em;
+        }
+        .goBackBtn img {
+            width: 25px;
+
+
+
+
+        }
+        .showItemImg {
+            grid-column-start: 2;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 60% auto;
+            margin: 0 20px 0 0;
+        }
+
+        .showImgDiv {
+            position: relative;
+            width: 300px;
+            height:auto;
+            margin: 0 auto;
+        } 
+
+        .showItemDescriptionTitle {
+            font-size: 1.2em;
+        }
+        .showItemPrice{
+            margin-top: 20px;
+            font-size: 1.3em;
+        }
+
+        .showItemForm {
+            Margin: 0;
+        }
+
+        .showItemText2 {
+            grid-column-start: 2;   
+            grid-column-end: 2;
+            grid-row-start: 2; 
+           
+        }
+
+        .showItemText1 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 3;
+           
+        }
+        
+        .showItemSelectQty {
+            grid-column-start: 3;
+            grid-row-start: 1;
+            grid-row-start: 3;
+            margin: 10px 0 0 10px;
+
+        }
+        .showItemSelectSize {
+            grid-column-start: 3;
+            grid-row-start: 2;
+            grid-row-start: 2; 
+            margin-left: 10px;
+        }
+    
+
+
+
+
+
+    }
