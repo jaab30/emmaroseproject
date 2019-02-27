@@ -280,7 +280,7 @@ header {
 }
 
 .mainLogo {
-    background-image: url("/images/lightgray.jpg");
+    /* background-image: url("/images/lightgray.jpg"); */
     margin:0;
     padding: 25px 0 30px;
     text-align: center;
@@ -428,8 +428,8 @@ header {
 
 .cardItem{
     background: white;
-    width: 375px;
-    height: 500px;
+    /* width: 375px;
+    height: 500px; */
     border: rgb(255, 140, 176, .5) 10px solid;
     padding:10px;
     width: 100%;
@@ -632,6 +632,231 @@ header {
 border-color: rgb(255, 140, 176, 0.5);
 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5);
 }
+
+/* media queries */
+
+@media screen and (min-width: 900px) and (max-width: 1080px) {
+
+    .navbarEmma{
+        display:grid;
+        grid-template-columns: 65% 15% 20%;
+    }
+    .horizontal_dotted_line{
+        grid-column-start: 1;
+        grid-column-end: 4;
+      } 
+    .horizontal_dotted_line2 {
+        grid-column-start: 1;
+        grid-column-end: 4; 
+      } 
+      .horizontal_dotted_line2A { 
+        grid-column-start: 1;
+        grid-column-end: 4;
+      } 
+      .navContainerEmma {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    .dropdownEmma {
+        grid-column-start: 1;
+      }
+      .dropdownEmma2 {
+        grid-column-start: 1;
+      }
+      .cartDiv {
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    .cartDiv2 {
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    .wishList{
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    .wishList2 {
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    .iconDivTop {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+    }
+
+    .menuContainer {
+        display:grid;
+        grid-template-columns: 65% 35%;
+    }
+
+    .mainLinks {
+        grid-column-start: 1;
+    
+    }
+    .searchLink {
+        text-align:left;
+        margin-left: 20px;
+    }
+    .logoImg2Div {
+        grid-column-start: 1;
+        margin-left: 30px;
+       
+    }
+    .cardContainer {
+        display:grid;
+        grid-template-columns: 2% 30% 30% 30% 2%;
+        grid-gap: 10px;
+    
+    }
+    .imgCard {
+        width: 100%;
+        height: 100%;
+    }
+    .cardItem{
+        background: white;
+        border: rgb(255, 140, 176, .5) 8px solid;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+
+    .btnMenu {
+        display: inline-block;
+        padding: 5px 15px;
+    }
+
+    .skirtLink {
+        float:none; 
+        text-align:left;
+    }
+    .suspenderSkirtLink {
+        float:none; 
+        text-align:left;
+    }
+    .outfitLink {
+        float:none; 
+        text-align:left;
+    }
+    .bloomerLink {
+        float:none; 
+        text-align:left;
+    }
+    .girlShirtLink {
+        float:none;
+        text-align:left;
+    }
+    .boyShirtLink {
+        float:none;
+        text-align:left;
+    }
+ 
+
+    .navbarEmma{
+        display:grid;
+        grid-template-columns: 10% 55% 15% 20%;
+    }
+    .horizontal_dotted_line{
+        grid-column-start: 1;
+        grid-column-end: 5;
+      } 
+    .horizontal_dotted_line2 {
+        grid-column-start: 1;
+        grid-column-end: 5; 
+      } 
+      .horizontal_dotted_line2A { 
+        grid-column-start: 1;
+        grid-column-end: 54;
+      } 
+      .navContainerEmma {
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    .dropdownEmma {
+        grid-column-start: 1;
+      }
+      .dropdownEmma2 {
+        grid-column-start: 1;
+      }
+      .cartDiv {
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+    .cartDiv2 {
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+    .wishList{
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+    .wishList2 {
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+    .iconDivTop {
+        visibility: hidden;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+    }
+
+    .mainLinks {
+        grid-column-start: 1;
+    
+    }
+    /* .searchLink {
+        text-align:left;
+        margin-left: 20px;
+    } */
+    .logoImg2Div {
+        grid-column-start: 1;
+        margin-left: 30px;
+       
+    }
+    .cardContainer {
+        display:grid;
+        grid-template-columns: 2% 30% 30% 30% 2%;
+        grid-gap: 10px;
+    
+    }
+    .imgCard {
+        width: 100%;
+        height: 100%;
+    }
+    .cardItem{
+        background: white;
+        border: rgb(255, 140, 176, .5) 3px solid;
+        width: 100%;
+        height: 100%;
+    }
+    .logoImg {
+        width: 300px;
+        height: auto;
+        margin:0;
+        padding:0;
+    
+    }
+    .logoImg2Div {
+        grid-column-start: 2;
+        text-align: left;
+       
+    }
+    .logoImg2 {
+        width:175px;
+        height: auto;
+        margin: 10px 0;
+        padding:0;
+    }
+
+}
+
+
+
+
 
 
 

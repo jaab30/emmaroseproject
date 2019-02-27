@@ -127,3 +127,26 @@
 .deleteBtn:focus {
     outline:none;
  }
+
+
+ @media screen and (min-width: 900px) and (max-width: 1080px) {
+    .wishListResult {
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 20px;
+    }
+
+ }
+
+ @media screen and (min-width: 600px) and (max-width: 900px) {
+
+    .wishListResult {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px;
+    }
+
+
+
+
+ }

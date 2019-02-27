@@ -228,3 +228,28 @@ h3 {
 
 }
 
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1080px) {
+
+.cartContainer {
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+ }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+
+    .cartContainer {
+        display: grid;
+        grid-template-columns: 10% 40% 40% 10%;
+        
+     }
+     .cartMainTable {
+        margin-top: 30px;
+    
+    }
+
+}

@@ -24,6 +24,7 @@
     <link href="{{ asset('css/wishList.css') }}" rel="stylesheet">
     <link href="{{ asset('css/cart.css') }}" rel="stylesheet">
     <link href="{{ asset('css/account.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/queryMenu.css') }}" rel="stylesheet">
    
 
     </head>
@@ -33,9 +34,14 @@
             <nav class="navbarEmma">
             <div class="horizontal_dotted_line"></div>
                 <div class="logoImg2Div">
-                    <a href="/"><img class="logoImg2" src="{{ asset('images/logoMainfinal2onlyB.png') }}" alt="Logo img">
+                    <a href="/"><img class="logoImg2" src="{{ asset('images/logoMainfinal2onlyB.png') }}" alt="Logo img"></a>
                 </div>
-                <div class="navContainerEmma"></a>
+                    <div class="menu-btn2">
+                    <div class="btn-line"></div>
+                    <div class="btn-line"></div>
+                    <div class="btn-line"></div>
+                </div>
+                <div class="navContainerEmma">
                     <div class="dropdownEmma2"><img class="logginIconImg" src="/images/loggin2.png" alt="account icon">
                         <button class="dropbtnEmma2">{{ Auth::user() ? Auth::user()->name : 'Account' }}</button>
                         <div class="dropdownEmma-content2">
@@ -81,7 +87,7 @@
             
         </div>
       
-        <div class="menuContainer">
+        <div class="menuContainer menu-bar-slide2">
             <div class="mainLinks">
                 <form  class="skirtLink" action="{{route ('item')}}" method="get">
                     <button class="btnMenu" value="skirt" name="search" type="submit">Skirts</button>
@@ -146,6 +152,32 @@
 
 
      <script>
+                // const menuBtn = document.querySelector(".menu-btn")
+                const menuBtn2 = document.querySelector(".menu-btn2")
+                // const menuBarSlide = document.querySelector(".menu-bar-slide")
+                const menuBarSlide2 = document.querySelector(".menu-bar-slide2")
+                const mainLinks = document.querySelector(".mainLinks")
+
+                let showMenu = false;
+
+                // menuBtn.addEventListener("click", toggleMenu);
+                menuBtn2.addEventListener("click", toggleMenu);
+
+                function toggleMenu() {
+                    if (!showMenu) {
+                        // menuBarSlide.classList.add("show");
+                        menuBarSlide2.classList.add("show");
+                        mainLinks.classList.add("show");
+                        showMenu = true;
+                    } else {
+                        // menuBarSlide.classList.remove("show");
+                        menuBarSlide2.classList.remove("show");
+                        mainLinks.classList.remove("show");
+                        showMenu = false;
+                    }
+                }
+
+
             function goBack() {
             window.history.back();
             }

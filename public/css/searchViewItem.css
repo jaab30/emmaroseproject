@@ -103,12 +103,11 @@
     text-align: center;
     z-index:3;
   }
-
   .searchItemsDiv:hover .overlay {
     opacity: .9;
     cursor: pointer;
   }
-  
+
   .searchItemsDiv:hover .middle {
     opacity: 1;
     top: 50%;
@@ -176,4 +175,66 @@
     content: "";
     display: block;
     clear: both;
+  }
+
+
+  /* media query */
+
+  @media screen and (min-width: 900px) and (max-width: 1080px) {
+
+    .sideViewItemContainer {
+        float:left;
+        width: 240px;
+        margin: 0 10px;
+        text-align: center;
+    }
+    .sideCardItem img {
+        width: 200px;
+        height: auto;
+        border: rgb(255, 255, 255) 10px solid;
+        box-shadow: 3px 3px 12px rgb(0, 0, 0, .3);
+    }
+    .sideCardItem {
+        padding: 5px 5px;
+        margin: 0;
+    }
+    .searchResult {
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+    }
+
+  }
+  @media screen and (min-width: 600px) and (max-width: 900px) {
+
+    .sideViewItemContainer {
+        float:left;
+        width: 150px;
+        margin: 0 10px;
+        text-align: center;
+    }
+    .sideCardItem img {
+        width: 140px;
+        height: auto;
+        border: rgb(255, 255, 255) 3px solid;
+        box-shadow: 3px 3px 12px rgb(0, 0, 0, .3);
+    }
+    .sideCardItem {
+        padding: 5px 5px;
+        margin: 0;
+    }
+    .searchResult {
+        grid-template-columns: 50% 50%;
+        grid-gap: 5px;
+    }
+
+    .searchItems p {
+        font-size: .9em;
+    }
+    .imgSearchView {
+        width: 175px; 
+        border: rgb(255, 140, 176, .7) 1.5px solid;
+        border-radius: 20px 0;
+        margin: 0 0 30px;
+    }
+
   }

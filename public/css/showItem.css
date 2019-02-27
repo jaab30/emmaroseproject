@@ -21,7 +21,7 @@
     grid-column-start: 2;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 75% auto;
+    grid-template-rows: 70% auto;
     margin: 0 20px 0 0;
 }
 
@@ -71,10 +71,10 @@
 
 .showImgDiv {
     position: relative;
-    width: 400px;
+    width: 375px;
     height:auto;
     margin: 0 auto;
-}
+}   
 
 img.picture1 {
     position: absolute; 
@@ -115,7 +115,7 @@ img.picture2:active {
     grid-column-start: 3;
     display: grid;
     grid-template-columns: 5% 45% 45% 5%;
-    grid-template-rows: 10% 10% 10% 20% 50%;
+    grid-template-rows: 12% 12% 13% 18% 45%;
     background: rgb(255, 255, 255, 0.7);
     border: rgb(255, 140, 176, 0.5) 1.5px solid;
     padding: 20px;
@@ -187,7 +187,7 @@ ul, li {
     grid-column-end: 5;
     grid-row-start: 5;
     display:grid;
-    grid-template-columns: 5% 45% 45% 5%;
+    grid-template-columns: 10% 25% 30% 35%;
     grid-template-rows: 15% 15% 15% 15% 40% ;
     margin: 20px 0 0 0;
     width: 100%;;
@@ -196,33 +196,33 @@ ul, li {
 
 }
 .showItemText1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    margin: 0 0 20px;
-    padding: 10px 0;
-    text-align: left;
+    margin: 0;
+    padding: 5px 10px 0 0;
+    text-align: right;
     color: rgb(71, 71, 71);;
 
 }
 .showItemText2 {
     grid-column-start: 1;   
-    grid-column-end: 3;
-    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    margin: 0 0 20px;
-    padding: 10px 0;
-    text-align: left;
+    margin: 0;
+    padding: 5px 10px 0 0;
+    text-align: right;
     color:rgb(71, 71, 71);  
 
 }
 
 .showItemSelectQty {
-    grid-column-start: 1;
-    grid-row-start: 4;
+    grid-column-start: 4;
+    grid-row-start: 2;
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
     width: 60px;
@@ -233,7 +233,7 @@ ul, li {
     padding-left: 15px;
 }
 .showItemSelectSize {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-row-start: 2;
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
@@ -572,8 +572,99 @@ ul, li {
 }
 
 
+@media screen and (min-width: 900px) and (max-width: 1080px) {
+    .showItemContainer {
+        display: grid;
+        grid-template-columns: 3% 47% 47% 3%;
+        
+    }
+    .showImgDiv {
+        position: relative;
+        width: 330px;
+        height:auto;
+        margin: 0 auto;
+    }
+    .showItemDescription {
+        grid-column-start: 3;
+        display: grid;
+        grid-template-columns: 5% 45% 45% 5%;
+        grid-template-rows: 12% 12% 13% 18% 45%;
+    }
+    .showItemForm {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        display:grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 15% 15% 15% 15% 40% ;
+    }
+    .showItemText1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        margin: 0 0 20px 20px;
+    
+    }
+    .showItemText2 {
+        grid-column-start: 1;   
+        grid-column-end: 1;
+        grid-row-start: 3;
+        margin: 0 0 20px 20px;
+    }
+    
+    .showItemSelectQty {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        margin-left: 0;
+    }
+    .showItemSelectSize {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        margin-left: 0;
+    }
+    .showItemImg {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 60% auto;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+
+    .showItemContainer {
+        display: grid;
+        grid-template-columns: 2% 48% 48% 2%;
+        
+    }
+    .showItemImg {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+
+    }
+
+    .showItemDescription {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        margin-top: 20px;
+    }
+    .itemFullDescription {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 4;
+
+     }
 
 
+
+
+
+
+
+
+}
 
 
 

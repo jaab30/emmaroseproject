@@ -24,6 +24,8 @@
     <link href="{{ asset('css/wishList.css') }}" rel="stylesheet">
     <link href="{{ asset('css/cart.css') }}" rel="stylesheet">
     <link href="{{ asset('css/account.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/queryMenu.css') }}" rel="stylesheet">
+    
     
 
     </head>
@@ -32,6 +34,11 @@
         <div id="app" class="headerContainer">
             <nav class="navbarEmma">
             <div class="horizontal_dotted_line"></div>
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
                 
                 <div class="navContainerEmma">
                     <div class="dropdownEmma">
@@ -83,13 +90,17 @@
 
                     <a href="http://www.twitter.com/emma_rose_baby" target="_blank"><img class="iconImg2" src="/images/twitter.png" alt="twitter icon"></a>
                 </div>
+                <form class="search-menu-slide" action="{{route ('search')}}" method="get">
+                <input class="searchText" type="text" placeholder="ex. skirts" name="search">
+                <button class="searchBtn-slide" type="submit">Search</button>
+            </form>
 
                 <div class="horizontal_dotted_line2"></div>
             </nav>
             
         </div>
       
-        <div class="menuContainer">
+        <div class="menuContainer menu-bar-slide">
             <div class="mainLinks">
                 <form  class="skirtLink" action="{{route ('item')}}" method="get">
                     <button class="btnMenu" value="skirt" name="search" type="submit">Skirts</button>
@@ -151,6 +162,29 @@
             
         </div>
     </footer>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn")
+        const menuBarSlide = document.querySelector(".menu-bar-slide")
+        const mainLinks = document.querySelector(".mainLinks")
+
+        let showMenu = false;
+
+        menuBtn.addEventListener("click", toggleMenu);
+
+        function toggleMenu() {
+            if (!showMenu) {
+                menuBarSlide.classList.add("show");
+                mainLinks.classList.add("show");
+                showMenu = true;
+            } else {
+                menuBarSlide.classList.remove("show");
+                mainLinks.classList.remove("show");
+                showMenu = false;
+            }
+        }
+
+    </script>
 
 
          
