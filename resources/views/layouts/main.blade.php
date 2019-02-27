@@ -176,10 +176,12 @@
             if (!showMenu) {
                 menuBarSlide.classList.add("show");
                 mainLinks.classList.add("show");
+                menuBtn.classList.add("show");
                 showMenu = true;
             } else {
                 menuBarSlide.classList.remove("show");
                 mainLinks.classList.remove("show");
+                menuBtn.classList.remove("show");
                 showMenu = false;
             }
         }

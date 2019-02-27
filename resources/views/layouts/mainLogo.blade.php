@@ -41,6 +41,11 @@
                     <div class="btn-line"></div>
                     <div class="btn-line"></div>
                 </div>
+                <form class="search-menu-slide2" action="{{route            ('search')}}" method="get">
+                    <button class="searchBtn-slide" type="submit">Search</button>
+                    <input class="searchText" type="text" placeholder="ex. skirts" name="search">
+                    
+                </form>
                 <div class="navContainerEmma">
                     <div class="dropdownEmma2"><img class="logginIconImg" src="/images/loggin2.png" alt="account icon">
                         <button class="dropbtnEmma2">{{ Auth::user() ? Auth::user()->name : 'Account' }}</button>
@@ -82,6 +87,7 @@
                     <a class="cart" href="{{route('cart.index')}}"><img alt="shopping cart" src="{{ asset('images/cart2A.png') }}" width="30px" height="30px">
                     </a><span class="cartCounter2">{{Cart::count()}}</span>
                 </div>
+               
                 <div class="horizontal_dotted_line2A"></div>
             </nav>
             
@@ -168,11 +174,13 @@
                         // menuBarSlide.classList.add("show");
                         menuBarSlide2.classList.add("show");
                         mainLinks.classList.add("show");
+                        menuBtn2.classList.add("show");
                         showMenu = true;
                     } else {
                         // menuBarSlide.classList.remove("show");
                         menuBarSlide2.classList.remove("show");
                         mainLinks.classList.remove("show");
+                        menuBtn2.classList.remove("show");
                         showMenu = false;
                     }
                 }

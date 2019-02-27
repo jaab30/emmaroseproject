@@ -7,12 +7,13 @@
     left: 20px;
     top: 7px;
     cursor: pointer;
-    /* background: white;
-    border-radius: 50%; */
+    border: white 2px solid;
+    /* background: white; */
+    border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 37px;
+    height: 36px;
     padding: 8px 0 0 0;
     visibility: hidden;
     /* transition: all 0.5s ease-out;  */
@@ -23,21 +24,22 @@
     left: 20px;
     top: 30px;
     cursor: pointer;
-    /* background: white;
-    border-radius: 50%; */
+    border: white 2px solid;
+    /* background: white; */
+    border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 37px;
+    height: 36px;
     padding: 8px 0 0 0;
     visibility: hidden;
     /* transition: all 0.5s ease-out;  */
   }
 
 .btn-line {
-    width: 30px;
+    width: 18px;
     height: 3px;
-    margin: 0 0 5px 8px;
+    margin: 0 0 4px 7px;
     background:white;
     text-align: center;
   }
@@ -46,6 +48,14 @@
     visibility: hidden;
     grid-column-start: 2;
     grid-column-end: 2;
+    grid-row-start: 1;
+    padding: 5px 0 0 0;
+   
+  }
+  .search-menu-slide2 {
+    visibility: hidden;
+    grid-column-start: 3;
+    grid-column-end: 5;
     grid-row-start: 1;
     padding: 5px 0 0 0;
    
@@ -73,11 +83,14 @@
 
 @media screen and (min-width: 400px) and (max-width: 900px){
 
-    .menu-btn {
+     .menu-btn {
         visibility: visible;
+        transition: all 0.5s ease-out; 
     }
-    .menu-btn2 {
+
+      .menu-btn2 {
         visibility: visible;
+        transition: all 0.5s ease-out; 
     }
     .show {
         visibility: visible;
@@ -91,7 +104,16 @@
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
-        text-align: right;
+        text-align: left;
+
+      }
+      .search-menu-slide2 {
+        visibility: visible;
+        text-align: center;
+      }
+      .searchText {
+        width: 150px;
+
 
       }
       .searchLink {
@@ -106,7 +128,7 @@
         justify-content: center;
         float: left;
         width: 0;
-        height: 30vh;
+        height: 225px;
         overflow: hidden; 
         background: white;
         visibility: hidden;
@@ -122,13 +144,42 @@
         justify-content: center;
         float: left;
         width: 0;
-        height: 30vh;
+        height: 225px;
         overflow: hidden; 
         background: white;
         visibility: hidden;
         transition: all 0.2s ease-in; 
     
       }
+      .menu-btn.show {
+        transform: rotate(90deg)
+      }
+
+      .menu-btn.show .btn-line:nth-child(1) {
+        transform: rotate(45deg) translate(4px, 4px); 
+      }
+        .menu-btn.show .btn-line:nth-child(2) {
+        opacity: 0; 
+      }
+        .menu-btn.show .btn-line:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px); 
+      }
+
+      .menu-btn2.show {
+        transform: rotate(90deg)
+      }
+
+      .menu-btn2.show .btn-line:nth-child(1) {
+        transform: rotate(45deg) translate(4px, 4px); 
+      }
+        .menu-btn2.show .btn-line:nth-child(2) {
+        opacity: 0; 
+      }
+        .menu-btn2.show .btn-line:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px); 
+      }
+  
+
       .menu-bar-slide.show {
         visibility: visible; 
         width: 175px;

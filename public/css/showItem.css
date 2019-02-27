@@ -656,16 +656,13 @@ ul, li {
         grid-row-start: 4;
 
      }
+     .showItemTitle {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        margin: 20px 0 30px;
+        font-size: 2em;
+        }
 
-
-
-
-
-
-
-
-}
-
-
-
+    }
 
