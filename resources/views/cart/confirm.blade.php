@@ -1,7 +1,5 @@
 @extends('layouts.mainLogo')
 
-@section("page-title", "new Page")
-
 @section('content') 
 
 <div class="cartMain">
@@ -37,7 +35,7 @@
 							<td>$ {{ $item['price']}}</td>
 							<td>$ {{ number_format($item['price'] * $item['qty'], 2)}}</td>
 						</tr>
-					@endforeach;
+					@endforeach
 					<tr class="blankRow"></tr>
                     <tr>
                     <td></td>

@@ -1,8 +1,5 @@
 @extends('layouts.mainLogo')
 
-@section("page-title", "new Page")
-
-
 @section('content')
 
 <div class="cartMain">
@@ -40,7 +37,7 @@
 						</td>
 					</tr>
 
-				@endforeach;
+				@endforeach
 				<tr class="blankRow"></tr>
 				<tr>
 				<td></td>

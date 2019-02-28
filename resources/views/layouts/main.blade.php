@@ -78,7 +78,7 @@
                 </div>
                 @auth
                 <div class="wishList">
-                    <a class="cart" href="/saveditems/wishlist"><img alt="wish list icon" src="{{ asset('images/wish1.png') }}" width="40px" height="35px"></a>
+                    <a class="wishLink" href="/saveditems/wishlist"><img alt="wish list icon" src="{{ asset('images/wish1.png') }}" width="40px" height="35px"></a>
                 </div>
                 @endauth
                 <div class="iconDivTop">
