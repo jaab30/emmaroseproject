@@ -260,6 +260,15 @@
           
             }
 
+        function checkoutCheck() {
+            if (document.getElementById("tableItemName") === null){
+                $("#checkoutTextBtn").empty()
+                var paragraph = document.getElementById("checkoutTextBtn");
+                var text = document.createTextNode("Your Cart Is Empty.");
+                paragraph.appendChild(text);
+            }
+            }
+
         
     </script>
 

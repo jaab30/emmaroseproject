@@ -17,9 +17,20 @@
                         <label><strong>Last Name: </strong></label>
                         <input value="{{ $userInfo->lastname }}" name="lastname" type="text" required>
                     </div>
-                    <div>
+                    <!-- <div>
                         <label><strong>email: </strong></label>
                         <input value="{{ $userInfo->email }}" name="email" type="text" required>
+                    </div> -->
+                    <div>
+                        <label><strong>E-Mail Address: </strong></label>
+                        <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }} emailTextBox" name="email" value="{{ $userInfo->email }}" required>
+
+                        @if ($errors->has('email'))
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $errors->first('email') }}</strong>
+                            </span>
+                        @endif
+                        <!-- <label for="email">{{ __('E-Mail Address') }}</label> -->
                     </div>
                     <div>
                         <label><strong>Phone Number: </strong></label>

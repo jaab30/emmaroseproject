@@ -188,6 +188,21 @@ label {
 
 }
 
+ .emailTextBox {
+    display: inline-block;
+    width: 175px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    margin: 0 0 0 10px;
+    padding: 0 5px;
+    border: none;
+    border: lightgray 1px solid;
+    border-radius: 3px;
+
+
+ }
+
 /* checkout pages */
 
 .customerInfoContainerCheckout {
@@ -381,11 +396,17 @@ label {
     padding: 0 10px 0 0;
 }
 .paymentPaypalDivCheckout img {
-    width: 250px;
-    text-align: right;  
+    width: 300px;
+    border: rgb(33, 86, 154, 0.3) 1px solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px lightgray;
 }
 .paymentPaypalDivCheckout img:hover {
     opacity: 0.6;
+}
+.paymentPaypalDivCheckout img:active {
+    width: 299px;
+    box-shadow: none;
 }
 .paymentPaypalDivCheckout button {
     border: none;
@@ -507,7 +528,156 @@ label {
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (min-width: 450px) and (max-width: 650px) {
+
+    .accountInfoContainer {
+        display: grid;
+        grid-template-columns: 2% 10% 38% 38% 10% 2%;
+    }
+    .accountInfoContainer h1{
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+    .contactInfoCheckout {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        border-right: none;
+        
+    }
+    .mailingAddressContainerCheckout {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        margin: 20px 0 0 0;
+        
+    }
+    .shippingAddressContainerCheckout {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        margin: 20px 0 0 0;
+        border-right: none;
+    }
+
+    .shippingInfoContainer {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        margin: 30px 0 0 0;
+    }
+    .continueCheckoutBtn {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        margin: 20px 0 0 0;
+        
+    }
+    .labelTop {
+        margin: 20px 0 0 0;
+    }
+
+    .customerInfoContainer {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 2;
+    }
+
+    .contactInfo {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+    }
+    .chkoutBack {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .circleNumber {
+        background: rgb(255, 140, 176);
+        border-radius: 1em;
+        -moz-border-radius: 1em;
+        -webkit-border-radius: 1em;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 1.6em;
+        width: 1.5em; 
+    
+    }
+    .shippingTextInst, .checkoutTextInst {
+        font-size: 1em;
+        margin: 0 0 10px 0;
+    }
+    .shippingTextInst2 {
+        font-size: 1em;
+        margin: 0 0 10px 0;
+    }
+
+    .checkoutItemsTableContainer {
+        padding: 0;
+    }
+    .cartMainTableCheckout thead th:nth-child(3){
+        width: 50px;
+        text-align: right;
+    }
+    .cartMainTableCheckout td:nth-child(3){
+        width:50px;
+        text-align: center;
+    }
+    /* .paymentPaypalDivCheckout {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        padding: 0;
+        margin: 10px 0 0 0;
+    } */
+   
+    .paymentPaypalDivCheckout img {
+        width: 225px;
+        /* text-align: right;   */
+    }
+
+    .mailingAddressContainer {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+    }
+    .shippingAddressContainer {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+    }
+    .updateBtn {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+    }
+
+    .mailingAddressContainer h3 {
+        font-size: 1em;
+        margin: 0 0 10px;
+    }
+
+    .shippingAddressContainer h3 {
+        font-size: 1em;
+        margin: 20px 0 10px 0;
+    }
+    .mailingAddressContainer h2 {
+        font-size: 1em;
+        margin: 0 0 10px 0;
+    
+    }
+    .shippingAddressContainer h2 {
+        font-size: 1em;
+        margin: 20px 0 10px 0;
+    
+    }
+   
+}
+@media screen and (max-width: 450px) {
 
     .accountInfoContainer {
         display: grid;
@@ -615,9 +785,8 @@ label {
     }
    
     .paymentPaypalDivCheckout img {
-        width: 150px;
-        height: 30px;
-        text-align: right;  
+        width: 225px;
+        /* text-align: right;   */
     }
 
     .mailingAddressContainer {
@@ -655,6 +824,7 @@ label {
         margin: 20px 0 10px 0;
     
     }
+   
 }
 
 

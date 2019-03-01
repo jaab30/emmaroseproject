@@ -24,7 +24,7 @@
 				@foreach($cartItems as $cartItem)
 
 					<tr>
-						<td>{{ $cartItem->name}}</td>
+						<td id="tableItemName">{{ $cartItem->name}}</td>
 						<td>{{ $cartItem->options->has('size') ? $cartItem->options->size : ''}}</td>
 						<td>{{ $cartItem->qty}}</td>
 						<td>$ {{ $cartItem->price}}</td>
@@ -55,7 +55,8 @@
 		
 		</div>
 		<div class="paymentPaypalDiv">
-			<a href="{{ route('checkout') }}"><button class="paymentPaypalDivBtn">Checkout</button></a>
+			<a href="{{ Cart::count() == '0' ? '#' : route('checkout') }}"><button class="paymentPaypalDivBtn" onclick="checkoutCheck()">Checkout</button></a>
+			<p  id="checkoutTextBtn"></p>
 
 		</div>
 

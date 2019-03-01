@@ -20,8 +20,8 @@
                         <input value="{{ $userInfo->lastname }}" name="lastname" type="text" size="10" required>
                     </div>
                     <div>
-                        <label><strong>email: </strong></label>
-                        <input value="{{ $userInfo->email }}" name="email" type="text" size="20" required>
+                       <!-- <p><strong>email: </strong>{{$userInfo->email}}</p> -->
+                        <input value="{{ $userInfo->email }}" name="email" type="hidden" size="20">
                     </div>
                     <div>
                         <label><strong>Phone Number: </strong></label>

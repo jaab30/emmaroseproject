@@ -10,7 +10,7 @@
         <div class="contactInfo">
             <p><strong>Name: </strong>{{ $userInfo->name }}</p>
             <p><strong>Last Name: </strong>{{ $userInfo->lastname }}</p>
-            <p><strong>email: </strong>{{ $userInfo->email }}</p>
+            <p><strong>E-Mail Address: </strong>{{ $userInfo->email }}</p>
             <p><strong>Phone Number: </strong>{{ $userInfo->phone_number }}</p>
         </div>
         <div class="mailingAddressContainer">

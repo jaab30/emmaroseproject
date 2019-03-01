@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Gloudemans\Shoppingcart\Facades\Cart;
 use Illuminate\Http\Request;
 use App\User as User;
+use Illuminate\Support\Facades\Validator;
 use Auth;
 
 class AccountController extends Controller
@@ -116,9 +117,11 @@ class AccountController extends Controller
     public function update(Request $request)
     {
         $id = Auth::id();
-        $userInfoArray = User::where('id', $id )
-        ->get();;
+        $userInfoArray = User::where('id', $id)
+        ->get();
         $userInfo = $userInfoArray[0];
+
+        if ( $request->email == $userInfo->email ){
 
         $userInfo->name = $request->name;
         $userInfo->lastname = $request->lastname;
@@ -139,8 +142,34 @@ class AccountController extends Controller
 
         return view('users/account', compact('userInfo'));
 
+        } else {
+
+        $validatedData = $request->validate([
+            'email' => 'required|string|email|max:255|unique:users',
+        ]);
+
+        $userInfo->name = $request->name;
+        $userInfo->lastname = $request->lastname;
+        $userInfo->email = $request->email;
+        $userInfo->phone_number = $request->phone_number;
+        $userInfo->address_1 = $request->address_1;
+        $userInfo->address_2 = $request->address_2;
+        $userInfo->city = $request->city;
+        $userInfo->state = $request->state;
+        $userInfo->zip_code = $request->zip_code;
+        $userInfo->shipping_1 = $request->shipping_1;
+        $userInfo->shipping_2 = $request->shipping_2;
+        $userInfo->shipping_city = $request->shipping_city;
+        $userInfo->shipping_state = $request->shipping_state;
+        $userInfo->shipping_zip_code = $request->shipping_zip_code;
+
+        $userInfo->save();
+
+        return view('users/account', compact('userInfo'));
+        }
 
     }
+
     public function checkoutUpdate(Request $request)
     {
         $id = Auth::id();
