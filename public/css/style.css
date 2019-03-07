@@ -316,6 +316,8 @@ header {
     display:grid;
     grid-template-columns: 5% 60% 25% 10%;
     margin: 0 0 0 0;
+    border-bottom: #ff8cb0 1.5px solid;
+    box-shadow: 1px 1px 6px lightgray;
 }
 .mainLinks {
     grid-column-start: 2;
@@ -351,16 +353,25 @@ header {
 
 .btnMenu {
     background: white;
-    font-family: 'Acme', sans-serif;
-    font-size: 1em;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
     border: none;
     color: #ff8cb0;
-    padding: 10px 10px 0;
+    padding: 7px 10px 0;
+    transition-duration: 1s;
 
+    padding-bottom: 1px;
+    background: linear-gradient(0deg, currentcolor, currentcolor) bottom center no-repeat;
+    background-size: 0px 1px;
+    transition: 0.3s;
+    text-decoration: none;
+    
 }
 .btnMenu:hover{
     cursor: pointer;
-    color: rgb(255, 140, 176, .7);
+    color: rgb(175, 175, 175);
+    background-size: 100% 1.5px;
 
 }
 .btnMenu:focus{
@@ -370,9 +381,10 @@ header {
 .searchBtn {
     background-color: white;
     border: none;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
     color: #ff8cb0;
-    font-size: 1.2em;
 }
 
 .searchBtn:hover{
@@ -1169,3 +1181,10 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Acme', sans-serif;
 font-family: 'Homenaje', sans-serif;
 font-family: 'Mukta Malar', sans-serif; */
+
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Prompt', sans-serif; */

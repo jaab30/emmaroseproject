@@ -12,6 +12,7 @@
          <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Acme|Cherry+Cream+Soda|Homenaje|Montserrat:300,400,500,900|Mukta+Malar:200,300,400,500,700|Patua+One|Londrina+Solid:100,300,400,900|Oregano|Roboto:300,400,500"
     rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Mukta:400,700|Prompt:400,600|Raleway:400,500,700|Roboto:400,500|Teko:400,500" rel="stylesheet">
     
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
