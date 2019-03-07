@@ -112,7 +112,7 @@
                     <button class="btnMenu" value="girl_shirt" name="search" type="submit">Girl Shirts</button>
                 </form>
                 <form class="boyShirtLink" action="{{route ('item')}}" method="get">
-                    <button class="btnMenu" value="boy_shirt" name="search" type="submit">Boy Shirts - Onesies</button>
+                    <button class="btnMenu" value="boy_shirt" name="search" type="submit">Boy Shirts & Onesies</button>
                 </form>
             </div>
             <form class="searchLink" action="{{route ('search')}}" method="get">
