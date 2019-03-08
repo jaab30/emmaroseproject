@@ -316,7 +316,7 @@ header {
     display:grid;
     grid-template-columns: 5% 60% 25% 10%;
     margin: 0 0 0 0;
-    border-bottom: #ff8cb0 1.5px solid;
+    border-bottom: #ff8cb0 1px solid;
     box-shadow: 1px 1px 6px lightgray;
 }
 .mainLinks {
@@ -354,7 +354,7 @@ header {
 .btnMenu {
     background: white;
     font-family: 'Mukta', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 700;
     border: none;
     color: #ff8cb0;
@@ -382,7 +382,7 @@ header {
     background-color: white;
     border: none;
     font-family: 'Mukta', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 700;
     color: #ff8cb0;
 }
