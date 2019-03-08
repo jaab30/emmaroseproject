@@ -703,7 +703,16 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
 
     .menuContainer {
         display:grid;
-        grid-template-columns: 65% 35%;
+        grid-template-columns: 70% 30%;
+    }
+    .searchBtn {
+        font-family: 'Mukta', sans-serif;
+        font-size: .8em;
+    }
+    .searchText {
+        width: 150px;
+        font-size: .7em;
+    
     }
 
     .mainLinks {
@@ -711,7 +720,7 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
     
     }
     .searchLink {
-        text-align:left;
+        text-align:right;
         margin-left: 20px;
     }
     .logoImg2Div {
@@ -742,7 +751,7 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
 
     .btnMenu {
         display: inline-block;
-        padding: 5px 15px;
+        /* padding: 5px 15px; */
     }
 
     .skirtLink {
@@ -768,11 +777,12 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
     .boyShirtLink {
         float:none;
         text-align:left;
+        padding:0;
     }
  
     .navbarEmma{
         display:grid;
-        grid-template-columns: 10% 55% 15% 20%;
+        grid-template-columns: 10% 50% 20% 20%;
     }
     .horizontal_dotted_line{
         grid-column-start: 1;
@@ -868,9 +878,28 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
 }
 @media screen and (min-width: 450px) and (max-width: 650px) {
 
+    .skirt {
+        width: 100%;
+        text-align: left;
+        margin-top:15px;
+    }
+    .outfitLink {
+        width: 100%;
+        text-align: left;
+    }
+    .boyShirtLink {
+        width: 100%;
+        text-align: left;
+        margin-bottom:10px;
+    }
+
      .navbarEmma{
         display:grid;
         grid-template-columns: 10% 40% 30% 20%;
+    }
+    .btnMenu {
+        display: inline-block;
+        /* padding: 5px 15px; */
     }
     
     .iconDivTop {
@@ -918,7 +947,7 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
     }
     .logoImg2Div {
         grid-column-start: 1;
-        grid-column-end: 6;
+        grid-column-end: 4;
         grid-row-start: 1;
         text-align: center;
         /* width: 80px; */
@@ -939,6 +968,20 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
 
 }
 @media screen and (max-width: 450px) {
+    .skirt {
+        width: 100%;
+        text-align: left;
+        margin-top:15px;
+    }
+    .outfitLink {
+        width: 100%;
+        text-align: left;
+    }
+    .boyShirtLink {
+        width: 100%;
+        text-align: left;
+        margin-bottom:15px;
+    }
 
     .navbarEmma{
         display:grid;
@@ -1036,27 +1079,27 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
     }
     .logginIconImg {
         width:20px;
-        padding: 0 0 5px 0;
+        padding: 5px 0 5px 5px;
     }
     .dropbtnEmma {
-        font-size: .8em; 
+        font-size: .7em; 
       }
 
     .dropbtnEmma2 {
         padding: 15px 0 0 0;
-        font-size: .8em; 
+        font-size: .7em; 
       }
 
       .dropdownEmma {
         text-align: right;
-        margin-right: 30px;
+        margin-right: 53px;
         z-index: 5;
         /* width: 80px; */
       }
       .dropdownEmma2 {
         padding: 3px 0 0 0;
         text-align: right;
-        margin-right: 55px;
+        margin-right: 80px;
         z-index: 1;
       }
 
@@ -1065,7 +1108,7 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
         grid-column-end: 5;
         grid-row-start: 1;
         padding: 15px 0 0 0;
-        margin-left: 115px;
+        margin-left: 100px;
         z-index: 5;
         width: 30px;
     }
@@ -1085,7 +1128,7 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
 
     .cartDiv2 {
         padding: 12px 0 0 0;
-        margin-left: 115px;
+        margin-left: 105px;
         z-index: 5;
         width: 30px;
     }

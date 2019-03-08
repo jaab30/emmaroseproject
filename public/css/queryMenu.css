@@ -90,6 +90,7 @@
 
       .menu-btn2 {
         visibility: visible;
+        top: 8px;
         transition: all 0.5s ease-out; 
     }
     .show {
@@ -285,7 +286,7 @@
     justify-content: center;
     float: left;
     width: 0;
-    height: 190px;
+    height: 210px;
     overflow: hidden; 
     background: white;
     visibility: hidden;
@@ -301,7 +302,7 @@
     justify-content: center;
     float: left;
     width: 0;
-    height: 190px;
+    height: 210px;
     overflow: hidden; 
     background: white;
     visibility: hidden;
@@ -441,7 +442,7 @@
       justify-content: center;
       float: left;
       width: 0;
-      height: 190px;
+      height: 210px;
       overflow: hidden; 
       background: white;
       visibility: hidden;
@@ -457,7 +458,7 @@
       justify-content: center;
       float: left;
       width: 0;
-      height: 190px;
+      height: 210px;
       overflow: hidden; 
       background: white;
       visibility: hidden;
