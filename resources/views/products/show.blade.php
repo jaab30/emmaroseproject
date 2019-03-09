@@ -121,15 +121,15 @@
       <div class="reviewContainer">
         @foreach($reviews as $review)
             <div class="reviewItem">
-                @if ($review->rating === 1)
+                @if ($review->rating == 1)
                 <img class="ratingStarImg" src="{{ asset('images/star1.png') }}">
-                @elseif ($review->rating === 2)
+                @elseif ($review->rating == 2)
                 <img class="ratingStarImg" src="{{ asset('images/star2.png') }}">
-                @elseif ($review->rating === 3)
+                @elseif ($review->rating == 3)
                 <img class="ratingStarImg" src="{{ asset('images/star3.png') }}">
-                @elseif ($review->rating === 4)
+                @elseif ($review->rating == 4)
                 <img class="ratingStarImg" src="{{ asset('images/star4.png') }}">
-                @elseif ($review->rating === 5)
+                @elseif ($review->rating == 5)
                 <img class="ratingStarImg" src="{{ asset('images/star5.png') }}">
                 @endif
                 <h3>{{$review->review_title}}</h3>

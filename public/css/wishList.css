@@ -1,6 +1,9 @@
+.wishListwrapper {
+    min-height: 65vh;
+}
 
 .wishListContainer {
-    min-height: 60vh;
+    
     display: grid;
     grid-template-columns: 5% 90% 5%;
 }

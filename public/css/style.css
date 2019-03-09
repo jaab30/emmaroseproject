@@ -435,9 +435,9 @@ header {
 
 .cardContainer {
     display:grid;
-    grid-template-columns: 10% 25% 25% 25% 10%;
-    grid-gap: 10px;
-    margin: 20px 0;
+    grid-template-columns: 10% 25% 25% 25% auto;
+    grid-gap: 20px;
+    margin: 60px 0;
     padding:0;
 
 }
@@ -610,7 +610,10 @@ header {
 
 /* login page */
 .loginContainer {
-    min-height: 350px
+    min-height: 65vh;
+}
+.registerContainer {
+    min-height: 65vh;
 }
 
 .loginCard {
@@ -1090,29 +1093,6 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
         font-size: .7em; 
       }
 
-      .dropdownEmma {
-        text-align: right;
-        margin-right: 53px;
-        z-index: 5;
-        /* width: 80px; */
-      }
-      .dropdownEmma2 {
-        padding: 3px 0 0 0;
-        text-align: right;
-        margin-right: 80px;
-        z-index: 1;
-      }
-
-    .cartDiv {
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        padding: 15px 0 0 0;
-        margin-left: 100px;
-        z-index: 5;
-        width: 30px;
-    }
-
     .cartDiv img {
         width: 20px;
         height: auto;
@@ -1124,13 +1104,6 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
     .cartCounter2 {
         padding: 0 5px;
         font-size: .5em;
-    }
-
-    .cartDiv2 {
-        padding: 12px 0 0 0;
-        margin-left: 105px;
-        z-index: 5;
-        width: 30px;
     }
     
     .cartDiv2 img {
@@ -1203,12 +1176,138 @@ box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 140, 176, 0.5
         width: 100%;
       } 
 
+}
+@media screen and (min-width: 400px) and (max-width: 450px) {
 
+      .dropdownEmma {
+        text-align: right;
+        margin-right: 50px;
+        z-index: 5;
+        /* width: 80px; */
+      }
+      .dropdownEmma2 {
+        padding: 3px 0 0 0;
+        text-align: right;
+        margin-right: 75px;
+        z-index: 1;
+      }
 
+    .cartDiv {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        padding: 15px 0 0 0;
+        margin-left: 130px;
+        z-index: 5;
+        width: 30px;
+    }
 
+    .cartDiv2 {
+        padding: 12px 0 0 0;
+        margin-left: 130px;
+        z-index: 5;
+        width: 30px;
+    }
 
 }
 
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+    
+      .dropdownEmma {
+        text-align: right;
+        margin-right: 40px;
+        z-index: 5;
+        /* width: 80px; */
+      }
+      .dropdownEmma2 {
+        padding: 3px 0 0 0;
+        text-align: right;
+        margin-right: 65px;
+        z-index: 1;
+      }
+
+    .cartDiv {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        padding: 15px 0 0 0;
+        margin-left: 110px;
+        z-index: 5;
+        width: 30px;
+    }
+
+    .cartDiv2 {
+        padding: 12px 0 0 0;
+        margin-left: 110px;
+        z-index: 5;
+        width: 30px;
+    }
+    .footerContainer h1 {
+        font-size: 1.5em;
+    }
+    .iconDiv h3 {
+        font-size: .8em;
+
+    }
+    .footerText2 h3 {
+        font-size: .8em;
+    }
+    .footerText2 p {
+        font-size: .8em;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+      .dropdownEmma {
+        text-align: right;
+        margin-right: 25px;
+        z-index: 5;
+        /* width: 80px; */
+      }
+      .dropdownEmma2 {
+        padding: 3px 0 0 0;
+        text-align: right;
+        margin-right: 50px;
+        z-index: 1;
+      }
+
+    .cartDiv {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        padding: 15px 0 0 0;
+        margin-left: 100px;
+        z-index: 5;
+        width: 30px;
+    }
+
+    .cartDiv2 {
+        padding: 12px 0 0 0;
+        margin-left: 100px;
+        z-index: 5;
+        width: 30px;
+    }
+    
+
+    .footerContainer h1 {
+        font-size: 1.5em;
+    }
+    .iconDiv h3 {
+        font-size: .8em;
+
+    }
+    .footerText2 h3 {
+        font-size: .8em;
+    }
+    .footerText2 p {
+        font-size: .8em;
+    }
+
+
+}
 
 
 

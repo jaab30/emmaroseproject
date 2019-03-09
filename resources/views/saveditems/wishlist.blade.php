@@ -1,8 +1,8 @@
 @extends('layouts.mainLogo')
 
-@section("page-title", "new Page")
-
 @section('content') 
+
+<div class="wishListwrapper">
     <div class="wishListContainer">
         <h1> My Favorites </h1>
         <div class="wishListResult">
@@ -34,4 +34,5 @@
             @endforeach
         </div>     
     </div>
+</div>
 @endsection
