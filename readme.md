@@ -3,7 +3,9 @@
 
 This web application is an e-commerce website that displays and sales Handmade Children Clothing for Infants and Toddlers. This is a fully functional ecommerce web application that features: product browsing by category and keyword, user login, user information entry and update, favorite product selection, product review, shopping cart, checkout and payment gateway using Paypal Express.
 
-Web Tools: HTML5, CSS3, Bootstrap, Javascript, Jquery, Laravel and MySql.
+Web Tools: HTM5, CSS, PHP, Laravel, Javascript, Bootstrap and MySql.
+
+For a preview of the live application, go to: http://emmarosebabyboutique.com
 
 <img src="https://user-images.githubusercontent.com/40499942/52905609-a91fb500-320a-11e9-811f-749a3ea77222.png" alt="alt text" width="300px" height="175px">
 <img src="https://user-images.githubusercontent.com/40499942/52905610-a91fb500-320a-11e9-8e44-56e0853a6518.png" alt="alt text" width="300px" height="175px">
