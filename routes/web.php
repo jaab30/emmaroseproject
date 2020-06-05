@@ -10,8 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-
 Route::get('/', 'ViewController@home')->name('landing');
 Route::get('/search', 'ViewController@index')->name('search');
 Route::get('/searchItem', 'ViewController@indexItem')->name('item');
